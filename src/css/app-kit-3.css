@@ -1,0 +1,620 @@
+
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("../assets/fonts/InstrumentSans.ttf");
+}
+@font-face {
+  font-family: "Taviraj";
+  src: url("../assets/fonts/Taviraj-Regular.ttf");
+}
+.app-kit-3 {
+  --global-color-primary:#2A1A13;
+  --global-color-secondary:#683826;
+  --global-color-text:#675249;
+  --global-color-accent:#31452D;
+  --global-color-2d8c8bd:#F0EDE1;
+  --global-color-8c75c4b:#E9E5D7;
+  --global-color-chocklet: #20140E;
+  --global-typography-primary-font-family:"Taviraj";
+  --global-typography-primary-font-size:68px;
+  --global-typography-primary-font-weight:300;
+  --global-typography-primary-text-transform:none;
+  --global-typography-primary-font-style:normal;
+  --global-typography-primary-text-decoration:none;
+  --global-typography-primary-line-height:1.3em;
+  --global-typography-primary-letter-spacing:0px;
+  --global-typography-secondary-font-family:"Taviraj";
+  --global-typography-secondary-font-size:45px;
+  --global-typography-secondary-font-weight:300;
+  --global-typography-secondary-text-transform:none;
+  --global-typography-secondary-font-style:normal;
+  --global-typography-secondary-text-decoration:none;
+  --global-typography-secondary-line-height:1.3em;
+  --global-typography-secondary-letter-spacing:0px;
+  --global-typography-text-font-family:"Instrument Sans";
+  --global-typography-text-font-size:16px;
+  --global-typography-text-font-weight:400;
+  --global-typography-text-text-transform:none;
+  --global-typography-text-font-style:normal;
+  --global-typography-text-text-decoration:none;
+  --global-typography-text-line-height:1.7em;
+  --global-typography-text-letter-spacing:0px;
+  --global-typography-accent-font-family:"Instrument Sans";
+  --global-typography-accent-font-size:14px;
+  --global-typography-accent-font-weight:500;
+  --global-typography-accent-text-transform:none;
+  --global-typography-accent-font-style:normal;
+  --global-typography-accent-text-decoration:none;
+  --global-typography-accent-letter-spacing:0px;
+  --global-typography-7b41a8e-font-family:"Taviraj";
+  --global-typography-7b41a8e-font-size:30px;
+  --global-typography-7b41a8e-font-weight:300;
+  --global-typography-7b41a8e-text-transform:none;
+  --global-typography-7b41a8e-font-style:normal;
+  --global-typography-7b41a8e-text-decoration:none;
+  --global-typography-7b41a8e-line-height:1.4em;
+  --global-typography-7b41a8e-letter-spacing:0px;
+  --global-typography-7353ec5-font-family:"Taviraj";
+  --global-typography-7353ec5-font-size:25px;
+  --global-typography-7353ec5-font-weight:300;
+  --global-typography-7353ec5-text-transform:none;
+  --global-typography-7353ec5-font-style:normal;
+  --global-typography-7353ec5-text-decoration:none;
+  --global-typography-7353ec5-line-height:1.4em;
+  --global-typography-7353ec5-letter-spacing:0px;
+  --global-typography-85be741-font-family:"Taviraj";
+  --global-typography-85be741-font-size:22px;
+  --global-typography-85be741-font-weight:300;
+  --global-typography-85be741-text-transform:none;
+  --global-typography-85be741-font-style:normal;
+  --global-typography-85be741-text-decoration:none;
+  --global-typography-85be741-line-height:1.4em;
+  --global-typography-85be741-letter-spacing:0px;
+  --global-typography-bd2d915-font-family:"Taviraj";
+  --global-typography-bd2d915-font-size:19px;
+  --global-typography-bd2d915-font-weight:300;
+  --global-typography-bd2d915-text-transform:none;
+  --global-typography-bd2d915-font-style:normal;
+  --global-typography-bd2d915-text-decoration:none;
+  --global-typography-bd2d915-line-height:1.5em;
+  --global-typography-bd2d915-letter-spacing:0px;
+  --global-typography-f911175-font-family:"Instrument Sans";
+  --global-typography-f911175-font-size:14px;
+  --global-typography-f911175-font-weight:600;
+  --global-typography-f911175-text-transform:uppercase;
+  --global-typography-f911175-font-style:normal;
+  --global-typography-f911175-text-decoration:none;
+  --global-typography-f911175-line-height:1.6em;
+  --global-typography-f911175-letter-spacing:5px;
+  --global-typography-1a61658-font-family:"Taviraj";
+  --global-typography-1a61658-font-size:64px;
+  --global-typography-1a61658-font-weight:300;
+  --global-typography-1a61658-text-transform:none;
+  --global-typography-1a61658-font-style:normal;
+  --global-typography-1a61658-text-decoration:none;
+  --global-typography-1a61658-line-height:1.3em;
+  --global-typography-1a61658-letter-spacing:0px;
+  --global-typography-658dc5b-font-family:"Instrument Sans";
+  --global-typography-658dc5b-font-size:15px;
+  --global-typography-658dc5b-font-weight:500;
+  --global-typography-658dc5b-text-transform:none;
+  --global-typography-658dc5b-font-style:normal;
+  --global-typography-658dc5b-text-decoration:none;
+  --global-typography-658dc5b-line-height:1.6em;
+  --global-typography-658dc5b-letter-spacing:0px;
+  --global-typography-2eec24c-font-family:"Instrument Sans";
+  --global-typography-2eec24c-font-size:14px;
+  --global-typography-2eec24c-font-weight:500;
+  --global-typography-2eec24c-text-transform:none;
+  --global-typography-2eec24c-font-style:normal;
+  --global-typography-2eec24c-text-decoration:none;
+  --global-typography-2eec24c-line-height:1.6em;
+  --global-typography-2eec24c-letter-spacing:0px;
+  background-color:var( --global-color-2d8c8bd );
+  color:var( --global-color-text );
+  font-family:var( --global-typography-text-font-family ), sans-serif;
+  font-size:var( --global-typography-text-font-size );
+  font-weight:var( --global-typography-text-font-weight );
+  text-transform:var( --global-typography-text-text-transform );
+  font-style:var( --global-typography-text-font-style );
+  text-decoration:var( --global-typography-text-text-decoration );
+  line-height:var( --global-typography-text-line-height );
+  letter-spacing:var( --global-typography-text-letter-spacing );
+}
+
+.app-kit-3 .app-footer-wrapper {
+  --display:flex;
+  --flex-direction:row;
+  --container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+  --container-widget-height:100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self:stretch;
+  --flex-wrap-mobile:wrap;
+  --align-items:stretch;
+  --gap:10px 10px;
+  --row-gap:10px;
+  --column-gap:10px;
+  --padding-top:100px;
+  --padding-bottom:0px;
+  --padding-left:0px;
+  --padding-right:0px;
+
+  background-color: var(--global-color-chocklet);
+}
+
+.app-kit-3 .app-bottom-footer-wrapper {
+
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+  --container-widget-height:100%;
+  --container-widget-flex-grow:1;
+  --container-widget-align-self:stretch;
+  --flex-wrap-mobile:wrap;
+  --align-items:stretch;
+  --gap: 10px 10px;
+  --row-gap: 10px;
+  --column-gap: 10px;
+  --border-style: solid;
+  --border-top-width: 0;
+  --border-right-width: 0;
+  --border-bottom-width: 0;
+  --border-left-width: 0;
+  --border-color:#E2E5F133;
+  --padding-top: 30px;
+  --padding-bottom:30px;
+  --padding-left: 0;
+  --padding-right: 0;
+
+  border-width: 0;
+  border-style: solid;
+  border-color:#E2E5F133;
+  background-color: var(--global-color-chocklet);
+}
+
+.app-flex-element {
+  --display:flex;
+  --padding-top:0;
+  --padding-bottom:0;
+  --padding-left:0;
+  --padding-right:0;
+}
+
+.app-widget-text-editor {
+  font-family: var( --global-typography-text-font-family ),  sans-serif;
+  font-size: var( --global-typography-text-font-size );
+  font-weight: var( --global-typography-text-font-weight );
+  text-transform: var( --global-typography-text-text-transform );
+  font-style: var( --global-typography-text-font-style );
+  text-decoration: var( --global-typography-text-text-decoration );
+  line-height: var( --global-typography-text-line-height );
+  letter-spacing: var( --global-typography-text-letter-spacing );
+  color: var( --global-color-text );
+}
+
+.app-widget-text-editor.app-drop-cap-view-stacked .app-drop-cap {
+  background-color: var( --global-color-primary );
+}
+
+.app-widget-text-editor.app-drop-cap-view-framed .app-drop-cap,  .app-widget-text-editor.app-drop-cap-view-default .app-drop-cap {
+  color: var( --global-color-primary );
+  border-color: var( --global-color-primary );
+}
+
+.app-widget-heading .app-heading-title {
+  font-family: var( --global-typography-primary-font-family ),  sans-serif;
+  font-size: var( --global-typography-primary-font-size );
+  font-weight: var( --global-typography-primary-font-weight );
+  text-transform: var( --global-typography-primary-text-transform );
+  font-style: var( --global-typography-primary-font-style );
+  text-decoration: var( --global-typography-primary-text-decoration );
+  line-height: var( --global-typography-primary-line-height );
+  letter-spacing: var( --global-typography-primary-letter-spacing );
+  color: var( --global-color-primary );
+}
+
+.app-button {
+  display: inline-block;
+}
+.app-kit-3 button,
+.app-kit-3 input[type="button"],
+.app-kit-3 input[type="submit"],
+.app-kit-3 .app-button {
+  background-color:var( --global-color-primary );
+  font-family:var( --global-typography-accent-font-family ), sans-serif;
+  font-size:var( --global-typography-accent-font-size );
+  font-weight:var( --global-typography-accent-font-weight );
+  text-transform:var( --global-typography-accent-text-transform );
+  font-style:var( --global-typography-accent-font-style );
+  text-decoration:var( --global-typography-accent-text-decoration );
+  letter-spacing:var( --global-typography-accent-letter-spacing );
+  line-height: 1;
+  color:#FFFFFF;
+  border-radius:6px 6px 6px 6px;
+  padding:14px 26px 14px 26px;
+  transition: background .3s,border .3s,
+              border-radius .3s,
+              box-shadow .3s,transform .4s;
+}
+.app-kit-3 button {
+  transition: all .4s ease;
+}
+.app-kit-3 button:hover,
+.app-kit-3 button:focus,
+.app-kit-3 input[type="button"]:hover,
+.app-kit-3 input[type="button"]:focus,
+.app-kit-3 input[type="submit"]:hover,
+.app-kit-3 input[type="submit"]:focus,
+.app-kit-3 .app-button:hover,
+.app-kit-3 .app-button:focus {
+  background-color:var( --global-color-secondary );
+  color:#FFFFFF;
+}
+.app-kit-3 a {
+  color:var( --global-color-accent );
+}
+.app-kit-3 a:hover {
+  color:var( --global-color-primary );
+}
+.app-kit-3 h1 {
+  color:var( --global-color-primary );
+  font-family:var( --global-typography-primary-font-family ), sans-serif;
+  font-size:var( --global-typography-primary-font-size );
+  font-weight:var( --global-typography-primary-font-weight );
+  text-transform:var( --global-typography-primary-text-transform );
+  font-style:var( --global-typography-primary-font-style );
+  text-decoration:var( --global-typography-primary-text-decoration );
+  line-height:var( --global-typography-primary-line-height );
+  letter-spacing:var( --global-typography-primary-letter-spacing );
+
+}
+.app-kit-3 h2 {
+  color:var( --global-color-primary );
+  font-family:var( --global-typography-secondary-font-family ), sans-serif;
+  font-size:var( --global-typography-secondary-font-size );
+  font-weight:var( --global-typography-secondary-font-weight );
+  text-transform:var( --global-typography-secondary-text-transform );
+  font-style:var( --global-typography-secondary-font-style );
+  text-decoration:var( --global-typography-secondary-text-decoration );
+  line-height:var( --global-typography-secondary-line-height );
+  letter-spacing:var( --global-typography-secondary-letter-spacing );
+}
+.app-kit-3 h3 {
+  color:var( --global-color-primary );
+  font-family:var( --global-typography-7b41a8e-font-family ), sans-serif;
+  font-size:var( --global-typography-7b41a8e-font-size );
+  font-weight:var( --global-typography-7b41a8e-font-weight );
+  text-transform:var( --global-typography-7b41a8e-text-transform );
+  font-style:var( --global-typography-7b41a8e-font-style );
+  text-decoration:var( --global-typography-7b41a8e-text-decoration );
+  line-height:var( --global-typography-7b41a8e-line-height );
+  letter-spacing:var( --global-typography-7b41a8e-letter-spacing );
+}
+.app-kit-3 h4 {
+  color:var( --global-color-primary );
+  font-family:var( --global-typography-7353ec5-font-family ), sans-serif;
+  font-size:var( --global-typography-7353ec5-font-size );
+  font-weight:var( --global-typography-7353ec5-font-weight );
+  text-transform:var( --global-typography-7353ec5-text-transform );
+  font-style:var( --global-typography-7353ec5-font-style );
+  text-decoration:var( --global-typography-7353ec5-text-decoration );
+  line-height:var( --global-typography-7353ec5-line-height );
+  letter-spacing:var( --global-typography-7353ec5-letter-spacing );
+}
+.app-kit-3 h5 {
+  color:var( --global-color-primary );
+  font-family:var( --global-typography-85be741-font-family ), sans-serif;
+  font-size:var( --global-typography-85be741-font-size );
+  font-weight:var( --global-typography-85be741-font-weight );
+  text-transform:var( --global-typography-85be741-text-transform );
+  font-style:var( --global-typography-85be741-font-style );
+  text-decoration:var( --global-typography-85be741-text-decoration );
+  line-height:var( --global-typography-85be741-line-height );
+  letter-spacing:var( --global-typography-85be741-letter-spacing );
+}
+.app-kit-3 h6 {
+  color:var( --global-color-primary );
+  font-family:var( --global-typography-bd2d915-font-family ), sans-serif;
+  font-size:var( --global-typography-bd2d915-font-size );
+  font-weight:var( --global-typography-bd2d915-font-weight );
+  text-transform:var( --global-typography-bd2d915-text-transform );
+  font-style:var( --global-typography-bd2d915-font-style );
+  text-decoration:var( --global-typography-bd2d915-text-decoration );
+  line-height:var( --global-typography-bd2d915-line-height );
+  letter-spacing:var( --global-typography-bd2d915-letter-spacing );
+}
+.app-section.app-section-boxed > .app-container {
+  max-width:1140px;
+}
+.app-con {
+  --container-max-width:1140px;
+}
+.app-widget:not(:last-child) {
+  margin-block-end:20px;
+}
+.app-element {
+  --widgets-spacing:20px 20px;
+  --widgets-spacing-row:20px;
+  --widgets-spacing-column:20px;
+}
+.site-header .site-branding {
+  flex-direction:column;
+  align-items:stretch;
+}
+.site-header {
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+}
+.site-footer .site-branding {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.icon-list-items {
+  display:flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+.icon-list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+}
+.app-kit-3 .app-element.app-element-text {
+  font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
+  font-size: var( --global-typography-2eec24c-font-size );
+  font-weight: var( --global-typography-2eec24c-font-weight );
+  text-transform: var( --global-typography-2eec24c-text-transform );
+  font-style: var( --global-typography-2eec24c-font-style );
+  text-decoration: var( --global-typography-2eec24c-text-decoration );
+  line-height: var( --global-typography-2eec24c-line-height );
+  letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+  color: #FFFFFF;
+}
+
+.app-kit-3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  user-select: none;
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .app-kit-3 .app-footer-wrapper,
+  .app-kit-3 .app-bottom-footer-wrapper {
+    --content-width: 1300px;
+  }
+}
+@media(max-width:1024px) {
+  .app-kit-3 {
+    --global-typography-primary-font-size:55px;
+    --global-typography-secondary-font-size:40px;
+    --global-typography-text-font-size:15px;
+    --global-typography-accent-font-size:13px;
+    --global-typography-7b41a8e-font-size:27px;
+    --global-typography-7353ec5-font-size:23px;
+    --global-typography-85be741-font-size:20px;
+    --global-typography-bd2d915-font-size:18px;
+    --global-typography-f911175-font-size:13px;
+    --global-typography-1a61658-font-size:60px;
+    font-size:var( --global-typography-text-font-size );
+    line-height:var( --global-typography-text-line-height );
+    letter-spacing:var( --global-typography-text-letter-spacing );
+  }
+  .app-kit-3 h1 {
+    font-size:var( --global-typography-primary-font-size );
+    line-height:var( --global-typography-primary-line-height );
+    letter-spacing:var( --global-typography-primary-letter-spacing );
+  }
+  .app-kit-3 h2 {
+    font-size:var( --global-typography-secondary-font-size );
+    line-height:var( --global-typography-secondary-line-height );
+    letter-spacing:var( --global-typography-secondary-letter-spacing );
+  }
+  .app-kit-3 h3 {
+    font-size:var( --global-typography-7b41a8e-font-size );
+    line-height:var( --global-typography-7b41a8e-line-height );
+    letter-spacing:var( --global-typography-7b41a8e-letter-spacing );
+  }
+  .app-kit-3 h4 {
+    font-size:var( --global-typography-7353ec5-font-size );
+    line-height:var( --global-typography-7353ec5-line-height );
+    letter-spacing:var( --global-typography-7353ec5-letter-spacing );
+  }
+  .app-kit-3 h5 {
+    font-size:var( --global-typography-85be741-font-size );
+    line-height:var( --global-typography-85be741-line-height );
+    letter-spacing:var( --global-typography-85be741-letter-spacing );
+  }
+  .app-kit-3 h6 {
+    font-size:var( --global-typography-bd2d915-font-size );
+    line-height:var( --global-typography-bd2d915-line-height );
+    letter-spacing:var( --global-typography-bd2d915-letter-spacing );
+  }
+  .app-kit-3 button,
+  .app-kit-3 input[type="button"],
+  .app-kit-3 input[type="submit"],
+  .app-kit-3 .app-button {
+    font-size:var( --global-typography-accent-font-size );
+    letter-spacing:var( --global-typography-accent-letter-spacing );
+  }
+  .app-kit-3 .app-button {
+    padding: 12px 22px 12px 22px;
+  }
+  .app-section.app-section-boxed > .app-container {
+    max-width:1024px;
+  }
+
+  .app-kit-3 .app-element.app-element-text {
+    font-size: var( --global-typography-2eec24c-font-size );
+    line-height: var( --global-typography-2eec24c-line-height );
+    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+  }
+  .app-con {
+    --container-max-width:1024px;
+  }
+  .app-widget-text-editor {
+    font-size: var( --global-typography-text-font-size );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+  }
+
+  .app-kit-3 .app-footer-wrapper {
+    --padding-top: 70px;
+    --padding-bottom: 0;
+    --padding-left: 30px;
+    --padding-right: 30px;
+    --margin-left: auto;
+    --margin-right: auto;
+    max-width: min(100%,var(--width));
+  }
+  .app-kit-3 .app-bottom-footer-wrapper {
+    --padding-top: 25px;
+    --padding-bottom: 25px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+    max-width: min(100%,var(--width));
+  }
+}
+@media(max-width:767px) {
+  .app-kit-3 {
+    --global-typography-primary-font-size:45px;
+    --global-typography-secondary-font-size:35px;
+    --global-typography-text-font-size:15px;
+    --global-typography-accent-font-size:13px;
+    --global-typography-7b41a8e-font-size:25px;
+    --global-typography-7353ec5-font-size:22px;
+    --global-typography-85be741-font-size:19px;
+    --global-typography-bd2d915-font-size:17px;
+    --global-typography-f911175-font-size:12px;
+    --global-typography-1a61658-font-size:56px;
+    font-size:var( --global-typography-text-font-size );
+    line-height:var( --global-typography-text-line-height );
+    letter-spacing:var( --global-typography-text-letter-spacing );
+  }
+  .app-kit-3 h1 {
+    font-size:var( --global-typography-primary-font-size );
+    line-height:var( --global-typography-primary-line-height );
+    letter-spacing:var( --global-typography-primary-letter-spacing );
+  }
+  .app-kit-3 h2 {
+    font-size:var( --global-typography-secondary-font-size );
+    line-height:var( --global-typography-secondary-line-height );
+    letter-spacing:var( --global-typography-secondary-letter-spacing );
+  }
+  .app-kit-3 h3 {
+    font-size:var( --global-typography-7b41a8e-font-size );
+    line-height:var( --global-typography-7b41a8e-line-height );
+    letter-spacing:var( --global-typography-7b41a8e-letter-spacing );
+  }
+  .app-kit-3 h4 {
+    font-size:var( --global-typography-7353ec5-font-size );
+    line-height:var( --global-typography-7353ec5-line-height );
+    letter-spacing:var( --global-typography-7353ec5-letter-spacing );
+  }
+  .app-kit-3 h5 {
+    font-size:var( --global-typography-85be741-font-size );
+    line-height:var( --global-typography-85be741-line-height );
+    letter-spacing:var( --global-typography-85be741-letter-spacing );
+  }
+  .app-kit-3 h6 {
+    font-size:var( --global-typography-bd2d915-font-size );
+    line-height:var( --global-typography-bd2d915-line-height );
+    letter-spacing:var( --global-typography-bd2d915-letter-spacing );
+  }
+  .app-kit-3 button,
+  .app-kit-3 input[type="button"],
+  .app-kit-3 input[type="submit"],
+  .app-kit-3 .app-button {
+    font-size:var( --global-typography-accent-font-size );
+    letter-spacing:var( --global-typography-accent-letter-spacing );
+  }
+  .app-kit-3 .app-button {
+    padding: 11px 18px 11px 18px;
+  }
+  .app-section.app-section-boxed > .app-container {
+    max-width:767px;
+  }
+
+  .app-kit-3 .app-element.app-element-text {
+    font-size: var( --global-typography-2eec24c-font-size );
+    line-height: var( --global-typography-2eec24c-line-height );
+    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+  }
+  .app-con {
+    --container-max-width:767px;
+  }
+  .app-widget-text-editor {
+    font-size: var( --global-typography-text-font-size );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+  }
+  .app-kit-3 .app-footer-wrapper {
+    --padding-left: 20px;
+    --padding-right: 20px;
+  }
+  .app-kit-3 .app-bottom-footer-wrapper {
+    --padding-top: 20px;
+    --padding-bottom: 20px;
+    --padding-left: 20px;
+    --padding-right: 20px;
+  }
+
+}
+.app-kit-3 .app-button-link {
+  background-color: #FE6F6200;
+  font-family: var( --global-typography-2eec24c-font-family ), sans-serif;
+  font-size: var( --global-typography-2eec24c-font-size );
+  font-weight: var( --global-typography-2eec24c-font-weight );
+  text-transform: var( --global-typography-2eec24c-text-transform );
+  font-style: var( --global-typography-2eec24c-font-style );
+  text-decoration: var( --global-typography-2eec24c-text-decoration );
+  line-height: var( --global-typography-2eec24c-line-height );
+  letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  border-style: solid;
+  border-width: 0;
+  border-color: #2A1A1330;
+  border-radius: 0;
+  padding: 0;
+  transition: color .3s ease;
+}
+.app-kit-3 .app-button-link:hover {
+  color: #CAC0BB;
+}
+.app-button-menu-close {
+  background-color: #FFFFFF00;
+  font-family: var( --global-typography-accent-font-family ), sans-serif;
+  font-size: var( --global-typography-accent-font-size );
+  font-weight: var( --global-typography-accent-font-weight );
+  text-transform: var( --global-typography-accent-text-transform );
+  font-style: var( --global-typography-accent-font-style );
+  text-decoration: var( --global-typography-accent-text-decoration );
+  letter-spacing: var( --global-typography-accent-letter-spacing );
+  border-style: solid;
+  border-color: #02010100;
+  color: var( --global-color-accent );
+  transition: all .4s ease;
+}
+.app-button-menu-close:hover {
+  background-color: #02010100;
+  color: var( --global-color-primary );
+}
+@media (max-width: 1024px) {
+  .app-button-menu-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.5rem;
+    letter-spacing: var( --global-typography-accent-letter-spacing );
+    padding: 0 !important;
+    cursor: pointer;
+  }
+}

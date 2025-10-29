@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="css/ekiticons.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script>
+        /*to prevent Firefox FOUC, this must be here*/
+        let FF_FOUC_FIX;
+    </script>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+
+</head>
+<body class="app-kit-3">
+<a class="skippy sr-only sr-only-focusable" href="#content">
+    <span class="skippy-text">Skip to main content</span>
+</a>
+<div class="pre-header d-flex align-items-center justify-content-center px-3 py-3 swatch-darkwood animated fadeIn"
+     id="content">
+    <div class="app-element app-element-text d-flex flex-wrap justify-content-center">
+        <span class="px-1">Join our class today and get special price!</span>
+        <a class="app-button-link" href="javascript:void(0);">Register Now</a>
+    </div>
+</div>
+<!--Header-->
+<header class="header animated fadeIn">
+
+    <div class="menu-header-wrapper p-0">
+        <ul id="menu-header" class="navbar-nav app-navbar flex-row">
+            <li class="nav-item">
+                <a class="menu-nav-link link-button active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="menu-nav-link link-button" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="menu-nav-link link-button dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false" href="javascript:void(0);">Classes</a>
+                <div class="dropdown-menu" aria-labelledby="classes">
+                    <a class="dropdown-item" href="javascript:void(0);">Classes</a>
+                    <a class="dropdown-item" href="javascript:void(0);">Class Detail</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="menu-nav-link link-button dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false" href="javascript:void(0);">Pages</a>
+                <div class="dropdown-menu" aria-labelledby="classes">
+                    <a class="dropdown-item" href="javascript:void(0);">Instructors</a>
+                    <a class="dropdown-item" href="javascript:void(0);">FAQs</a>
+                    <a class="dropdown-item" href="javascript:void(0);">Pricing</a>
+                    <a class="dropdown-item" href="javascript:void(0);">Products</a>
+                    <a class="dropdown-item" href="javascript:void(0);">Testimonial</a>
+                    <a class="dropdown-item" href="javascript:void(0);">Contact</a>
+                    <a class="dropdown-item" href="javascript:void(0);">Blog</a>
+                    <a class="dropdown-item" href="javascript:void(0);">Single Post</a>
+                    <a class="dropdown-item" href="javascript:void(0);">404 Page</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile menu overlay -->
+    <div class="mobile-menu-overlay"></div>
+    <!-- ./ Mobile menu overlay -->
+
+    <!-- Logo -->
+    <div class="logo-wrapper">
+        <a class="logo-img" href="#">
+            <img src="/images/Logo.png" alt="header logo" loading="lazy">
+        </a>
+    </div>
+
+    <!-- Right header -->
+    <div class="p-0">
+        <div class="right-header-buttons">
+            <a class="link app-hidden-mobile" href="#">Contact us</a>
+            <a class="app-button" href="#">Book Now</a>
+            <!-- Hamburger -->
+            <button class="menu-hamburger" aria-label="hamburger-icon">
+                <i aria-hidden="true" class="ekit-menu-icon icon icon-menu-7"></i>
+            </button>
+            <!-- ./ Hamburger -->
+        </div>
+    </div>
+    <div class="nav-panel">
+        <div class="nav-panel-header d-flex justify-content-between align-items-center position-relative">
+            <a class="nav-panel-logo-img" href="#">
+                <img src="/images/Logo.png" alt="header logo" decoding="async">
+            </a>
+            <span class="app-button-menu-close">x</span>
+        </div>
+        <div class="nav-panel-body">
+            <ul id="mobile-nav" class="navbar-nav mt-5">
+                <li class="nav-item">
+                    <a class="menu-nav-link link-button active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="menu-nav-link link-button" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="menu-nav-link link-button dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false" href="javascript:void(0);">Classes</a>
+                    <div class="dropdown-menu" aria-labelledby="classes">
+                        <a class="dropdown-item" href="javascript:void(0);">Classes</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Class Detail</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="menu-nav-link link-button dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false" href="javascript:void(0);">Pages</a>
+                    <div class="dropdown-menu" aria-labelledby="classes">
+                        <a class="dropdown-item" href="javascript:void(0);">Instructors</a>
+                        <a class="dropdown-item" href="javascript:void(0);">FAQs</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Pricing</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Products</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Testimonial</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Contact</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Blog</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Single Post</a>
+                        <a class="dropdown-item" href="javascript:void(0);">404 Page</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!--Page Main Content -->
+<main class="app-home">
+
+</main>
+
+<!-- Footer -->
+<footer class="content-footer">
+    <!-- Main Footer -->
+    <div class="app-footer-wrapper app-con a-flex">
+        <div class="app-con-inner">
+            <div class="app-flex-element app-element app-con-full app-con a-flex">
+                <!-- Footer Main content-->
+                <div class="footer-main-content-wrapper app-element app-con-full a-flex app-con">
+                    <!-- Footer logo-->
+                    <div class="footer-logo-wrapper">
+                        <img src="/images/logo-2.png" alt="footer logo" loading="lazy">
+                    </div>
+                    <!--Footer content-->
+                    <div class="footer-text-wrapper">
+                        <div class="footer-text-inner-wrapper">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                                pulvinar leo.</p>
+                        </div>
+                    </div>
+                    <!-- Footer menu list -->
+                    <div class="app-element footer-menu-list">
+                        <ul class="icon-list-items footer-icon-list-items mb-0">
+                            <li class="icon-list-item">
+                                <a href="#">
+                                    <span class="icon-list-text">Home</span>
+                                </a>
+                            </li>
+                            <li class="icon-list-item">
+                                <a href="#">
+                                    <span class="icon-list-text">About</span>
+                                </a>
+                            </li>
+                            <li class="icon-list-item">
+                                <a href="#">
+                                    <span class="icon-list-text">Menu</span>
+                                </a>
+                            </li>
+                            <li class="icon-list-item">
+                                <a href="#">
+                                    <span class="icon-list-text">Blog</span>
+                                </a>
+                            </li>
+                            <li class="icon-list-item">
+                                <a href="#">
+                                    <span class="icon-list-text">Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- ./ Footer Main content-->
+
+                <!-- Footer Dashboard -->
+                <div class="footer-dashboard app-element app-con app-con-full a-flex">
+                    <!-- Info -->
+                    <div class="footer-dashboard-info app-element app-con-full a-flex app-con">
+                        <!-- Address -->
+                        <div class="app-widget app-element footer-widget-heading">
+                            <div class="app-widget-container">
+                                <h4 class="heading-title">Address</h4>
+                            </div>
+                        </div>
+                        <div class="app-element app-widget footer-address-list">
+                            <ul class="icon-list-items flex-column mb-0">
+                                <li class="icon-list-item">
+                                    <a href="javascript:void(0)">
+                                        <span class="icon-list-text">5116 Dietrich Mill, North Emmet<br>Dakota USA 45862</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="app-element app-widget">
+                            <div class="social-icons-wrapper d-flex gap-7 align-items-center" role="list">
+                                <a class="app-icon app-social-icon" href="https://facebook.com" target="_blank">
+                                    <span class="sr-only">Facebook-f</span>
+                                    <svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook-f"
+                                         viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                    </svg>
+                                </a>
+                                <a class="app-icon app-social-icon" href="https://instagram.com" target="_blank">
+                                    <span class="sr-only">Icon-instagram-1</span>
+                                    <i aria-hidden="true" class="icon icon-instagram-1"></i>
+                                </a>
+                                <a class="app-icon app-social-icon" href="https://youtube.com" target="_blank">
+                                    <span class="sr-only">Youtube</span>
+                                    <svg aria-hidden="true" class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                                    </svg>
+                                </a>
+                                <a class="app-icon app-social-icon" href="https://tiktok.com" target="_blank">
+                                    <span class="sr-only">Tiktok</span>
+                                    <svg aria-hidden="true" class="e-font-icon-svg e-fab-tiktok" viewBox="0 0 448 512"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact -->
+                    <div class="footer-dashboard-contacts app-element app-con-full a-flex app-con">
+                        <!-- Contact -->
+                        <div class="app-widget app-element footer-widget-heading">
+                            <div class="app-widget-container">
+                                <h4 class="heading-title">Contact</h4>
+                            </div>
+                        </div>
+                        <div class="app-element app-widget footer-address-list">
+                            <ul class="icon-list-items flex-column mb-0">
+                                <li class="icon-list-item">
+                                    <a href="javascript:void(0)">
+                                        <span class="icon-list-text">P : +1 (234) 567 890</span>
+                                    </a>
+                                </li>
+                                <li class="icon-list-item">
+                                    <a href="javascript:void(0)">
+                                        <span class="icon-list-text">+0 (987) 654 321</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="app-element app-widget footer-address-list">
+                            <ul class="icon-list-items flex-column mb-0">
+                                <li class="icon-list-item">
+                                    <a href="javascript:void(0)">
+                                        <span class="icon-list-text">E : migelangelo10@gmail.com</span>
+                                    </a>
+                                </li>
+                                <li class="icon-list-item">
+                                    <a href="javascript:void(0)">
+                                        <span class="icon-list-text">example@mail.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Subscribe -->
+                    <div class="footer-dashboard-subscribe app-element app-con-full a-flex app-con">
+                        <div class="app-widget app-element footer-widget-heading">
+                            <div class="app-widget-container">
+                                <h4 class="heading-title-subscribe heading-title">Subscribe to our newsletter</h4>
+                            </div>
+                        </div>
+                        <div class="app-element app-widget app-widget-text-editor app-common-subtext">
+                            <div class="app-widget-container">
+                                <p>Lorem ipsum dolor sit amet mauris sit amet</p>
+                            </div>
+                        </div>
+                        <div class="app-element app-widget app-widget-form">
+                            <div class="app-widget-container">
+                                <div class="mf-form-wrapper">
+                                    <form class="mf-subscribe metform-form-content" novalidate>
+                                        <!--Response message-->
+                                        <div class="mf-main-response-wrap mf-response-msg-wrap">
+                                            <div class="mf-response-msg">
+                                                <i class="mf-success-icon fas fa-check"></i>
+                                                <p>Thank you</p>
+                                            </div>
+                                        </div>
+                                        <div class="mf-input-form-wrapper app-element app-con-full app-con a-flex align-items-start">
+                                            <!-- Input -->
+                                            <div class="app-element app-widget app-widget-mf-email app-widget-input">
+                                                <div class="mf-input-wrapper">
+                                                    <input
+                                                        type="email"
+                                                        class="mf-input"
+                                                        id="mf-input-email"
+                                                        name="mf-email"
+                                                        placeholder="Your email"
+                                                        aria-invalid="false"
+                                                        required>
+                                                </div>
+                                            </div>
+                                            <!-- Button -->
+                                            <div class="app-element app-widget app-widget-mf-button">
+                                                <div class="mf-btn-wraper ">
+                                                    <button class="metform-btn metform-submit-btn"><span>Subscribe</span></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./ Footer Dashboard -->
+            </div>
+        </div>
+    </div>
+    <!--Bottom footer-->
+    <div class="app-bottom-footer-wrapper app-element app-con a-flex">
+        <div class="app-con-inner">
+            <!--Left part-->
+            <div class="left-footer-bottom app-element app-con-full a-flex app-con">
+                <div class="app-element app-widget footer-bottom-copyright app-widget-text-editor">
+                    <div class="app-widget-container">
+                        <p>Copyright Mad Jun © 2025 ASK Project</p>
+                    </div>
+                </div>
+            </div>
+            <!--Right part-->
+            <div class="right-footer-bottom app-element app-con-full a-flex app-con">
+                <div class="app-element app-widget footer-button app-widget-button">
+                    <div class="app-widget-container">
+                        <a href="javascript:void(0);" class="app-button">
+                            <span class="app-button-content-wrapper">
+                                <span class="app-button-text">Privacy Policy</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="app-element app-widget footer-last-button app-widget-button">
+                    <div class="app-widget-container">
+                        <a href="javascript:void(0);" class="app-button">
+                            <span class="app-button-content-wrapper">
+                                <span class="app-button-text">Terms & Services</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
