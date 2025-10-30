@@ -41,7 +41,6 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: "./src/plugins/css", to: "css" },
-                { from: "./src/pages", to: "css" },
                 { from: "./src/plugins/js", to: "js" },
                 { from: "./src/public", to: "./" },
                 { from: "./src/plugins/webfonts", to: "webfonts" },

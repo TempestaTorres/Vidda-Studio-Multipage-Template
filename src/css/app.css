@@ -3,6 +3,7 @@
 @import "frontend.css";
 @import "app-kit-3.css";
 @import "framework.css";
+@import "../pages/css/home.css";
 
 .skippy {
     display: block;
