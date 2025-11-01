@@ -43,6 +43,342 @@
     background-size: cover;
 }
 
+.app-home .app-element.app-element-hero-class-name > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-hero-class-name {
+    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
+    font-size: var( --global-typography-f911175-font-size );
+    font-weight: var( --global-typography-f911175-font-weight );
+    text-transform: var( --global-typography-f911175-text-transform );
+    font-style: var( --global-typography-f911175-font-style );
+    text-decoration: var( --global-typography-f911175-text-decoration );
+    line-height: var( --global-typography-f911175-line-height );
+    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    color: #F0EDE1;
+}
+.app-widget-heading .app-heading-title {
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-hero-class-title {
+    width: var( --container-widget-width,  750px );
+    max-width: 750px;
+    --container-widget-width: 750px;
+    --container-widget-flex-grow: 0;
+}
+.app-home .app-element.app-element-hero-class-title .app-heading-title {
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-hero-class-text {
+    width: var( --container-widget-width,  500px );
+    max-width: 500px;
+    --container-widget-width: 500px;
+    --container-widget-flex-grow: 0;
+    text-align: left;
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+    color: #FFFFFFC7;
+}
+.app-home .app-element.app-element-hero-class-text > .app-widget-container {
+    margin: 0 0 -5px 0;
+}
+.app-home .app-element.app-element-hero-buttons {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --flex-wrap: nowrap;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+.app-widget-button .app-button {
+    background-color: var( --global-color-accent );
+    font-family: var( --global-typography-accent-font-family ),  sans-serif;
+    font-size: var( --global-typography-accent-font-size );
+    font-weight: var( --global-typography-accent-font-weight );
+    text-transform: var( --global-typography-accent-text-transform );
+    font-style: var( --global-typography-accent-font-style );
+    text-decoration: var( --global-typography-accent-text-decoration );
+    letter-spacing: var( --global-typography-accent-letter-spacing );
+}
+.app-home .app-element.app-element-button-get-started .app-button {
+    background-color: var( --global-color-secondary );
+    font-family: var( --global-typography-accent-font-family ),  sans-serif;
+    font-size: var( --global-typography-accent-font-size );
+    font-weight: var( --global-typography-accent-font-weight );
+    text-transform: var( --global-typography-accent-text-transform );
+    font-style: var( --global-typography-accent-font-style );
+    text-decoration: var( --global-typography-accent-text-decoration );
+    letter-spacing: var( --global-typography-accent-letter-spacing );
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    padding: 15px 26px 15px 26px;
+}
+.app-home .app-element.app-element-button-get-started .app-button:hover,
+.app-home .app-element.app-element-button-get-started .app-button:focus {
+    background-color: var( --global-color-primary );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-button-get-started .app-button:hover svg,
+.app-home .app-element.app-element-button-get-started .app-button:focus svg {
+    fill: #FFFFFF;
+}
+.app-home .app-element.app-element-button-our-classes .app-button {
+    background-color: var( --global-color-2d8c8bd );
+    font-family: var( --global-typography-accent-font-family ),  sans-serif;
+    font-size: var( --global-typography-accent-font-size );
+    font-weight: var( --global-typography-accent-font-weight );
+    text-transform: var( --global-typography-accent-text-transform );
+    font-style: var( --global-typography-accent-font-style );
+    text-decoration: var( --global-typography-accent-text-decoration );
+    letter-spacing: var( --global-typography-accent-letter-spacing );
+    fill: var( --global-color-primary );
+    color: var( --global-color-primary );
+    border-radius: 6px 6px 6px 6px;
+    padding: 15px 26px 15px 26px;
+}
+.app-home .app-element.app-element-button-our-classes .app-button:hover,
+.app-home .app-element.app-element-button-our-classes .app-button:focus {
+    background-color: var( --global-color-primary );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-button-our-classes .app-button:hover svg,
+.app-home .app-element.app-element-button-our-classes .app-button:focus svg {
+    fill: #FFFFFF;
+}
+
+.app-home .app-element.presentation {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-presentation-image img {
+    width: 50px;
+}
+.app-home .app-element.app-element-presentation-text {
+    width: var( --container-widget-width,  60% );
+    max-width: 60%;
+    --container-widget-width: 60%;
+    --container-widget-flex-grow: 0;
+    text-align: center;
+}
+.app-home .app-element.app-element-presentation-text > .app-widget-container {
+    margin: 0 0 50px 0;
+}
+.app-home .app-element.app-element-presentation-text.app-element {
+    --align-self: center;
+}
+.app-home .app-element.app-element-presentation-text .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+}
+.app-home .app-element.app-element-presentation-cards {
+    --display: grid;
+    --con-grid-template-columns: repeat(3,  1fr);
+    --con-grid-template-rows: repeat(1,  1fr);
+    --grid-auto-flow: row;
+    --margin-top: 0px;
+    --margin-bottom: 50px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+.app-home .app-element.app-element-presentation-card {
+    --display: flex;
+    --border-radius: 10px 10px 10px 10px;
+    --padding-top: 30px;
+    --padding-bottom: 30px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+.app-home .app-element.app-element-presentation-card:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-presentation-card > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: #EBE7DB;
+}
+.app-widget-image-box .app-image-box-title {
+    font-family: var( --global-typography-primary-font-family ),  Sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-widget-image-box:has(:hover) .app-image-box-title,
+.app-widget-image-box:has(:focus) .app-image-box-title {
+    color: var( --global-color-primary );
+}
+.app-widget-image-box .app-image-box-description {
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+    color: var( --global-color-text );
+}
+
+.app-home .app-element.app-element-card .app-image-box-wrapper {
+    text-align: left;
+}
+.app-home .app-element.app-element-card.app-position-right .app-image-box-img {
+    margin-left: 40px;
+}
+.app-home .app-element.app-element-card.app-position-left .app-image-box-img {
+    margin-right: 40px;
+}
+.app-home .app-element.app-element-card.app-position-top .app-image-box-img {
+    margin-bottom: 40px;
+}
+.app-home .app-element.app-element-card .app-icon-box-title {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.app-home .app-element.app-element-card .app-image-box-title {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: var( --global-typography-7353ec5-font-family ),  sans-serif;
+    font-size: var( --global-typography-7353ec5-font-size );
+    font-weight: var( --global-typography-7353ec5-font-weight );
+    text-transform: var( --global-typography-7353ec5-text-transform );
+    font-style: var( --global-typography-7353ec5-font-style );
+    text-decoration: var( --global-typography-7353ec5-text-decoration );
+    line-height: var( --global-typography-7353ec5-line-height );
+    letter-spacing: var( --global-typography-7353ec5-letter-spacing );
+}
+.app-home .app-element.app-element-card .app-image-box-wrapper .app-image-box-img {
+    width: 19%;
+}
+.app-home .app-element.app-element-card .app-image-box-img img {
+    transition-duration: 0.3s;
+}
+.app-home .app-element.app-element-card .app-image-box-description {
+    color: var( --global-color-text );
+}
+
+.app-home .app-element.app-element-card-button .app-button {
+    background-color: #FE6F6200;
+    font-family: "Instrument Sans",  sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    fill: var( --global-color-accent );
+    color: var( --global-color-accent );
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #2A1A1330;
+    border-radius: 0;
+    padding: 0 0 4px 0;
+}
+.app-home .app-element.app-element-card-button .app-button:hover,  .app-home .app-element.app-element-card-button .app-button:focus {
+    background-color: #68382600;
+    color: var( --global-color-primary );
+    border-color: #683826C9;
+}
+.app-home .app-element.app-element-card-button > .app-widget-container {
+    margin: -3px 5px 0 0;
+}
+.app-home .app-element.app-element-card-button .app-button-content-wrapper {
+    flex-direction: row-reverse;
+}
+.app-home .app-element.app-element-card-button .app-button .app-button-content-wrapper {
+    gap: 10px;
+}
+.app-home .app-element.app-element-card-button .app-button:hover svg,
+.app-home .app-element.app-element-card-button .app-button:focus svg {
+    fill: var( --global-color-primary );
+}
+.app-home .app-element.app-element-card-button .app-button .app-button-icon i,
+.app-home .app-element.app-element-card-button .app-button .app-button-icon svg {
+    transform: rotate(0deg);
+}
+
+.app-home .app-element.app-element-card-button .app-button:hover .app-button-text {
+    padding-right: 5px;
+}
+.app-home .app-element.app-element-collaboration-text > .app-widget-container {
+    margin: 0;
+}
+.app-home .app-element.app-element-collaboration-text {
+    text-align: center;
+}
+.app-home .app-element.app-element-collaborators-grid {
+    --display: grid;
+    --con-grid-template-columns: repeat(6,  1fr);
+    --con-grid-template-rows: repeat(2,  1fr);
+    --gap: 50px 80px;
+    --row-gap: 50px;
+    --column-gap: 80px;
+    --grid-auto-flow: row;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-collaborator-card img {
+    opacity: 0.5;
+    transition-duration: 0.4s;
+}
+.app-home .app-element.app-element-collaborator-card:hover img {
+    opacity: 1;
+}
+/* ================================================ Mobile ========================================= */
+@media(min-width:768px) {
+
+    .app-home .app-element.presentation {
+        --content-width: 1300px;
+    }
+}
+
 @media(max-width:1024px) {
 
     .app-home .app-element.hero {
@@ -57,6 +393,87 @@
         --padding-bottom: 50px;
         --padding-left: 50px;
         --padding-right: 50px;
+    }
+    .app-home .app-element.app-element-hero-class-name {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-widget-heading .app-heading-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-home .app-element.app-element-hero-class-title .app-heading-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-home .app-element.app-element-hero-class-text {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-widget-button .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.app-element-button-get-started .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.app-element-button-our-classes .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.presentation {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-presentation-image img {
+        width: 47px;
+    }
+    .app-home .app-element.app-element-presentation-text {
+        --container-widget-width: 95%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  95% );
+        max-width: 95%;
+    }
+    .app-home .app-element.app-element-presentation-text .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-presentation-cards {
+        --con-grid-template-columns: repeat(2,  1fr);
+        --grid-auto-flow: row;
+    }
+    .app-widget-image-box .app-image-box-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-image-box .app-image-box-description {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-card .app-image-box-title {
+        font-size: var( --global-typography-7353ec5-font-size );
+        line-height: var( --global-typography-7353ec5-line-height );
+        letter-spacing: var( --global-typography-7353ec5-letter-spacing );
+    }
+    .app-home .app-element.app-element-card-button .app-button {
+        font-size: 13px;
+    }
+    .app-home .app-element.app-element-collaborators-grid {
+        --con-grid-template-columns: repeat(4,  1fr);
+        --gap: 30px 50px;
+        --row-gap: 30px;
+        --column-gap: 50px;
+        --grid-auto-flow: row;
     }
 }
 
@@ -73,5 +490,85 @@
         --padding-bottom: 30px;
         --padding-left: 20px;
         --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-hero-class-name {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-widget-heading .app-heading-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-home .app-element.app-element-hero-class-title .app-heading-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-home .app-element.app-element-hero-class-text {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-widget-button .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.app-element-button-get-started .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.app-element-button-our-classes .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.presentation {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-presentation-text .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-presentation-cards {
+        --con-grid-template-columns: repeat(1,  1fr);
+        --grid-auto-flow: row;
+    }
+    .app-widget-image-box .app-image-box-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-image-box .app-image-box-description {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-card.app-position-right.app-keep-position-yes .app-image-box-img {
+        margin-left: 40px!important;
+        margin-right: 0!important;
+    }
+    .app-home .app-element.app-element-card.app-position-left.app-keep-position-yes .app-image-box-img {
+        margin-right: 40px!important;
+        margin-left: 0!important;
+    }
+    .app-home .app-element.app-element-card:not(.app-keep-position-yes) .app-image-box-img {
+        margin-bottom: 40px;
+    }
+    .app-home .app-element.app-element-card .app-image-box-wrapper .app-image-box-img {
+        width: 22%;
+    }
+    .app-home .app-element.app-element-card .app-image-box-title {
+        font-size: var( --global-typography-7353ec5-font-size );
+        line-height: var( --global-typography-7353ec5-line-height );
+        letter-spacing: var( --global-typography-7353ec5-letter-spacing );
+    }
+    .app-home .app-element.app-element-collaborators-grid {
+        --con-grid-template-columns: repeat(2,  1fr);
+        --grid-auto-flow: row;
     }
 }
