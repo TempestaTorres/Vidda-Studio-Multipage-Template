@@ -1,3 +1,5 @@
+@import "app-widget-icon-list.css";
+
 @font-face {
   font-family: "Instrument Sans";
   src: url("../assets/fonts/InstrumentSans.ttf");
@@ -567,6 +569,28 @@ p {
   background-color: #02010100;
   color: var( --global-color-primary );
 }
+.app-widget-icon-list .app-icon-list-item:not(:last-child):after {
+  border-color: var( --global-color-text );
+}
+.app-widget-icon-list .app-icon-list-icon i {
+  color: var( --global-color-primary );
+}
+.app-widget-icon-list .app-icon-list-icon svg {
+  fill: var( --global-color-primary );
+}
+.app-widget-icon-list .app-icon-list-item > .app-icon-list-text,  .app-widget-icon-list .app-icon-list-item > a {
+  font-family: var( --global-typography-text-font-family ),  sans-serif;
+  font-size: var( --global-typography-text-font-size );
+  font-weight: var( --global-typography-text-font-weight );
+  text-transform: var( --global-typography-text-text-transform );
+  font-style: var( --global-typography-text-font-style );
+  text-decoration: var( --global-typography-text-text-decoration );
+  line-height: var( --global-typography-text-line-height );
+  letter-spacing: var( --global-typography-text-letter-spacing );
+}
+.app-widget-icon-list .app-icon-list-text {
+  color: var( --global-color-secondary );
+}
 /* ===================================== Mobile ================================ */
 @media (min-width: 768px) {
   .app-kit-3 .app-footer-wrapper,
@@ -683,7 +707,13 @@ p {
     padding: 0 !important;
     cursor: pointer;
   }
+  .app-widget-icon-list .app-icon-list-item > .app-icon-list-text,  .app-widget-icon-list .app-icon-list-item > a {
+    font-size: var( --global-typography-text-font-size );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+  }
 }
+
 @media(max-width:767px) {
   .app-kit-3 {
     --global-typography-primary-font-size:45px;
@@ -777,5 +807,9 @@ p {
     line-height: var( --global-typography-secondary-line-height );
     letter-spacing: var( --global-typography-secondary-letter-spacing );
   }
-
+  .app-widget-icon-list .app-icon-list-item > .app-icon-list-text,  .app-widget-icon-list .app-icon-list-item > a {
+    font-size: var( --global-typography-text-font-size );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+  }
 }

@@ -554,73 +554,81 @@
 .app-button-text {
     display:inline-block
 }
+.app-button.app-size-sm {
+    border-radius:2px;
+    font-size:10px;
+    padding:5px 10px;
+}
 .app-button.app-size-xs {
     border-radius:2px;
     font-size:13px;
-    padding:10px 20px
+    padding:10px 20px;
 }
 .app-button.app-size-md {
     border-radius:4px;
     font-size:16px;
-    padding:15px 30px
+    padding:15px 30px;
 }
 .app-button.app-size-lg {
     border-radius:5px;
     font-size:18px;
-    padding:20px 40px
+    padding:20px 40px;
 }
 .app-button.app-size-xl {
     border-radius:6px;
     font-size:20px;
-    padding:25px 50px
+    padding:25px 50px;
 }
 .app-button span {
-    text-decoration:inherit
+    text-decoration:inherit;
+}
+.app-button-content-wrapper * {
+    transition: all var(--button-transition-duration, 300ms);
 }
 .app-element.app-button-info .app-button {
-    background-color:#5bc0de
+    background-color:#5bc0de;
 }
 .app-element.app-button-success .app-button {
-    background-color:#5cb85c
+    background-color:#5cb85c;
 }
 .app-element.app-button-warning .app-button {
-    background-color:#f0ad4e
+    background-color:#f0ad4e;
 }
 .app-element.app-button-danger .app-button {
-    background-color:#d9534f
+    background-color:#d9534f;
 }
 .app-widget-button .app-button .app-button-info {
-    background-color:#5bc0de
+    background-color:#5bc0de;
 }
 .app-widget-button .app-button .app-button-success {
-    background-color:#5cb85c
+    background-color:#5cb85c;
 }
 .app-widget-button .app-button .app-button-warning {
-    background-color:#f0ad4e
+    background-color:#f0ad4e;
 }
 .app-widget-button .app-button .app-button-danger {
-    background-color:#d9534f
+    background-color:#d9534f;
 }
 .app-view-stacked .app-icon {
     background-color:#69727d;
     color:#fff;
     padding:.5em;
-    fill:#fff
+    fill:#fff;
 }
 .app-view-framed .app-icon {
     background-color:transparent;
     border:3px solid #69727d;
     color:#69727d;
-    padding:.5em
+    padding:.5em;
 }
 .app-icon {
     font-size:50px;
     line-height:1;
     text-align:center;
-    transition:all .3s
+    transition:all .3s;
 }
 .app-icon:hover {
-    color:#69727d
+    color:#69727d;
 }
 .app-icon i:before,
 .app-icon svg:before {
