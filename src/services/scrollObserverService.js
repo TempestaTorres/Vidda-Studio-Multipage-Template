@@ -8,7 +8,7 @@
  */
 
 
-export default function scrollObserver(selector, shownCls, option= {}, delay = 500) {
+export default function scrollObserver(selector, shownCls, option= {}, delay = 300) {
 
     let s = 0;
 
@@ -70,7 +70,7 @@ export default function scrollObserver(selector, shownCls, option= {}, delay = 5
 
         if (sibling && sibling.classList.contains(selector.split(".")[1])) {
 
-            s += 300;
+            s += 100;
         }
         else {
             s = 0;
