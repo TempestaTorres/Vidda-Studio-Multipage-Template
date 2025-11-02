@@ -376,7 +376,7 @@ button.menu-hamburger:hover > .ekit-menu-icon {
     color:#FFFFFFC7;
 }
 
-.app-element > .app-widget-container {
+.app-footer-wrapper .app-element > .app-widget-container {
     margin: 0 0 -15px 0;
 }
 .app-element.app-widget-form > .app-widget-container {

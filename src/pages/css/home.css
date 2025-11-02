@@ -371,14 +371,127 @@
 .app-home .app-element.app-element-collaborator-card:hover img {
     opacity: 1;
 }
+.app-home .app-element.about {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --gap: 20px 0px;
+    --row-gap: 20px;
+    --column-gap: 0px;
+    --flex-wrap: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 30px;
+    --padding-right: 0px;
+}
+.app-home .app-element.about:not(.app-motion-effects-element-type-background),  .app-home .app-element.about > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-8c75c4b );
+}
+.app-home .app-element.app-element-about-left {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    --flex-wrap: nowrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-about-img-left > .app-widget-container {
+    margin: 50px 0 0 0;
+}
+.app-home .app-element.app-element-about-img-left img,
+.app-home .app-element.app-element-about-img-right img {
+    border-radius: 10px 10px 10px 10px;
+}
+.app-home .app-element.app-element-about-img-right > .app-widget-container {
+    margin: 0 0 50px 0;
+}
+.app-home .app-element.app-element-about-card {
+    --display: flex;
+    --justify-content: center;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 100px;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-about-card.app-con {
+    --align-self: center;
+}
+.app-home .app-element.app-element-about-card-title > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-about-card-title {
+    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
+    font-size: var( --global-typography-f911175-font-size );
+    font-weight: var( --global-typography-f911175-font-weight );
+    text-transform: var( --global-typography-f911175-text-transform );
+    font-style: var( --global-typography-f911175-font-style );
+    text-decoration: var( --global-typography-f911175-text-decoration );
+    line-height: var( --global-typography-f911175-line-height );
+    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    color: var( --global-color-accent );
+}
+.app-home .app-element.app-element-about-card-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+}
+.app-home .app-element.app-element-common-card-button .app-button {
+    background-color: var( --global-color-secondary );
+    font-family: var( --global-typography-accent-font-family ),  sans-serif;
+    font-size: var( --global-typography-accent-font-size );
+    font-weight: var( --global-typography-accent-font-weight );
+    text-transform: var( --global-typography-accent-text-transform );
+    font-style: var( --global-typography-accent-font-style );
+    text-decoration: var( --global-typography-accent-text-decoration );
+    letter-spacing: var( --global-typography-accent-letter-spacing );
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 15px 26px 15px 26px;
+}
+.app-home .app-element.app-element-common-card-button .app-button:hover,
+.app-home .app-element.app-element-common-card-button .app-button:focus {
+    background-color: var( --global-color-primary );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-common-card-button .app-button:hover svg,
+.app-home .app-element.app-element-common-card-button .app-button:focus svg {
+    fill: #FFFFFF;
+}
 /* ================================================ Mobile ========================================= */
 @media(min-width:768px) {
 
     .app-home .app-element.presentation {
         --content-width: 1300px;
     }
+    .app-home .app-element.app-element-about-left {
+        --width: 50%;
+    }
+    .app-home .app-element.app-element-about-card {
+        --width: 650px;
+    }
 }
-
+@media(max-width:1024px) and (min-width:768px) {
+    .app-home .app-element.app-element-about-card {
+        --width: 50%;
+    }
+}
 @media(max-width:1024px) {
 
     .app-home .app-element.hero {
@@ -475,6 +588,36 @@
         --column-gap: 50px;
         --grid-auto-flow: row;
     }
+    .app-home .app-element.about {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-about-left {
+        --align-items: center;
+        --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    }
+    .app-home .app-element.app-element-about-card {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 50px;
+        --padding-right: 0;
+    }
+    .app-home .app-element.app-element-about-card-title {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-about-card-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-common-card-button .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
 }
 
 @media(max-width:767px) {
@@ -570,5 +713,40 @@
     .app-home .app-element.app-element-collaborators-grid {
         --con-grid-template-columns: repeat(2,  1fr);
         --grid-auto-flow: row;
+    }
+    .app-home .app-element.about {
+        --gap: 50px 0px;
+        --row-gap: 50px;
+        --column-gap: 0px;
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-about-left.app-con {
+        --order: 99999; /* order end hack */
+    }
+    .app-home .app-element.app-element-about-card {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 0;
+        --padding-right: 0;
+    }
+    .app-home .app-element.app-element-about-card.app-con {
+        --order: -99999 /* order start hack */;
+    }
+    .app-home .app-element.app-element-about-card-title {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-about-card-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-common-card-button .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
     }
 }

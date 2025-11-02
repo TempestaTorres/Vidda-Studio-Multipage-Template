@@ -5,7 +5,11 @@
 }
 @font-face {
   font-family: "Taviraj";
-  src: url("../assets/fonts/Taviraj-Regular.ttf");
+  src: url("../assets/fonts/Taviraj-Light.ttf");
+}
+@font-face {
+  font-family: "Taviraj Thin";
+  src: url("../assets/fonts/Taviraj-Thin.ttf");
 }
 p {
   margin-block-end: .9rem;
@@ -35,6 +39,16 @@ p {
   --global-typography-secondary-text-decoration:none;
   --global-typography-secondary-line-height:1.3em;
   --global-typography-secondary-letter-spacing:0px;
+
+  --global-typography-secondary-thin-font-family:"Taviraj Thin";
+  --global-typography-secondary-thin-font-size:45px;
+  --global-typography-secondary-thin-font-weight:300;
+  --global-typography-secondary-thin-text-transform:none;
+  --global-typography-secondary-thin-font-style:normal;
+  --global-typography-secondary-thin-text-decoration:none;
+  --global-typography-secondary-thin-line-height:1.3em;
+  --global-typography-secondary-thin-letter-spacing:0px;
+
   --global-typography-text-font-family:"Instrument Sans";
   --global-typography-text-font-size:16px;
   --global-typography-text-font-weight:400;
