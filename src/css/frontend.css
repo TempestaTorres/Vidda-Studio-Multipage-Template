@@ -694,6 +694,11 @@
         display:none;
     }
 }
+@media (min-width:1025px) and (max-width:99999px) {
+    .app .app-hidden-desktop {
+        display:none
+    }
+}
 .app-button-align-stretch .app-field-type-submit:not(.app-form__buttons__wrapper) .app-button {
     flex-basis:100%;
 }

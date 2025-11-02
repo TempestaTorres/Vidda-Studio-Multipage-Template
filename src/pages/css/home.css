@@ -219,14 +219,14 @@
     --con-grid-template-columns: repeat(3,  1fr);
     --con-grid-template-rows: repeat(1,  1fr);
     --grid-auto-flow: row;
-    --margin-top: 0px;
+    --margin-top: 0;
     --margin-bottom: 50px;
-    --margin-left: 0px;
-    --margin-right: 0px;
-    --padding-top: 0px;
-    --padding-bottom: 0px;
-    --padding-left: 0px;
-    --padding-right: 0px;
+    --margin-left: 0;
+    --margin-right: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
 }
 .app-home .app-element.app-element-presentation-card {
     --display: flex;
@@ -740,6 +740,278 @@
 .app-home .app-element.app-element-start-our-class-button .app-button .app-button-icon svg {
     transform: rotate(0deg);
 }
+.app-home .app-element.app-element-schedule {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --gap: 20px 100px;
+    --row-gap: 20px;
+    --column-gap: 100px;
+    --flex-wrap: nowrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-schedule:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-schedule > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-8c75c4b );
+}
+.app-home .app-element.app-element-schedule-dashboard {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-schedule-dashboard-title > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-schedule-dashboard-title {
+    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
+    font-size: var( --global-typography-f911175-font-size );
+    font-weight: var( --global-typography-f911175-font-weight );
+    text-transform: var( --global-typography-f911175-text-transform );
+    font-style: var( --global-typography-f911175-font-style );
+    text-decoration: var( --global-typography-f911175-text-decoration );
+    line-height: var( --global-typography-f911175-line-height );
+    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    color: var( --global-color-accent );
+}
+.app-home .app-element.app-element-schedule-dashboard-heading > .app-widget-container {
+    margin: 0 0 30px 0;
+}
+.app-home .app-element.app-element-schedule-dashboard-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+}
+.app-home .app-element.app-element-schedule-table-header {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --flex-wrap: nowrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-table-header-cell {
+    --display: flex;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-table-header-cell-text > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-table-header-cell-text {
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-schedule-table-divider {
+    --divider-border-style: solid;
+    --divider-color: #68382630;
+    --divider-border-width: 1px;
+}
+.app-home .app-element.app-element-schedule-table-divider > .app-widget-container {
+    margin: 0;
+}
+.app-home .app-element.app-element-schedule-table-divider .app-divider-separator {
+    width: 100%;
+}
+.app-home .app-element.app-element-schedule-table-divider .app-divider {
+    padding-block-start: 5px;
+    padding-block-end: 5px;
+}
+.app-home .app-element.app-element-schedule-image {
+    --display: flex;
+    --min-height: 350px;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --border-radius: 10px 10px 10px 10px;
+}
+.app-home .app-element.app-element-schedule-image:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-schedule-image > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../../assets/images/face-with-a-concentrated-young-girl.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app-home .app-element.app-element-schedule-image-divider {
+    --divider-border-style: solid;
+    --divider-color: #00000000;
+    --divider-border-width: 1px;
+}
+.app-home .app-element.app-element-schedule-image-divider .app-divider-separator {
+    width: 100%;
+}
+.app-home .app-element.app-element-schedule-image-divider .app-divider {
+    padding-block-start: 15px;
+    padding-block-end: 15px;
+}
+.app-home .app-element.app-element-schedule-table-row {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --flex-wrap: nowrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-table-class-cell {
+    --display: flex;
+    --justify-content: space-between;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-table-cell-text > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-table-cell-text {
+    font-family: var( --global-typography-85be741-font-family ),  sans-serif;
+    font-size: var( --global-typography-85be741-font-size );
+    font-weight: var( --global-typography-85be741-font-weight );
+    text-transform: var( --global-typography-85be741-text-transform );
+    font-style: var( --global-typography-85be741-font-style );
+    text-decoration: var( --global-typography-85be741-text-decoration );
+    line-height: var( --global-typography-85be741-line-height );
+    letter-spacing: var( --global-typography-85be741-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-widget-divider {
+    --divider-color: var( --global-color-secondary );
+}
+.app-widget-divider .app-divider__text {
+    color: var( --global-color-secondary );
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+}
+.app-widget-divider.app-view-stacked .app-icon {
+    background-color: var( --global-color-secondary );
+}
+.app-widget-divider.app-view-framed .app-icon,  .app-widget-divider.app-view-default .app-icon {
+    color: var( --global-color-secondary );
+    border-color: var( --global-color-secondary );
+}
+.app-widget-divider.app-view-framed .app-icon,  .app-widget-divider.app-view-default .app-icon svg {
+    fill: var( --global-color-secondary );
+}
+.app-home .app-element.app-element-schedule-table-button .app-button {
+    background-color: #FE6F6200;
+    font-family: "Instrument Sans",  sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    fill: var( --global-color-accent );
+    color: var( --global-color-accent );
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #2A1A1330;
+    border-radius: 0;
+    padding: 0 0 4px 0;
+}
+.app-home .app-element.app-element-schedule-table-button .app-button:hover,
+.app-home .app-element.app-element-schedule-table-button .app-button:focus {
+    background-color: #68382600;
+    color: var( --global-color-primary );
+    border-color: #683826C9;
+}
+.app-home .app-element.app-element-schedule-table-button > .app-widget-container {
+    margin: -3px 5px 0 0;
+}
+.app-home .app-element.app-element-schedule-table-button .app-button:hover svg,
+.app-home .app-element.app-element-schedule-table-button .app-button:focus svg {
+    fill: var( --global-color-primary );
+}
+.app-home .app-element.app-element-table-time-cell {
+    --display: flex;
+    --gap: 10px 10px;
+    --row-gap: 10px;
+    --column-gap: 10px;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-table-row-cell-text > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-table-row-cell-text {
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-table-daysofweek-cell {
+    --display: flex;
+    --gap: 10px 10px;
+    --row-gap: 10px;
+    --column-gap: 10px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+.app-home .app-element.app-element-mobile-table-header {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --flex-wrap: nowrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-mobile-class-cell {
+    --display: flex;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-mobile-table-cell-text > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-mobile-table-cell-text {
+    color: var( --global-color-primary );
+}
 /* ================================================ Mobile ========================================= */
 @media(min-width:768px) {
 
@@ -758,6 +1030,15 @@
     .app-home .app-element.app-element-parallax-classes {
         --content-width: 1300px;
     }
+    .app-home .app-element.app-element-schedule {
+        --content-width: 1300px;
+    }
+    .app-home .app-element.app-element-schedule-dashboard {
+        --width: 60%;
+    }
+    .app-home .app-element.app-element-schedule-image {
+        --width: 40%;
+    }
 }
 @media(min-width:1025px) {
     .app-home .app-element.app-element-parallax-classes:not(.app-motion-effects-element-type-background),  .app-home .app-element.app-element-parallax-classes > .app-motion-effects-container > .app-motion-effects-layer {
@@ -767,6 +1048,12 @@
 @media(max-width:1024px) and (min-width:768px) {
     .app-home .app-element.app-element-about-card {
         --width: 50%;
+    }
+    .app-home .app-element.app-element-schedule-dashboard {
+        --width: 100%;
+    }
+    .app-home .app-element.app-element-schedule-image {
+        --width: 100%;
     }
 }
 @media(max-width:1024px) {
@@ -984,6 +1271,39 @@
     .app-home .app-element.app-element-start-our-class-button .app-button {
         font-size: 13px;
     }
+    .app-home .app-element.app-element-schedule {
+        --gap: 50px 20px;
+        --row-gap: 50px;
+        --column-gap: 20px;
+        --flex-wrap: wrap;
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-schedule-dashboard-title {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-schedule-dashboard-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-table-cell-text {
+        font-size: var( --global-typography-85be741-font-size );
+        line-height: var( --global-typography-85be741-line-height );
+        letter-spacing: var( --global-typography-85be741-letter-spacing );
+    }
+    .app-widget-divider .app-divider__text {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-schedule-table-button .app-button {
+        font-size: 13px;
+    }
 }
 
 @media(max-width:767px) {
@@ -1195,5 +1515,77 @@
         font-size: var( --global-typography-2eec24c-font-size );
         line-height: var( --global-typography-2eec24c-line-height );
         letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    }
+    .app-home .app-element.app-element-schedule {
+        --gap: 50px 20px;
+        --row-gap: 50px;
+        --column-gap: 20px;
+        --flex-wrap: wrap;
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-schedule-dashboard {
+        --flex-direction: row;
+        --container-widget-width: initial;
+        --container-widget-height: 100%;
+        --container-widget-flex-grow: 1;
+        --container-widget-align-self: stretch;
+        --flex-wrap-mobile: wrap;
+        --flex-wrap: wrap;
+    }
+    .app-home .app-element.app-element-schedule-dashboard-title {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-schedule-dashboard-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-schedule-table-row {
+        --width: 63%;
+        --flex-wrap: wrap;
+    }
+    .app-home .app-element.app-element-table-class-cell {
+        --min-height: 90px;
+    }
+    .app-home .app-element.app-element-table-cell-text {
+        font-size: var( --global-typography-85be741-font-size );
+        line-height: var( --global-typography-85be741-line-height );
+        letter-spacing: var( --global-typography-85be741-letter-spacing );
+    }
+    .app-widget-divider .app-divider__text {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-table-time-cell {
+        --min-height: 94px;
+    }
+    .app-home .app-element.app-element-table-daysofweek-cell {
+        --min-height: 95px;
+    }
+    .app-home .app-element.app-element-mobile-table-header {
+        --width: 30%;
+        --justify-content: flex-start;
+        --align-items: flex-start;
+        --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+        --flex-wrap: wrap;
+        --align-content: flex-start;
+    }
+    .app-home .app-element.app-element-mobile-class-cell {
+        --min-height: 90px;
+    }
+    .app-home .app-element.app-element-mobile-class-cell.app-element-table-time-cell {
+        --min-height: 94px;
+    }
+    .app-home .app-element.app-element-mobile-class-cell.app-element-table-daysofweek-cell {
+        --min-height: 95px;
+    }
+    .app-home .app-element.app-element-mobile-class-cell.app-con {
+        --align-self: flex-start;
     }
 }
