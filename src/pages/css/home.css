@@ -127,7 +127,9 @@
     font-style: var( --global-typography-accent-font-style );
     text-decoration: var( --global-typography-accent-text-decoration );
     letter-spacing: var( --global-typography-accent-letter-spacing );
+    transition: background-color .3s linear;
 }
+
 .app-home .app-element.app-element-button-get-started .app-button {
     background-color: var( --global-color-secondary );
     font-family: var( --global-typography-accent-font-family ),  sans-serif;
@@ -1216,6 +1218,154 @@
 .app-home .app-element.app-element-testimonial-image-card-text > .app-widget-container {
     margin: -5px 0 -20px 0;
 }
+.app-home .app-element.video-about {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+.app-home .app-element.app-element-video-about-wrapper {
+    --display: flex;
+    --min-height: 93vh;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --align-items: flex-end;
+    --flex-wrap: nowrap;
+    --overlay-opacity: 0.8;
+    --border-radius: 10px 10px 10px 10px;
+    --padding-top: 50px;
+    --padding-bottom: 50px;
+    --padding-left: 50px;
+    --padding-right: 50px;
+}
+.app-home .app-element.app-element-video-about-wrapper:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-video-about-wrapper > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../../assets/images/yoga-students-meditate-in-a-modern-studio.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app-home .app-element.app-element-video-about-wrapper::before,
+.app-home .app-element.app-element-video-about-wrapper > .app-background-video-container::before,
+.app-home .app-element.app-element-video-about-wrapper > .app-con-inner > .app-background-video-container::before,
+.app-home .app-element.app-element-video-about-wrapper > .app-background-slideshow::before,
+.app-home .app-element.app-element-video-about-wrapper > .app-con-inner > .app-background-slideshow::before,
+.app-home .app-element.app-element-video-about-wrapper > .app-motion-effects-container > .app-motion-effects-layer::before {
+    background-color: transparent;
+    --background-overlay: '';
+    background-image: linear-gradient(200deg,  #2A1A1300 0%,  var( --global-color-primary ) 100%);
+}
+.app-home .app-element.app-element-video-about-card {
+    --display: flex;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-video-about-card-title > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-video-about-card-title {
+    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
+    font-size: var( --global-typography-f911175-font-size );
+    font-weight: var( --global-typography-f911175-font-weight );
+    text-transform: var( --global-typography-f911175-text-transform );
+    font-style: var( --global-typography-f911175-font-style );
+    text-decoration: var( --global-typography-f911175-text-decoration );
+    line-height: var( --global-typography-f911175-line-height );
+    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-video-about-card-heading > .app-widget-container {
+    margin: 0 0 -10px 0;
+}
+.app-home .app-element.app-element-video-about-card-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-video-about-card-text {
+    width: var( --container-widget-width,  550px );
+    max-width: 550px;
+    --container-widget-width: 550px;
+    --container-widget-flex-grow: 0;
+    color: #FFFFFFC7;
+}
+.app-home .app-element.app-element-video-about-card-text > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-video-player {
+    --display: flex;
+    --margin-top: 0;
+    --margin-bottom: 35px;
+    --margin-left: 0;
+    --margin-right: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn {
+    background-color: var( --global-color-2d8c8bd );
+    padding: 0 0 0 5px;
+    font-family: var( --global-typography-accent-font-family ),  sans-serif;
+    font-size: var( --global-typography-accent-font-size );
+    font-weight: var( --global-typography-accent-font-weight );
+    text-transform: var( --global-typography-accent-text-transform );
+    font-style: var( --global-typography-accent-font-style );
+    text-decoration: var( --global-typography-accent-text-decoration );
+    letter-spacing: var( --global-typography-accent-letter-spacing );
+    width: 85px;
+    height: 85px;
+    line-height: 101px;
+    color: var( --global-color-secondary );
+}
+.app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn:hover {
+    background-color: var( --global-color-accent );
+    color: #ffffff;
+}
+.app-home .app-element.app-element-video-player-wrapper .video-content {
+    text-align: right;
+}
+.app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn i {
+    font-size: 28px;
+}
+.app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn svg {
+    max-width: 28px;
+}
+.app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn.glow-btn:before {
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn.glow-btn:after {
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn.glow-btn > i:after {
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn svg path {
+    stroke: var( --global-color-secondary );
+    fill: var( --global-color-secondary );
+}
+.app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn:hover svg path {
+    stroke: #ffffff;
+    fill: #ffffff;
+}
 /* ================================================ Mobile ========================================= */
 @media(min-width:768px) {
 
@@ -1246,6 +1396,12 @@
     .app-home .app-element.testimonials {
         --content-width: 1300px;
     }
+    .app-home .app-element.app-element-video-about-card {
+        --width: 70%;
+    }
+    .app-home .app-element.app-element-video-player {
+        --width: 30%;
+    }
 }
 @media(min-width:1025px) {
     .app-home .app-element.app-element-parallax-classes:not(.app-motion-effects-element-type-background),  .app-home .app-element.app-element-parallax-classes > .app-motion-effects-container > .app-motion-effects-layer {
@@ -1266,6 +1422,7 @@
         --width: 48.5%;
     }
 }
+/* =========================================== max 1024 ===============================================*/
 @media(max-width:1024px) {
 
     .app-home .app-element.hero {
@@ -1572,8 +1729,49 @@
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );
     }
+    .app-home .app-element.video-about {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-video-about-wrapper {
+        --padding-top: 30px;
+        --padding-bottom: 30px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-video-about-card-title {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-video-about-card-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-video-player {
+        --margin-top: 0;
+        --margin-bottom: 55px;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn i {
+        font-size: 28px;
+    }
+    .app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn svg {
+        max-width: 28px;
+    }
+    .app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+        width: 80px;
+        height: 80px;
+        line-height: 98px;
+    }
 }
-
+/*=========================================== max 767 ==========================================*/
 @media(max-width:767px) {
 
     .app-home .app-element.hero {
@@ -1913,5 +2111,46 @@
     }
     .app-home .app-element.app-element-testimonial-image-card.image-card-3 {
         --order: 99999;
+    }
+    .app-home .app-element.video-about {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 10px;
+        --padding-right: 10px;
+    }
+    .app-home .app-element.app-element-video-about-wrapper {
+        --min-height: 97vh;
+        --flex-wrap: wrap;
+        --align-content: flex-end;
+    }
+    .app-home .app-element.app-element-video-about-card {
+        --margin-top: 0;
+        --margin-bottom: 10px;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app-home .app-element.app-element-video-about-card-title {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-video-about-card-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-video-player {
+        --margin-top: 0;
+        --margin-bottom: 0;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app-home .app-element.app-element-video-player-wrapper .video-content {
+        text-align: left;
+    }
+    .app-home .app-element.app-element-video-player-wrapper .akit-video-popup-btn {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+        line-height: 97px;
     }
 }

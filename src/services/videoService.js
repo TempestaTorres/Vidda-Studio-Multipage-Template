@@ -21,7 +21,7 @@ export class VideoService {
             iframe.className = "app-background-video-embed";
             iframe.frameBorder = "0";
             iframe.allowFullscreen = true;
-            iframe.allow = "web-share";
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
             iframe.referrerPolicy = "strict-origin-when-cross-origin";
             iframe.title = title;
             iframe.width = "640";

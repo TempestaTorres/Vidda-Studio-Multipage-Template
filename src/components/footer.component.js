@@ -23,8 +23,6 @@ export class FooterComponent {
         this.errMessage = document.createElement("span");
         this.errMessage.className = "mf-error-message";
 
-        this._timerId = null;
-
         if (this._form && this._input) {
             this.#init();
         }
@@ -34,6 +32,7 @@ export class FooterComponent {
         this._form.addEventListener("submit", this.#onSubmit.bind(this));
         this._input.addEventListener("blur", this.#onBlur.bind(this));
         this._input.addEventListener("focus", this.#onFocus.bind(this));
+        this._input.ariaInvalid = "false";
     }
     #onSubmit(e) {
         e.preventDefault();
@@ -42,6 +41,7 @@ export class FooterComponent {
 
             if (ValidationService.emailValidator(this._input)) {
 
+                this._input.ariaInvalid = "false";
                 this._input.setCustomValidity('');
                 if (this._input.parentElement.children.length > 1) {
                     this._input.parentElement.removeChild(this.errMessage);
@@ -52,6 +52,7 @@ export class FooterComponent {
             else {
                 this.errMessage.textContent = FOOTER_FIELD_INVALID;
                 this._input.setCustomValidity('invalid');
+                this._input.ariaInvalid = "true";
                 this._form.classList.add("was-validated");
 
                 if (this._input.parentElement.children.length === 1)
@@ -67,19 +68,21 @@ export class FooterComponent {
             this._input.parentElement.appendChild(this.errMessage);
         }
         this._form.classList.add("was-validated");
+
+
     }
 
     #onBlur() {
         this._form.classList.remove("was-validated");
         this._input.parentElement.removeChild(this.errMessage);
+        this._input.ariaInvalid = "false";
     }
 
     #subscribe() {
-        console.log(this._input.value);
 
         this._mfsBtn.disabled = true;
 
-        this._timerId = setTimeout(() => {
+        setTimeout(() => {
 
             this._mfsBtn.disabled = false;
             this._form.reset();
@@ -91,9 +94,11 @@ export class FooterComponent {
 
     #showMessage() {
         if (this._responseMsg) {
+
+            this._responseMsg.firstElementChild.lastElementChild.textContent = "Thanks for subscribing!";
             this._responseMsg.dataset.show = "1";
 
-            this._timerId = setTimeout(() => {
+            setTimeout(() => {
 
                 this._responseMsg.dataset.show = "0";
 

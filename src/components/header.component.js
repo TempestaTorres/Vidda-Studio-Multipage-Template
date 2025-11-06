@@ -1,46 +1,30 @@
-const NAV_BURGER_SELECTOR = ".menu-hamburger";
-const NAV_OVERLAY_SELECTOR = ".mobile-menu-overlay";
-const NAV_CLOSE_SELECTOR = ".app-button-menu-close";
-const NAV_SELECTOR = ".nav-panel";
+import {WidgitsService} from "../services/widgitsService.js";
 
 export class HeaderComponent {
 
-    constructor() {
+    constructor(responsiveData = 1024) {
 
-        this._burger = document.querySelector(NAV_BURGER_SELECTOR);
-        this._overlay = document.querySelector(NAV_OVERLAY_SELECTOR);
-        this._navClose = document.querySelector(NAV_CLOSE_SELECTOR);
-        this._nav = document.querySelector(NAV_SELECTOR);
+        this._responsiveData = responsiveData;
+        this._subLinks = document.querySelectorAll('.dropdown-item');
+    }
+    initialize() {
+        WidgitsService.menuToggler();
+        WidgitsService.dropdownMenuToggler();
+        WidgitsService.megamenuInit(0, this.#navLinkClick);
 
-        if(this._burger) {
-            this._burger.addEventListener('click', this.#burgerOnClick.bind(this));
-        }
-        if(this._navClose) {
-            this._navClose.addEventListener('click', this.#navClose.bind(this));
-        }
+        if (this._subLinks && this._subLinks.length > 0) {
 
-        if(this._overlay) {
-            this._overlay.addEventListener('click', this.#navClose.bind(this));
+            this._subLinks.forEach((subLink) => {
+                subLink.addEventListener("click", this.#navLinkClick);
+            });
         }
     }
 
-    #burgerOnClick() {
+    #navLinkClick(e) {
 
-        if (this._overlay) {
-            this._overlay.classList.add("active");
-        }
-        if (this._nav) {
-            this._nav.classList.add("open");
+        if (window.innerWidth <= this._responsiveData) {
+
+            WidgitsService.menuToggle(e);
         }
     }
-
-    #navClose() {
-        if (this._overlay) {
-            this._overlay.classList.remove("active");
-        }
-        if (this._nav) {
-            this._nav.classList.remove("open");
-        }
-    }
-
 }

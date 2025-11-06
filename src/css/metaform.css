@@ -1025,8 +1025,15 @@ img.mf-input.mf-captcha-image {
   color: #dc3545;
 }
 .was-validated :invalid ~ .mf-error-message,
-.is-invalid ~ .mf-error-message {
+.mf-input.mf-invalid ~ .mf-error-message,
+.mf-input[aria-invalid="true"] ~ .mf-error-message {
   display: block;
+}
+
+.was-validated .mf-input:invalid:focus, .mf-input.mf-invalid:focus,
+.mf-input[aria-invalid="true"]:focus {
+  border-color: #dc3545 !important;
+  box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.25);
 }
 .mf-input-wrapper .input-range__slider {
   appearance:none;

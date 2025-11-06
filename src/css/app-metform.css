@@ -1,0 +1,717 @@
+.app-widget-mf-email .mf-input-label {
+    color: var( --global-color-primary );
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+}
+.app-widget-mf-email .mf-input-required-indicator {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input-wrapper .mf-input[aria-invalid="true"],
+.app-widget-mf-email .mf-input-wrapper .mf-input.mf-invalid {
+    border-color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-error-message {
+    color: var( --global-color-primary );
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+}
+.app-widget-mf-email .mf-input,
+.app-widget-mf-email .app-widget-mf-email .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+.app-widget-mf-email .mf-input-wrapper .iti--separate-dial-code .iti__selected-dial-code {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .irs--round .irs-bar,
+.app-widget-mf-email .irs--round .irs-from,
+.app-widget-mf-email .irs--round .irs-to,
+.app-widget-mf-email .irs--round .irs-single {
+    background-color: var( --global-color-primary );
+}
+.app-widget-mf-email .irs--round .irs-handle {
+    border-color: var( --global-color-primary );
+}
+.app-widget-mf-email .irs--round .irs-from:before,
+.app-widget-mf-email .irs--round .irs-to:before,
+.app-widget-mf-email .irs--round .irs-single:before {
+    border-top-color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf_select__single-value {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input-wrapper {
+    border-color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input-wrapper .input-range__track--active {
+    background-color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input-wrapper .asRange .asRange-pointer .asRange-tip {
+    background-color: var( --global-color-primary );
+    border-color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input-file-upload-label,
+.app-widget-mf-email .mf-input-calculation-total {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input-file-upload-label svg path {
+    stroke: var( --global-color-primary );
+    fill: var( --global-color-primary );
+}
+.app-widget-mf-email .mf_multiselect__multi-value__label,
+.app-widget-mf-email .mf_multiselect__multi-value__remove,
+.app-widget-mf-email .mf_multiselect__menu-notice--no-options {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input:hover,
+.app-widget-mf-email .mf-input-wrapper:hover .iti--separate-dial-code .iti__selected-flag,
+.app-widget-mf-email .mf-input-wrapper:hover .iti--separate-dial-code .iti__selected-dial-code {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .irs--round .irs-handle:hover {
+    border-color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input-file-upload-label:hover {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input:hover .mf_select__single-value {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-file-upload-container:hover .mf-input-file-upload-label svg path {
+    stroke: var( --global-color-primary );
+    fill: var( --global-color-primary );
+}
+.app-widget-mf-email .mf_multiselect__multi-value:hover .mf_multiselect__multi-value__label,
+.app-widget-mf-email .mf_multiselect__multi-value:hover .mf_multiselect__multi-value__remove,
+.app-widget-mf-email .mf_multiselect__menu-notice--no-options:hover {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input:focus,
+.app-widget-mf-email .mf-input-wrapper:focus .iti--separate-dial-code .iti__selected-flag,
+.app-widget-mf-email .mf-input-wrapper:focus .iti--separate-dial-code .iti__selected-dial-code {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .irs--round .irs-handle:focus {
+    border-color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-file-upload-container:focus .mf-input-file-upload-label,
+.app-widget-mf-email .mf-file-upload-container:focus .mf-image-label,
+.app-widget-mf-email .mf-input-calculation-total:focus {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input > .mf_select__control--is-focused .mf_select__single-value {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-file-upload-container:focus .mf-input-file-upload-label svg path {
+    stroke: var( --global-color-primary );
+    fill: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input-calculation-total:focus,
+.app-widget-mf-email .mf_multiselect__option:focus,
+.app-widget-mf-email .mf_multiselect__multi-value:focus .mf_multiselect__multi-value__label,
+.app-widget-mf-email .mf_multiselect__multi-value:focus .mf_multiselect__multi-value__remove,
+.app-widget-mf-email .mf_multiselect__menu-notice--no-options:focus {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input,
+.app-widget-mf-email .irs--round .irs-single,
+.app-widget-mf-email .asRange .asRange-pointer .asRange-tip,
+.app-widget-mf-email .mf-file-upload-container .mf-input-file-upload-label,
+.app-widget-mf-email .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+.app-widget-mf-email .mf-input-calculation-total,
+.app-widget-mf-email .mf-input-wrapper .input-range__label-container {
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+}
+.app-widget-mf-email :is(.mf_select__placeholder,  .mf_multiselect__placeholder,  .text),
+.app-widget-mf-email .mf-input::placeholder,
+.app-widget-mf-email .mf-time-input::before {
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+}
+.app-widget-mf-email .mf-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"])::-webkit-input-placeholder {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"])::-moz-placeholder {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):-ms-input-placeholder {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):-moz-placeholder {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-time-input::before {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input::-webkit-input-placeholder {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input::-moz-placeholder {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input:-ms-input-placeholder {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input:-moz-placeholder {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email :is(.mf_select__placeholder,
+.mf_multiselect__placeholder) {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-email .mf-input-help {
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-widget-mf-button .mf-btn-wraper svg {
+    fill: var( --global-color-primary );
+}
+.app-widget-mf-button .mf-btn-wraper i {
+    color: var( --global-color-primary );
+}
+.app-widget-mf-button .metform-btn:hover svg {
+    fill: var( --global-color-primary );
+}
+.app-widget-mf-button .metform-btn:hover i {
+    color: var( --global-color-primary );
+}
+.app-metform .app-element.app-element-metform-input-group {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: flex-start;
+    --align-items: flex-start;
+    --gap: 10px 10px;
+    --row-gap: 10px;
+    --column-gap: 10px;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-metform .app-element.app-element-metform-input-group.app-con {
+    --align-self: center;
+}
+.app-metform .app-element.app-element-metform-input .mf-input,
+.app-metform .app-element.app-element-metform-input .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value__label,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value__remove,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__option,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options,
+.app-metform .app-element.app-element-metform-input .mf-input-multiselect .mf_multiselect__control {
+    background-color: #3A1D2000;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:hover,
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container:hover .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper:hover .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total:hover,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__option:hover,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value:hover .mf_multiselect__multi-value__label,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value:hover .mf_multiselect__multi-value__remove,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options:hover {
+    background-color: #3A1D2000;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:focus,
+.app-metform .app-element.app-element-metform-input .mf-input > .mf_select__control--menu-is-open,
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container:focus .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper:focus .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total:focus,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total:focus,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__option:focus,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value:focus .mf_multiselect__multi-value__label,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value:focus .mf_multiselect__multi-value__remove,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options:focus {
+    background-color: #3A1D2000;
+}
+.app-metform .app-element.app-element-metform-input {
+    width: var( --container-widget-width,  65% );
+    max-width: 65%;
+    --container-widget-width: 65%;
+    --container-widget-flex-grow: 0;
+}
+.app-metform .app-element.app-element-metform-input > .app-widget-container {
+    margin: 0;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-required-indicator {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .mf-input[aria-invalid="true"],
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .mf-input.mf-invalid {
+    border-color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-error-message {
+    color: var( --global-color-2d8c8bd );
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+}
+.app-metform .app-element.app-element-metform-input .mf-input {
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+    border-radius: 5px;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-file-upload-label {
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total {
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+}
+.app-metform .app-element.app-element-metform-input .mf_select__control,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__control .mf_multiselect__value-container,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__option,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options {
+    padding: 10px 15px 10px 15px;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .range-slider {
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+}
+.app-metform .app-element.app-element-metform-input .mf-input,
+.app-metform .app-element.app-element-metform-input .app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-dial-code {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .irs--round .irs-bar,
+.app-metform .app-element.app-element-metform-input .irs--round .irs-from,
+.app-metform .app-element.app-element-metform-input .irs--round .irs-to,
+.app-metform .app-element.app-element-metform-input .irs--round .irs-single {
+    background-color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .irs--round .irs-handle {
+    border-color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .irs--round .irs-from:before,
+.app-metform .app-element.app-element-metform-input .irs--round .irs-to:before,
+.app-metform .app-element.app-element-metform-input .irs--round .irs-single:before {
+    border-top-color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf_select__single-value {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper {
+    border-color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .input-range__track--active {
+    background-color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .asRange .asRange-pointer .asRange-tip {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-file-upload-label svg path {
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value__label,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value__remove,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input,
+.app-metform .app-element.app-element-metform-input .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total,
+.app-metform .app-element.app-element-metform-input .mf-input-select > .mf_select__control,
+.app-metform .app-element.app-element-metform-input .mf-input-multiselect .mf_multiselect__control,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__option {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #F0EDE130;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:hover,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper:hover .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper:hover .iti--separate-dial-code .iti__selected-dial-code {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .irs--round .irs-handle:hover {
+    border-color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-file-upload-label:hover {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:hover .mf_select__single-value {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container:hover .mf-input-file-upload-label svg path {
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value:hover .mf_multiselect__multi-value__label,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value:hover .mf_multiselect__multi-value__remove,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options:hover {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:hover,
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container:hover .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper:hover .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total:hover,
+.app-metform .app-element.app-element-metform-input .mf-input-select > .mf_select__control:hover,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__option:hover,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options:hover {
+    border-style: solid;
+    border-color: #F0EDE1A8;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:focus,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper:focus .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper:focus .iti--separate-dial-code .iti__selected-dial-code {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .irs--round .irs-handle:focus {
+    border-color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container:focus .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container:focus .mf-image-label,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total:focus {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input > .mf_select__control--is-focused .mf_select__single-value {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container:focus .mf-input-file-upload-label svg path {
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total:focus,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__option:focus,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value:focus .mf_multiselect__multi-value__label,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value:focus .mf_multiselect__multi-value__remove,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options:focus {
+    color: #FFFFFF;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:focus,
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container:focus .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper:focus .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total:focus,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper > .mf-input-select > .mf_select__control--is-focused,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__option:focus,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options:focus {
+    border-style: solid;
+    border-color: #F0EDE1A8;
+}
+.app-metform .app-element.app-element-metform-input .mf-input,
+.app-metform .app-element.app-element-metform-input .irs--round .irs-single,
+.app-metform .app-element.app-element-metform-input .asRange .asRange-pointer .asRange-tip,
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .input-range__label-container {
+    font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
+    font-size: var( --global-typography-2eec24c-font-size );
+    font-weight: var( --global-typography-2eec24c-font-weight );
+    text-transform: var( --global-typography-2eec24c-text-transform );
+    font-style: var( --global-typography-2eec24c-font-style );
+    text-decoration: var( --global-typography-2eec24c-text-decoration );
+    line-height: var( --global-typography-2eec24c-line-height );
+    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+}
+.app-metform .app-element.app-element-metform-input .input-range .input-range__track {
+    border-radius: 5px;
+}
+.app-metform .app-element.app-element-metform-input .mf-file-upload-container .mf-input-file-upload-label,
+.app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+.app-metform .app-element.app-element-metform-input .mf-input-calculation-total {
+    border-radius: 5px;
+}
+.app-metform .app-element.app-element-metform-input .mf-input-select > .mf_select__control,
+.app-metform .app-element.app-element-metform-input .mf-input-multiselect .mf_multiselect__control,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__option,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value__label,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__multi-value__remove,
+.app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options  {
+    border-radius: 5px;
+}
+.app-metform .app-element.app-element-metform-input :is(.mf_select__placeholder,  .mf_multiselect__placeholder,  .text),
+.app-metform .app-element.app-element-metform-input .mf-input::placeholder,
+.app-metform .app-element.app-element-metform-input .mf-time-input::before {
+    font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
+    font-size: var( --global-typography-2eec24c-font-size );
+    font-weight: var( --global-typography-2eec24c-font-weight );
+    text-transform: var( --global-typography-2eec24c-text-transform );
+    font-style: var( --global-typography-2eec24c-font-style );
+    text-decoration: var( --global-typography-2eec24c-text-decoration );
+    line-height: var( --global-typography-2eec24c-line-height );
+    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+}
+.app-metform .app-element.app-element-metform-input .mf-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"])::-webkit-input-placeholder {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"])::-moz-placeholder {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):-ms-input-placeholder {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):-moz-placeholder {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-input .mf-time-input::before {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-input .mf-input::-webkit-input-placeholder {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-input .mf-input::-moz-placeholder {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:-ms-input-placeholder {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-input .mf-input:-moz-placeholder {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-input :is(.mf_select__placeholder,  .mf_multiselect__placeholder) {
+    color: #FFFFFFA3;
+}
+.app-metform .app-element.app-element-metform-button .mf-btn-wraper {
+    text-align: center;
+}
+.app-metform .app-element.app-element-metform-button .metform-btn {
+    background-color: var( --global-color-2d8c8bd );
+    padding: 14px 30px 14px 30px;
+    font-family: var( --global-typography-accent-font-family ),  sans-serif;
+    font-size: var( --global-typography-accent-font-size );
+    font-weight: var( --global-typography-accent-font-weight );
+    text-transform: var( --global-typography-accent-text-transform );
+    font-style: var( --global-typography-accent-font-style );
+    text-decoration: var( --global-typography-accent-text-decoration );
+    letter-spacing: var( --global-typography-accent-letter-spacing );
+    color: var( --global-color-primary );
+    border-style: solid;
+    border-width: 0;
+    border-color: #08090517;
+    border-radius: 4px;
+    box-shadow: 0 0 0 0 rgba(41.999999999999986,  61.00000000000002,  114.99999999999996,  0);
+}
+.app-metform .app-element.app-element-metform-button .metform-btn:hover {
+    background-color: #C6C2B1;
+    color: var( --global-color-primary );
+    border-color: var( --global-color-primary );
+}
+.app-metform .app-element.app-element-metform-button {
+    width: auto;
+    max-width: 100%;
+}
+.app-metform .app-element.app-element-metform-button > .app-widget-container {
+    margin: 0;
+    border-radius: 0;
+}
+.app-metform .app-element.app-element-metform-button .metform-btn:focus {
+    color: #FFFFFF;
+}
+/*========================================== Mobile ===========================================*/
+@media(max-width:1024px) {
+    .app-widget-mf-email .mf-input-label {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-mf-email .mf-error-message {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-mf-email .mf-input,
+    .app-widget-mf-email .irs--round .irs-single,
+    .app-widget-mf-email .asRange .asRange-pointer .asRange-tip,
+    .app-widget-mf-email .mf-file-upload-container .mf-input-file-upload-label,
+    .app-widget-mf-email .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+    .app-widget-mf-email .mf-input-calculation-total,
+    .app-widget-mf-email .mf-input-wrapper .input-range__label-container {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-mf-email :is(.mf_select__placeholder,  .mf_multiselect__placeholder,  .text),
+    .app-widget-mf-email .mf-input::placeholder,
+    .app-widget-mf-email .mf-time-input::before {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-mf-email .mf-input-help {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-metform .app-element.app-element-metform-input .mf-error-message {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-metform .app-element.app-element-metform-input .mf-input,
+    .app-metform .app-element.app-element-metform-input .irs--round .irs-single,
+    .app-metform .app-element.app-element-metform-input .asRange .asRange-pointer .asRange-tip,
+    .app-metform .app-element.app-element-metform-input .mf-file-upload-container .mf-input-file-upload-label,
+    .app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+    .app-metform .app-element.app-element-metform-input .mf-input-calculation-total,
+    .app-metform .app-element.app-element-metform-input .mf-input-wrapper .input-range__label-container {
+        font-size: var( --global-typography-2eec24c-font-size );
+        line-height: var( --global-typography-2eec24c-line-height );
+        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    }
+    .app-metform .app-element.app-element-metform-input :is(.mf_select__placeholder,  .mf_multiselect__placeholder,  .text),
+    .app-metform .app-element.app-element-metform-input .mf-input::placeholder,
+    .app-metform .app-element.app-element-metform-input .mf-time-input::before {
+        font-size: var( --global-typography-2eec24c-font-size );
+        line-height: var( --global-typography-2eec24c-line-height );
+        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    }
+    .app-metform .app-element.app-element-metform-button .metform-btn {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+}
+@media(min-width:768px) {
+    .app-metform .app-element.app-element-metform-input-group {
+        --width: 610px;
+    }
+}
+@media(max-width:767px) {
+    .app-widget-mf-email .mf-input-label {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-mf-email .mf-error-message {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-mf-email .mf-input,  .app-widget-mf-email .irs--round .irs-single,
+    .app-widget-mf-email .asRange .asRange-pointer .asRange-tip,
+    .app-widget-mf-email .mf-file-upload-container .mf-input-file-upload-label,
+    .app-widget-mf-email .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+    .app-widget-mf-email .mf-input-calculation-total,
+    .app-widget-mf-email .mf-input-wrapper .input-range__label-container {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-mf-email :is(.mf_select__placeholder,  .mf_multiselect__placeholder,  .text),
+    .app-widget-mf-email .mf-input::placeholder,
+    .app-widget-mf-email .mf-time-input::before {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-mf-email .mf-input-help {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-metform .app-element.app-element-metform-input-group {
+        --gap: 10px 10px;
+        --row-gap: 10px;
+        --column-gap: 10px;
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 0;
+        --padding-right: 0;
+    }
+    .app-metform .app-element.app-element-metform-input {
+        width: 100%;
+        max-width: 100%;
+    }
+    .app-metform .app-element.app-element-metform-input .mf-error-message {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-metform .app-element.app-element-metform-input .mf-input {
+        padding: 10px 15px 10px 15px;
+    }
+    .app-metform .app-element.app-element-metform-input .mf-input-file-upload-label {
+        padding: 10px 15px 10px 15px;
+    }
+    .app-metform .app-element.app-element-metform-input .mf-input-calculation-total {
+        padding: 10px 15px 10px 15px;
+    }
+    .app-metform .app-element.app-element-metform-input .mf_select__control,
+    .app-metform .app-element.app-element-metform-input .mf_multiselect__control .mf_multiselect__value-container,
+    .app-metform .app-element.app-element-metform-input .mf_multiselect__option,
+    .app-metform .app-element.app-element-metform-input .mf_multiselect__menu-notice--no-options {
+        padding: 10px 15px 10px 15px;
+    }
+    .app-metform .app-element.app-element-metform-input .mf-input-wrapper .range-slider {
+        padding: 10px 15px 10px 15px;
+    }
+    .app-metform .app-element.app-element-metform-input .mf-input,
+    .app-metform .app-element.app-element-metform-input .irs--round .irs-single,
+    .app-metform .app-element.app-element-metform-input .asRange .asRange-pointer .asRange-tip,
+    .app-metform .app-element.app-element-metform-input .mf-file-upload-container .mf-input-file-upload-label,
+    .app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
+    .app-metform .app-element.app-element-metform-input .mf-input-calculation-total,
+    .app-metform .app-element.app-element-metform-input .mf-input-wrapper .input-range__label-container {
+        font-size: var( --global-typography-2eec24c-font-size );
+        line-height: var( --global-typography-2eec24c-line-height );
+        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    }
+    .app-metform .app-element.app-element-metform-input :is(.mf_select__placeholder,  .mf_multiselect__placeholder,  .text),
+    .app-metform .app-element.app-element-metform-input .mf-input::placeholder,
+    .app-metform .app-element.app-element-metform-input .mf-time-input::before {
+        font-size: var( --global-typography-2eec24c-font-size );
+        line-height: var( --global-typography-2eec24c-line-height );
+        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    }
+    .app-metform .app-element.app-element-metform-button .mf-btn-wraper {
+        text-align: center;
+    }
+    .app-metform .app-element.app-element-metform-button {
+        width: 100%;
+        max-width: 100%;
+    }
+    .app-metform .app-element.app-element-metform-button > .app-widget-container {
+        padding: 0;
+    }
+    .app-metform .app-element.app-element-metform-button .metform-btn {
+        padding: 12px 32px 12px 32px;
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+}
