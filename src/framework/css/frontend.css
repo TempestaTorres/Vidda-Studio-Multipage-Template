@@ -246,27 +246,30 @@ html {
 .app-con-inner > .app-element.app-fixed,
 .app-con > .app-element.app-fixed,
 .app-widget-wrap > .app-element.app-fixed {
-    position:fixed
+    position:fixed;
 }
 .app-widget-wrap .app-element.app-widget__width-auto,
 .app-widget-wrap .app-element.app-widget__width-initial {
-    max-width:100%
+    max-width:100%;
+}
+.app-widget-wrap .app-element.app-widget__width-inherit {
+    max-width:inherit;
 }
 .app-widget:not(:last-child).app-absolute,
 .app-widget:not(:last-child).app-widget__width-auto,
 .app-widget:not(:last-child).app-widget__width-initial {
-    margin-bottom:0
+    margin-bottom:0;
 }
 @media (max-width:1024px) {
     .app-widget-wrap .app-element.app-widget-tablet__width-auto,
     .app-widget-wrap .app-element.app-widget-tablet__width-initial {
-        max-width:100%
+        max-width:100%;
     }
 }
 @media (max-width:767px) {
     .app-widget-wrap .app-element.app-widget-mobile__width-auto,
     .app-widget-wrap .app-element.app-widget-mobile__width-initial {
-        max-width:100%
+        max-width:100%;
     }
 }
 .app-element.app-absolute,

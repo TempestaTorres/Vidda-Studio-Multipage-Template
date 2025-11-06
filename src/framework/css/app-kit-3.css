@@ -3,15 +3,15 @@
 
 @font-face {
   font-family: "Instrument Sans";
-  src: url("../assets/fonts/InstrumentSans.ttf");
+  src: url("../fonts/InstrumentSans.ttf");
 }
 @font-face {
   font-family: "Taviraj";
-  src: url("../assets/fonts/Taviraj-Light.ttf");
+  src: url("../fonts/Taviraj-Light.ttf");
 }
 @font-face {
   font-family: "Taviraj Thin";
-  src: url("../assets/fonts/Taviraj-Thin.ttf");
+  src: url("../fonts/Taviraj-Thin.ttf");
 }
 p {
   margin-block-end: .9rem;
