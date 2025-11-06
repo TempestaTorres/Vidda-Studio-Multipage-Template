@@ -1,0 +1,150 @@
+.app .app-element.app-element-primary-button {
+
+}
+.app .app-element.app-element-secondary-button .app-button {
+    background-color: var( --global-color-secondary );
+    font-family: var( --global-typography-accent-font-family ),  sans-serif;
+    font-size: var( --global-typography-accent-font-size );
+    font-weight: var( --global-typography-accent-font-weight );
+    text-transform: var( --global-typography-accent-text-transform );
+    font-style: var( --global-typography-accent-font-style );
+    text-decoration: var( --global-typography-accent-text-decoration );
+    letter-spacing: var( --global-typography-accent-letter-spacing );
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    padding: 15px 26px 15px 26px;
+}
+.app .app-element.app-element-secondary-button .app-button:hover,
+.app-home .app-element.app-element-secondary-button .app-button:focus {
+    background-color: var( --global-color-primary );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-secondary-button .app-button:hover svg,
+.app-home .app-element.app-element-secondary-button .app-button:focus svg {
+    fill: #FFFFFF;
+}
+.app .app-element.app-element-default-card {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --align-items: flex-start;
+    --gap: 0 0;
+    --row-gap: 0;
+    --column-gap: 0;
+    --flex-wrap: wrap;
+    --border-style: solid;
+    --border-top-width: 0px;
+    --border-right-width: 0;
+    --border-bottom-width: 0;
+    --border-left-width: 0;
+    --border-color: #1B1B1B30;
+    --border-radius: 10px;
+    --margin-top: 0;
+    --margin-bottom: 0;
+    --margin-left: 0;
+    --margin-right: 0;
+    border-width: 0;
+    border-style: solid;
+    border-color: #1B1B1B30;
+}
+.app .app-element.app-element-default-card:not(.app-motion-effects-element-type-background),  
+.app .app-element.app-element-default-card > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: #F8F6EF;
+}
+.app-home .app-element.app-element-default-card:hover {
+    border-style: solid;
+    border-color: #1D1D1D80;
+    --border-color: #1D1D1D80;
+}
+.app .app-element.app-element-default-card,
+.app .app-element.app-element-default-card::before {
+    --border-transition: 0.3s;
+}
+.app .app-element.app-element-default-card.app-con {
+    --align-self: flex-start;
+}
+.app .app-element.app-element-default-divider {
+    --divider-border-style: solid;
+    --divider-color: #001D2130;
+    --divider-border-width: 1px;
+    width: 100%;
+    max-width: 100%;
+}
+.app .app-element.app-element-default-divider .app-divider-separator {
+    width: 100%;
+}
+.app .app-element.app-element-default-link-button .app-button {
+    background-color: #F9380000;
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+    fill: var( --global-color-2d8c8bd );
+    color: var( --global-color-2d8c8bd );
+    border-style: solid;
+    border-width: 0;
+    border-color: #FFFFFF33;
+    border-radius: 0;
+    padding: 0;
+}
+.app .app-element.app-element-default-link-button .app-button:hover,
+.app .app-element.app-element-default-link-button .app-button:focus {
+    background-color: #02010100;
+    color: #FFFFFF;
+    border-color: var( --global-color-accent );
+}
+.app .app-element.app-element-default-link-button {
+    width: auto;
+    max-width: 100%;
+    align-self: center;
+}
+.app .app-element.app-element-default-link-button .app-button:hover svg,
+.app .app-element.app-element-default-link-button .app-button:focus svg {
+    fill: #FFFFFF;
+}
+/* =========================================== max 1024 ===============================================*/
+@media(max-width:1024px) {
+    .app .app-element.app-element-secondary-button .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.app-element-default-card {
+        --margin-top: 0;
+        --margin-bottom: 0;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app .app-element.app-element-default-link-button .app-button {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+}
+/*=========================================== max 767 ==========================================*/
+@media(max-width:767px) {
+
+    .app .app-element.app-element-secondary-button .app-button {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.app-element-default-card {
+        --margin-top: 0;
+        --margin-bottom: 0;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app .app-element.app-element-default-link-button .app-button {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+}
