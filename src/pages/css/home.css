@@ -1969,6 +1969,111 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
 .app-home .app-element.app-element-product-card-text > .app-widget-container {
     margin: -10px 0 -15px 0;
 }
+.app-home .app-element.app-element-get-started {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --margin-top: 0;
+    --margin-bottom: 0;
+    --margin-left: 0;
+    --margin-right: 0;
+    --padding-top: 30px;
+    --padding-bottom: 30px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-get-started-content {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --gap: 20px 70px;
+    --row-gap: 20px;
+    --column-gap: 70px;
+    --flex-wrap: nowrap;
+    --border-radius: 10px;
+    --padding-top: 70px;
+    --padding-bottom: 70px;
+    --padding-left: 70px;
+    --padding-right: 70px;
+}
+.app-home .app-element.app-element-get-started-content:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-get-started-content > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-accent );
+}
+.app-home .app-element.app-element-get-started-images {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --flex-wrap: nowrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-get-started-img-left > .app-widget-container {
+    margin: -100px 0 0 0;
+}
+.app-home .app-element.app-element-get-started-img-left img,
+.app-home .app-element.app-element-get-started-img-right img {
+    border-radius: 10px;
+}
+.app-home .app-element.app-element-get-started-img-right > .app-widget-container {
+    margin: 0 0 -100px 0;
+}
+.app-home .app-element.app-element-get-started-card {
+    --display: flex;
+    --justify-content: center;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-get-started-card-text > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-get-started-card-text {
+    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
+    font-size: var( --global-typography-f911175-font-size );
+    font-weight: var( --global-typography-f911175-font-weight );
+    text-transform: var( --global-typography-f911175-text-transform );
+    font-style: var( --global-typography-f911175-font-style );
+    text-decoration: var( --global-typography-f911175-text-decoration );
+    line-height: var( --global-typography-f911175-line-height );
+    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-get-started-card-heading > .app-widget-container {
+    margin: 0 0 -10px 0;
+}
+.app-home .app-element.app-element-get-started-card-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-get-started-card-content-text > .app-widget-container {
+    margin: 0 0 -5px 0;
+}
+.app-home .app-element.app-element-get-started-card-content-text {
+    color: #FFFFFFC7;
+}
 /* ================================================ Mobile ========================================= */
 @media(min-width:768px) {
 
@@ -2018,6 +2123,9 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
         --width: 30%;
     }
     .app-home .app-element.app-element-products {
+        --content-width: 1300px;
+    }
+    .app-home .app-element.app-element-get-started {
         --content-width: 1300px;
     }
 }
@@ -2530,6 +2638,34 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
         font-size: var( --global-typography-text-font-size );
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-get-started {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-get-started-content {
+        --padding-top: 50px;
+        --padding-bottom: 50px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-get-started-images {
+        --justify-content: center;
+    }
+    .app-home .app-element.app-element-get-started-images.app-con {
+        --align-self: center;
+    }
+    .app-home .app-element.app-element-get-started-card-text {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-get-started-card-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
     }
 }
 /*=========================================== max 767 ==========================================*/
@@ -3075,5 +3211,36 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
         font-size: var( --global-typography-text-font-size );
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-get-started {
+        --padding-top: 0;
+        --padding-bottom: 20px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-get-started-content {
+        --gap: 50px 20px;
+        --row-gap: 50px;
+        --column-gap: 20px;
+        --flex-wrap: wrap;
+    }
+    .app-home .app-element.app-element-get-started-images.app-con {
+        --order: 99999 /* order end hack */;
+    }
+    .app-home .app-element.app-element-get-started-img-left > .app-widget-container {
+        margin: 0;
+    }
+    .app-home .app-element.app-element-get-started-img-right > .app-widget-container {
+        margin: 70px 0 -70px 0;
+    }
+    .app-home .app-element.app-element-get-started-card-text {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-get-started-card-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
     }
 }
