@@ -2203,3 +2203,13 @@ body.rtl .app-con {
     display:none
   }
 }
+.app-animation-float {
+  transition-duration:.3s;
+  transition-property:transform;
+  transition-timing-function:ease-out;
+}
+.app-animation-float:active,
+.app-animation-float:focus,
+.app-animation-float:hover {
+  transform:translateY(-8px)
+}

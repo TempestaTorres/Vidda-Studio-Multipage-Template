@@ -36,12 +36,12 @@
     padding: 15px 26px 15px 26px;
 }
 .app .app-element.app-element-secondary-button .app-button:hover,
-.app-home .app-element.app-element-secondary-button .app-button:focus {
+.app .app-element.app-element-secondary-button .app-button:focus {
     background-color: var( --global-color-primary );
     color: #FFFFFF;
 }
-.app-home .app-element.app-element-secondary-button .app-button:hover svg,
-.app-home .app-element.app-element-secondary-button .app-button:focus svg {
+.app .app-element.app-element-secondary-button .app-button:hover svg,
+.app .app-element.app-element-secondary-button .app-button:focus svg {
     fill: #FFFFFF;
 }
 .app .app-element.app-element-default-card {
@@ -76,7 +76,7 @@
 .app .app-element.app-element-default-card > .app-motion-effects-container > .app-motion-effects-layer {
     background-color: #F8F6EF;
 }
-.app-home .app-element.app-element-default-card:hover {
+.app .app-element.app-element-default-card:hover {
     border-style: solid;
     border-color: #1D1D1D80;
     --border-color: #1D1D1D80;
@@ -241,13 +241,40 @@ svg) {
     width:auto;
     fill:var(--rating-icon-color);
 }
+.app .app-element.app-element-text-secondary {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
+    font-size: var( --global-typography-f911175-font-size );
+    font-weight: var( --global-typography-f911175-font-weight );
+    text-transform: var( --global-typography-f911175-text-transform );
+    font-style: var( --global-typography-f911175-font-style );
+    text-decoration: var( --global-typography-f911175-text-decoration );
+    line-height: var( --global-typography-f911175-line-height );
+    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    color: var( --global-color-accent );
+}
+.app .app-element.app-element-text-secondary > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app .app-element.app-element-heading-secondary .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+}
 /* =========================================== max 1024 ===============================================*/
 @media(max-width:1024px) {
     .app .app-element.app-element-secondary-button .app-button {
         font-size: var( --global-typography-accent-font-size );
         letter-spacing: var( --global-typography-accent-letter-spacing );
     }
-    .app-home .app-element.app-element-default-card {
+    .app .app-element.app-element-default-card {
         --margin-top: 0;
         --margin-bottom: 0;
         --margin-left: 0;
@@ -271,6 +298,16 @@ svg) {
         font-size: var( --global-typography-accent-font-size );
         letter-spacing: var( --global-typography-accent-letter-spacing );
     }
+    .app .app-element.app-element-text-secondary {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app .app-element.app-element-heading-secondary .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
 }
 /*=========================================== max 767 ==========================================*/
 @media(max-width:767px) {
@@ -279,7 +316,7 @@ svg) {
         font-size: var( --global-typography-accent-font-size );
         letter-spacing: var( --global-typography-accent-letter-spacing );
     }
-    .app-home .app-element.app-element-default-card {
+    .app .app-element.app-element-default-card {
         --margin-top: 0;
         --margin-bottom: 0;
         --margin-left: 0;
@@ -293,5 +330,19 @@ svg) {
     .app .app-element.app-element-primary-button .app-button {
         font-size: var( --global-typography-accent-font-size );
         letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app .app-element.app-element-text-secondary {
+        text-align: center;
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app .app-element.app-element-heading-secondary {
+        text-align: center;
+    }
+    .app .app-element.app-element-heading-secondary .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
     }
 }

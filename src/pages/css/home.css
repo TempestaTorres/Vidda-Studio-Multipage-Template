@@ -2074,6 +2074,174 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
 .app-home .app-element.app-element-get-started-card-content-text {
     color: #FFFFFFC7;
 }
+.app-home .app-element.app-element-articles {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-articles-header {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --flex-wrap: nowrap;
+    --margin-top: 0;
+    --margin-bottom: 50px;
+    --margin-left: 0;
+    --margin-right: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-articles-header-title {
+    --display: flex;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-articles-header-button-wrapper {
+    --display: flex;
+    --justify-content: center;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post,
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-image-card,
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-card {
+    background-color: #F8F6EF;
+    box-shadow: 2px 2px 4px 0 rgba(0,  0,  0,  0);
+    border-radius: 10px;
+    padding: 0;
+    margin: 0 0 30px 0;
+    border-style: solid;
+    border-width: 0;
+    border-color: #0000001F;
+}
+.app-home .app-element.app-element-articles-blog-posts > .app-widget-container {
+    margin: 0 0 -30px 0;
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-image-card {
+    display: block;
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post .appkit-post-body {
+    padding: 15px 25px 25px 25px;
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-image-card .appkit-post-body {
+    padding: 15px 25px 25px 25px;
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-entry-thumb {
+    border-radius: 9px 9px 0 0;
+    margin: 0;
+}
+.app-home .app-element.app-element-articles-blog-posts .akit-wid-con .appkit-entry-thumb {
+    padding: 0;
+}
+.app-home .app-element.app-element-articles-blog-posts .post-meta-list a,
+.app-home .app-element.app-element-articles-blog-posts .post-meta-list .meta-date-text {
+    font-family: var( --global-typography-accent-font-family ),  sans-serif;
+    font-size: var( --global-typography-accent-font-size );
+    font-weight: var( --global-typography-accent-font-weight );
+    text-transform: var( --global-typography-accent-text-transform );
+    font-style: var( --global-typography-accent-font-style );
+    text-decoration: var( --global-typography-accent-text-decoration );
+    letter-spacing: var( --global-typography-accent-letter-spacing );
+}
+.app-home .app-element.app-element-articles-blog-posts .post-meta-list {
+    text-align: left;
+    margin: 0;
+}
+.app-home .app-element.app-element-articles-blog-posts .post-meta-list > span {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: var( --global-color-accent );
+    fill: var( --global-color-accent );
+}
+.app-home .app-element.app-element-articles-blog-posts .post-meta-list > span > i,
+.app-home .app-element.app-element-articles-blog-posts .post-meta-list > span > svg {
+    margin: 0 2px 0 7px;
+}
+.app-home .app-element.app-element-articles-blog-posts .post-meta-list > span :is(i,  svg) {
+    font-size: 11px;
+    color: var( --global-color-secondary );
+    fill: var( --global-color-secondary );
+}
+.app-home .app-element.app-element-articles-blog-posts .post-meta-list > span:hover {
+    color: var( --global-color-accent );
+    fill: var( --global-color-accent );
+}
+.app-home .app-element.app-element-articles-blog-posts.akit-blog-posts--bg-hover .appkit-post-image-card:hover .post-meta-list > span {
+    color: var( --global-color-accent );
+    fill: var( --global-color-accent );
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-body .entry-title,
+.app-home .app-element.app-element-articles-blog-posts .appkit-entry-header .entry-title,
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-image-card .appkit-post-body .entry-title  a,
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-card .appkit-entry-header .entry-title  a,
+.app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post .appkit-post-body .entry-title a {
+    font-family: var( --global-typography-101-font-family ),  sans-serif;
+    font-size: var( --global-typography-101-font-size );
+    font-weight: var( --global-typography-101-font-weight );
+    text-transform: var( --global-typography-101-text-transform );
+    font-style: var( --global-typography-101-font-style );
+    text-decoration: var( --global-typography-101-text-decoration );
+    line-height: var( --global-typography-101-line-height );
+    letter-spacing: var( --global-typography-101-letter-spacing );
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-body .entry-title a {
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-entry-header .entry-title a {
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-body .entry-title {
+    text-align: left;
+    margin: -5px 0 5px 0;
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-entry-header .entry-title {
+    text-align: left;
+    margin: -5px 0 5px 0;
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-footer > p {
+    color: var( --global-color-text );
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-body > p {
+    color: var( --global-color-text );
+    text-align: left;
+    margin: 0;
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-footer > p,
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-body > p {
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-post-footer {
+    text-align: left;
+    margin: 0;
+}
+.app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post .appkit-post-footer > p {
+    margin: 0;
+}
 /* ================================================ Mobile ========================================= */
 @media(min-width:768px) {
 
@@ -2127,6 +2295,15 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
     }
     .app-home .app-element.app-element-get-started {
         --content-width: 1300px;
+    }
+    .app-home .app-element.app-element-articles {
+        --content-width: 1300px;
+    }
+    .app-home .app-element.app-element-articles-header-title {
+        --width: 70%;
+    }
+    .app-home .app-element.app-element-articles-header-button-wrapper {
+        --width: 30%;
     }
 }
 @media(min-width:1025px) {
@@ -2666,6 +2843,46 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
         font-size: var( --global-typography-secondary-font-size );
         line-height: var( --global-typography-secondary-line-height );
         letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-articles {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-articles-header {
+        --margin-top: 0;
+        --margin-bottom: 30px;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app-home .app-element.app-element-articles-blog-posts > .app-widget-container {
+        margin: 0 0 -30px 0;
+    }
+    .app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-image-card,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-card {
+        margin: 0 0 30px 0;
+    }
+    .app-home .app-element.app-element-articles-blog-posts .post-meta-list a,
+    .app-home .app-element.app-element-articles-blog-posts .post-meta-list .meta-date-text {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-body .entry-title,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-entry-header .entry-title,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-image-card .appkit-post-body .entry-title  a,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-card .appkit-entry-header .entry-title  a,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post .appkit-post-body .entry-title a {
+        font-size: var( --global-typography-101-font-size );
+        line-height: var( --global-typography-101-line-height );
+        letter-spacing: var( --global-typography-101-letter-spacing );
+    }
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-footer > p,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-body > p {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
     }
 }
 /*=========================================== max 767 ==========================================*/
@@ -3242,5 +3459,54 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
         font-size: var( --global-typography-secondary-font-size );
         line-height: var( --global-typography-secondary-line-height );
         letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-articles {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-articles-header {
+        --flex-wrap: wrap;
+    }
+    .app-home .app-element.app-element-articles-header-title {
+        --margin-top: 0;
+        --margin-bottom: 10px;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app-home .app-element.app-element-articles-blog-posts > .app-widget-container {
+        margin: 0 0 -20px 0;
+    }
+    .app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-image-card,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-card {
+        margin: 0 0 20px 0;
+    }
+    .app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post .appkit-post-body {
+        padding: 20px 20px 25px 20px;
+    }
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-image-card .appkit-post-body {
+        padding: 20px 20px 25px 20px;
+    }
+    .app-home .app-element.app-element-articles-blog-posts .post-meta-list a,
+    .app-home .app-element.app-element-articles-blog-posts .post-meta-list .meta-date-text {
+        font-size: var( --global-typography-accent-font-size );
+        letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-body .entry-title,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-entry-header .entry-title,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-image-card .appkit-post-body .entry-title  a,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-card .appkit-entry-header .entry-title  a,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post .appkit-post-body .entry-title a {
+        font-size: var( --global-typography-101-font-size );
+        line-height: var( --global-typography-101-line-height );
+        letter-spacing: var( --global-typography-101-letter-spacing );
+    }
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-footer > p,
+    .app-home .app-element.app-element-articles-blog-posts .appkit-post-body > p {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
     }
 }

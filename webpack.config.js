@@ -5,7 +5,9 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-    entry: './src/index.js',
+    entry: {
+        index: './src/index.js'
+    },
     mode: 'development',
     module: {
         rules: [
@@ -36,7 +38,10 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './index.html',
+            template: './src/index.html',
+            inject: true,
+            chunks: ['index'],
+            filename: 'index.html'
         }),
         new CopyPlugin({
             patterns: [
