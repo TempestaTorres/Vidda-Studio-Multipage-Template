@@ -1131,6 +1131,16 @@ svg) {
 .app-align-justify .app-button {
     width:100%;
 }
+.app-animation-float {
+    transition-duration:.3s;
+    transition-property:transform;
+    transition-timing-function:ease-out;
+}
+.app-animation-float:active,
+.app-animation-float:focus,
+.app-animation-float:hover {
+    transform:translateY(-8px)
+}
 /*=============================================== Mobile =====================================*/
 @media screen and (max-width:1024px) {
     .app .app-element.app-element-white-card {

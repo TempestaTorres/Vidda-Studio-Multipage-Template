@@ -1885,6 +1885,90 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
 .app-home .app-element.app-element-pricing-plan-footer-button > .app-widget-container {
     margin: -6px 0 -6px 0;
 }
+.app-home .app-element.app-element-products {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-products-grid {
+    --display: grid;
+    --con-grid-template-columns: repeat(3,  1fr);
+    --con-grid-template-rows: repeat(1,  1fr);
+    --gap: 20px 20px;
+    --row-gap: 20px;
+    --column-gap: 20px;
+    --grid-auto-flow: row;
+    --margin-top: 0;
+    --margin-bottom: 50px;
+    --margin-left: 0;
+    --margin-right: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-product-card {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: space-between;
+    --flex-wrap: wrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-product-card-image img {
+    border-radius: 10px;
+}
+.app-home .app-element.app-element-product-card-heading {
+    width: 100%;
+    max-width: 100%;
+}
+.app-home .app-element.app-element-product-card-heading > .app-widget-container {
+    margin: -5px 0 -5px 0;
+}
+.app-home .app-element.app-element-product-card-heading .app-heading-title {
+    font-family: var( --global-typography-101-font-family ),  sans-serif;
+    font-size: var( --global-typography-101-font-size );
+    font-weight: var( --global-typography-101-font-weight );
+    text-transform: var( --global-typography-101-text-transform );
+    font-style: var( --global-typography-101-font-style );
+    text-decoration: var( --global-typography-101-text-decoration );
+    line-height: var( --global-typography-101-line-height );
+    letter-spacing: var( --global-typography-101-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-product-card-text {
+    width: var( --container-widget-width,  70% );
+    max-width: 70%;
+    --container-widget-width: 70%;
+    --container-widget-flex-grow: 0;
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+    color: var( --global-color-text );
+}
+.app-home .app-element.app-element-product-card-text > .app-widget-container {
+    margin: -10px 0 -15px 0;
+}
 /* ================================================ Mobile ========================================= */
 @media(min-width:768px) {
 
@@ -1932,6 +2016,9 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
     }
     .app-home .app-element.app-element-pricing-plan-header-button {
         --width: 30%;
+    }
+    .app-home .app-element.app-element-products {
+        --content-width: 1300px;
     }
 }
 @media(min-width:1025px) {
@@ -2420,7 +2507,30 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
     .app-home .app-element.app-element-pricing-plan-footer-button > .app-widget-container {
         margin: 0px;
     }
-
+    .app-home .app-element.app-element-products {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-products-grid {
+        --con-grid-template-columns: repeat(2,  1fr);
+        --grid-auto-flow: row;
+        --margin-top: 0;
+        --margin-bottom: 30px;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app-home .app-element.app-element-product-card-heading .app-heading-title {
+        font-size: var( --global-typography-101-font-size );
+        line-height: var( --global-typography-101-line-height );
+        letter-spacing: var( --global-typography-101-letter-spacing );
+    }
+    .app-home .app-element.app-element-product-card-text {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
 }
 /*=========================================== max 767 ==========================================*/
 @media(max-width:767px) {
@@ -2942,6 +3052,26 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
         margin: 0 0 -10px 0;
     }
     .app-home .app-element.app-element-pricing-plan-footer-text {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-products {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-products-grid {
+        --con-grid-template-columns: repeat(1,  1fr);
+        --grid-auto-flow: row;
+    }
+    .app-home .app-element.app-element-product-card-heading .app-heading-title {
+        font-size: var( --global-typography-101-font-size );
+        line-height: var( --global-typography-101-line-height );
+        letter-spacing: var( --global-typography-101-letter-spacing );
+    }
+    .app-home .app-element.app-element-product-card-text {
         font-size: var( --global-typography-text-font-size );
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );

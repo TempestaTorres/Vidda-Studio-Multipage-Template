@@ -12,7 +12,7 @@
     letter-spacing: var( --global-typography-accent-letter-spacing );
     fill: #FFFFFF;
     color: #FFFFFF;
-    border-radius: 6px 6px 6px 6px;
+    border-radius: 6px;
     padding: 15px 26px 15px 26px;
 }
 .app .app-element.app-element-secondary-button .app-button:hover,
@@ -111,6 +111,33 @@
 .app .app-element.app-element-default-link-button .app-button:focus svg {
     fill: #FFFFFF;
 }
+.app .app-element.app-element-underlined-link-button .app-button {
+    background-color: #FE6F6200;
+    font-family: "Instrument Sans",  sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    fill: var( --global-color-accent );
+    color: var( --global-color-accent );
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #31452D30;
+    border-radius: 0;
+    padding: 0 0 4px 0;
+}
+.app .app-element.app-element-underlined-link-button .app-button:hover,
+.app .app-element.app-element-underlined-link-button .app-button:focus {
+    background-color: #68382600;
+    color: var( --global-color-accent );
+    border-color: var( --global-color-accent );
+}
+.app .app-element.app-element-underlined-link-button > .app-widget-container {
+    margin: -3px 5px 0 0;
+}
+.app .app-element.app-element-underlined-link-button .app-button:hover svg,
+.app .app-element.app-element-underlined-link-button .app-button:focus svg {
+    fill: var( --global-color-accent );
+}
 /* =========================================== max 1024 ===============================================*/
 @media(max-width:1024px) {
     .app .app-element.app-element-secondary-button .app-button {
@@ -127,6 +154,9 @@
         font-size: var( --global-typography-text-font-size );
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app .app-element.app-element-underlined-link-button .app-button {
+        font-size: 13px;
     }
 }
 /*=========================================== max 767 ==========================================*/
