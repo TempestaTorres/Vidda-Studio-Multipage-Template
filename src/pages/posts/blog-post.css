@@ -1,0 +1,747 @@
+@import "../../framework/css/framework-vidda-kit.css";
+@import "../../css/header-footer.css";
+@import "../../css/app-vidda.css";
+
+.app-widget-text-editor {
+    font-family:var( --global-typography-text-font-family ), sans-serif;
+    font-size:var( --global-typography-text-font-size );
+    font-weight:var( --global-typography-text-font-weight );
+    text-transform:var( --global-typography-text-text-transform );
+    font-style:var( --global-typography-text-font-style );
+    text-decoration:var( --global-typography-text-text-decoration );
+    line-height:var( --global-typography-text-line-height );
+    letter-spacing:var( --global-typography-text-letter-spacing );
+    color:var( --global-color-text );
+}
+.app-widget-text-editor.app-drop-cap-view-stacked .app-drop-cap {
+    background-color:var( --global-color-primary );
+}
+.app-widget-text-editor.app-drop-cap-view-framed .app-drop-cap,
+.app-widget-text-editor.app-drop-cap-view-default .app-drop-cap {
+    color:var( --global-color-primary );
+    border-color:var( --global-color-primary );
+}
+.app-post .app-element.app-element-blog-post-hero {
+    --display:flex;
+    --min-height:0px;
+    --flex-direction:column;
+    --container-widget-width:100%;
+    --container-widget-height:initial;
+    --container-widget-flex-grow:0;
+    --container-widget-align-self:initial;
+    --flex-wrap-mobile:wrap;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:30px;
+    --padding-right:30px;
+}
+.app-post .app-element.app-element-blog-post-hero-wrapper {
+    --display:flex;
+    --min-height:500px;
+    --justify-content:center;
+    --align-items:center;
+    --container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --overlay-opacity:0.7;
+    --overlay-mix-blend-mode:darken;
+    --border-radius:10px;
+}
+.app-post .app-element.app-element-blog-post-hero-wrapper::before,
+.app-post .app-element.app-element-blog-post-hero-wrapper > .app-background-video-container::before,
+.app-post .app-element.app-element-blog-post-hero-wrapper > .app-con-inner > .app-background-video-container::before,
+.app-post .app-element.app-element-blog-post-hero-wrapper > .app-background-slideshow::before,
+.app-post .app-element.app-element-blog-post-hero-wrapper > .app-con-inner > .app-background-slideshow::before,
+.app-post .app-element.app-element-blog-post-hero-wrapper > .app-motion-effects-container > .app-motion-effects-layer::before {
+    background-color:#2A1A13;
+    --background-overlay:'';
+}
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="1"]:not(.app-motion-effects-element-type-background),
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="1"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/a-wide-shot-of-a-young-woman-who-is-engaged-in-str.jpg");
+    background-position:center center;
+    background-size:cover;
+}
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="2"]:not(.app-motion-effects-element-type-background),
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="2"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/unsplash-yoga.jpg");
+    background-position:center center;
+    background-size:cover;
+}
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="3"]:not(.app-motion-effects-element-type-background),
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="3"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/woman-sportswear-practicing.webp");
+    background-position:center center;
+    background-size:cover;
+}
+.app-post .app-element.app-element-blog-post-hero-heading {
+    width:var( --container-widget-width, 60% );
+    max-width:60%;
+    --container-widget-width:60%;
+    --container-widget-flex-grow:0;
+}
+.app-post .app-element.app-element-blog-post-hero-heading > .app-widget-container {
+    margin:-5px 0 -5px 0;
+}
+.app-post .app-element.app-element-blog-post-hero-heading .section-main-title {
+    text-align:center;
+    font-family:var( --global-typography-secondary-font-family ), sans-serif;
+    font-size:var( --global-typography-secondary-font-size );
+    font-weight:var( --global-typography-secondary-font-weight );
+    text-transform:var( --global-typography-secondary-text-transform );
+    font-style:var( --global-typography-secondary-font-style );
+    text-decoration:var( --global-typography-secondary-text-decoration );
+    line-height:var( --global-typography-secondary-line-height );
+    letter-spacing:var( --global-typography-secondary-letter-spacing );
+}
+.app-post .app-element.app-element-blog-post-hero-heading .section-main-title,
+.app-post .app-element.app-element-blog-post-hero-heading .section-main-title a {
+    color:#FFFFFF;
+}
+.app-post .app-element.app-element-blog-post-hero-list {
+    width:auto;
+    max-width: 100%;
+}
+.app-post .app-element.app-element-blog-post-hero-list > .app-widget-container {
+    margin: 0;
+}
+.app-post .app-element.app-element-blog-post-hero-list .posts-meta {
+    text-align: center;
+}
+.app-post .app-element.app-element-blog-post-hero-list .meta-divider {
+    padding: 0 15px 6px 15px;
+}
+.app-post .app-element.app-element-blog-post-hero-list .list-meta a,
+.app-post .app-element.app-element-blog-post-hero-list .list-meta .meta-text {
+    font-family:var( --global-typography-accent-font-family ), sans-serif;
+    font-size:var( --global-typography-accent-font-size );
+    font-weight:var( --global-typography-accent-font-weight );
+    text-transform:var( --global-typography-accent-text-transform );
+    font-style:var( --global-typography-accent-font-style );
+    text-decoration:var( --global-typography-accent-text-decoration );
+    letter-spacing:var( --global-typography-accent-letter-spacing );
+    color:#FFFFFFA1;
+}
+.app-post .app-element.app-element-blog-post-hero-list .list-meta:hover a,
+.app-post .app-element.app-element-blog-post-hero-list .list-meta:hover .meta-text {
+    color:var( --global-color-2d8c8bd );
+}
+.app-post .app-element.app-element-blog-post-hero-list .list-meta {
+    padding:0;
+    border-radius:0;
+}
+.app-post .app-element.app-element-blog-post-hero-list .meta-divider span {
+    font-size:0.9em;
+    color:var( --global-color-2d8c8bd );
+}
+.app-post .app-element.app-element-blog-post-article {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --align-items:stretch;
+    --gap:0 0;
+    --row-gap:0;
+    --column-gap:0;
+    --margin-top:0;
+    --margin-bottom:0;
+    --margin-left:0;
+    --margin-right:0;
+    --padding-top:100px;
+    --padding-bottom:100px;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-post .app-element.app-element-blog-post-article-content {
+    --display:flex;
+    --margin-top:0;
+    --margin-bottom:0;
+    --margin-left:0;
+    --margin-right:0;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-post .app-element.app-element-blog-post-article-text > .app-widget-container {
+    margin:0;
+}
+.app-post .app-element.app-element-blog-post-article-text.has-margins-5 > .app-widget-container {
+    margin: 0 0 -5px 0;
+}
+.app-post .app-element.app-element-blog-post-article-text.has-margins-15 > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-post .app-element.app-element-blog-post-article-text {
+    font-family:var( --global-typography-text-font-family ), sans-serif;
+    font-size:var( --global-typography-text-font-size );
+    font-weight:var( --global-typography-text-font-weight );
+    text-transform:var( --global-typography-text-text-transform );
+    font-style:var( --global-typography-text-font-style );
+    text-decoration:var( --global-typography-text-text-decoration );
+    line-height:var( --global-typography-text-line-height );
+    letter-spacing:var( --global-typography-text-letter-spacing );
+    color:var( --global-color-text );
+}
+.app-post .app-element.app-element-blog-post-article-image > .app-widget-container {
+    margin: 0 0 10px 0;
+}
+.app-post .app-element.app-element-blog-post-article-image .blog-featureimage,
+.app-post .app-element.app-element-blog-post-article-image .blog-featureimage img {
+    height: 565px;
+}
+/* Image must be got from backend. It is just for current example*/
+.app-post .app-element.app-element-blog-post-article-image .blog-featureimage[data-post="1"] {
+    background-image: url("../../assets/images/group-of-women-in-sportswear-practicing-yoga.jpg");
+}
+.app-post .app-element.app-element-blog-post-article-image .blog-featureimage[data-post="2"] {
+    background-image: url("../../assets/images/women-exercising-with-instructor-in-gym-.jpg");
+}
+.app-post .app-element.app-element-blog-post-article-image .blog-featureimage[data-post="3"] {
+    background-image: url("../../assets/images/yoga-is-a-work-of-heart-shot-of-a-group-of-young.jpg");
+}
+.app-post .app-element.app-element-blog-post-article-image .blog-featureimage {
+    background-position: center;
+    border-style: solid;
+    border-width: 0;
+    border-color:var( --global-color-primary );
+    border-radius: 10px;
+}
+.app-widget-icon-list .app-icon-list-item:not(:last-child):after {
+    border-color:var( --global-color-text );
+}
+.app-widget-icon-list .app-icon-list-icon i {
+    color:var( --global-color-primary );
+}
+.app-widget-icon-list .app-icon-list-icon svg {
+    fill:var( --global-color-primary );
+}
+.app-widget-icon-list .app-icon-list-item > .app-icon-list-text,
+.app-widget-icon-list .app-icon-list-item > a {
+    font-family:var( --global-typography-text-font-family ), sans-serif;
+    font-size:var( --global-typography-text-font-size );
+    font-weight:var( --global-typography-text-font-weight );
+    text-transform:var( --global-typography-text-text-transform );
+    font-style:var( --global-typography-text-font-style );
+    text-decoration:var( --global-typography-text-text-decoration );
+    line-height:var( --global-typography-text-line-height );
+    letter-spacing:var( --global-typography-text-letter-spacing );
+}
+.app-widget-icon-list .app-icon-list-text {
+    color:var( --global-color-secondary );
+}
+.app-widget-heading .app-heading-title {
+    font-family:var( --global-typography-primary-font-family ), sans-serif;
+    font-size:var( --global-typography-primary-font-size );
+    font-weight:var( --global-typography-primary-font-weight );
+    text-transform:var( --global-typography-primary-text-transform );
+    font-style:var( --global-typography-primary-font-style );
+    text-decoration:var( --global-typography-primary-text-decoration );
+    line-height:var( --global-typography-primary-line-height );
+    letter-spacing:var( --global-typography-primary-letter-spacing );
+    color:var( --global-color-primary );
+}
+.app-post .app-element.app-element-blog-post-article-heading .app-heading-title {
+    font-family:var( --global-typography-100-font-family ), sans-serif;
+    font-size:var( --global-typography-100-font-size );
+    font-weight:var( --global-typography-100-font-weight );
+    text-transform:var( --global-typography-100-text-transform );
+    font-style:var( --global-typography-100-font-style );
+    text-decoration:var( --global-typography-100-text-decoration );
+    line-height:var( --global-typography-100-line-height );
+    letter-spacing:var( --global-typography-100-letter-spacing );
+    color:var( --global-color-primary );
+}
+.app-post .app-element.app-element-blog-post-article-column {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --align-items:stretch;
+    --gap:10px 10px;
+    --row-gap:10px;
+    --column-gap:10px;
+    --margin-top:0;
+    --margin-bottom:0;
+    --margin-left:0;
+    --margin-right:0;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-post .app-element.app-element-blog-post-article-column-left {
+    --display:flex;
+    --margin-top:0;
+    --margin-bottom:0;
+    --margin-left:0;
+    --margin-right:30px;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-post .app-element.app-element-blog-post-article-column-right {
+    --display:flex;
+    --margin-top:0;
+    --margin-bottom:0;
+    --margin-left:30px;
+    --margin-right:0;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-post .app-element.app-element-blog-post-article-footer {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --align-items:stretch;
+    --gap:10px 10px;
+    --row-gap:10px;
+    --column-gap:10px;
+    --border-style:solid;
+    --border-top-width:1px;
+    --border-right-width:0;
+    --border-bottom-width:0;
+    --border-left-width:0;
+    --border-color:#0201011A;
+    --padding-top:25px;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+    border-style:solid;
+    border-width:1px 0 0 0;
+    border-color:#0201011A;
+}
+.app-post .app-element.app-element-blog-post-article-footer-tags {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --justify-content:flex-start;
+    --align-items:center;
+    --gap:0 0;
+    --row-gap:0;
+    --column-gap:0;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-post .app-element.app-element-blog-post-article-footer-tags-text > .app-widget-container {
+    margin:0 0 -15px 0;
+}
+.app-post .app-element.app-element-blog-post-article-footer-tags-text {
+    font-family:var( --global-typography-accent-font-family ), sans-serif;
+    font-size:var( --global-typography-accent-font-size );
+    font-weight:var( --global-typography-accent-font-weight );
+    text-transform:var( --global-typography-accent-text-transform );
+    font-style:var( --global-typography-accent-font-style );
+    text-decoration:var( --global-typography-accent-text-decoration );
+    letter-spacing:var( --global-typography-accent-letter-spacing );
+    color:var( --global-color-primary );
+}
+.app-post .app-element.app-element-blog-post-article-footer-tags-list > .app-widget-container {
+    margin:-5px 0 -15px 0;
+    padding:0 0 0 10px;
+}
+.app-post .app-element.app-element-blog-post-article-footer-tags-list .term-divider {
+    margin-left:calc(10px/2);
+    margin-right:calc(10px/2);
+}
+.app-post .app-element.app-element-blog-post-article-footer-tags-list .list-term {
+    margin-bottom:10px;
+    padding:0;
+    border-radius:0;
+}
+.app-post .app-element.app-element-blog-post-article-footer-tags-list .list-term .meta-text {
+    font-family:var( --global-typography-accent-font-family ), sans-serif;
+    font-size:var( --global-typography-accent-font-size );
+    font-weight:var( --global-typography-accent-font-weight );
+    text-transform:var( --global-typography-accent-text-transform );
+    font-style:var( --global-typography-accent-font-style );
+    text-decoration:var( --global-typography-accent-text-decoration );
+    letter-spacing:var( --global-typography-accent-letter-spacing );
+}
+.app-post .app-element.app-element-blog-post-article-footer-tags-list .list-term a,
+.app-post .app-element.app-element-blog-post-article-footer-tags-list .list-term .meta-text {
+    color:var( --global-color-accent );
+}
+.app-post .app-element.app-element-blog-post-article-footer-tags-list .list-term:hover a,
+.app-post .app-element.app-element-blog-post-article-footer-tags-list .list-term:hover .meta-text {
+    color:var( --global-color-primary );
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --justify-content:flex-end;
+    --gap:0 0;
+    --row-gap:0;
+    --column-gap:0;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-text {
+    width:auto;
+    align-self:center;
+    font-family:var( --global-typography-accent-font-family ), sans-serif;
+    font-size:var( --global-typography-accent-font-size );
+    font-weight:var( --global-typography-accent-font-weight );
+    text-transform:var( --global-typography-accent-text-transform );
+    font-style:var( --global-typography-accent-font-style );
+    text-decoration:var( --global-typography-accent-text-decoration );
+    letter-spacing:var( --global-typography-accent-letter-spacing );
+    color:var( --global-color-primary );
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-text > .app-widget-container {
+    margin:0 10px -15px 0;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list {
+    width:auto;
+    max-width:100%;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list > .app-widget-container {
+    margin:-1px 0 0 0;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare {
+    text-align:right;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li > div {
+    text-align:center;
+    text-decoration:var( --global-typography-accent-text-decoration );
+    border-radius:50%;
+    width:33px;
+    height:33px;
+    cursor:pointer;
+    line-height:31px;
+    font-family:var( --global-typography-accent-font-family ), sans-serif;
+    font-size:var( --global-typography-accent-font-size );
+    font-weight:var( --global-typography-accent-font-weight );
+    text-transform:var( --global-typography-accent-text-transform );
+    font-style:var( --global-typography-accent-font-style );
+    letter-spacing:var( --global-typography-accent-letter-spacing );
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li {
+    display:inline-block;
+    margin:0 0 0 5px;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li > div i {
+    font-size:14px;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li > div svg {
+    max-width:14px;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li div {
+    padding:0 0 0 0;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .app-repeater-item > div {
+    color:#FFFFFF;
+    background-color:var( --global-color-accent );
+    border-style:solid;
+    border-width:0px 0px 0px 0px;
+    border-color:var( --global-color-primary );
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .app-repeater-item > div svg path {
+    stroke:#FFFFFF;
+    fill:#FFFFFF;
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .app-repeater-item > div:hover {
+    color:var( --global-color-2d8c8bd );
+    background-color:var( --global-color-primary );
+    border-style:solid;
+    border-color:var( --global-color-primary );
+}
+.app-post .app-element.app-element-blog-post-article-footer-share-links-list .app-repeater-item > div:hover svg path {
+    stroke:var( --global-color-2d8c8bd );
+    fill:var( --global-color-2d8c8bd );
+}
+/*==================================== Mobile 1024 =====================================*/
+@media(max-width:1024px) {
+    .app-widget-text-editor {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-hero {
+        --padding-top:0;
+        --padding-bottom:0;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+    .app-post .app-element.app-element-blog-post-hero-wrapper {
+        --min-height:400px;
+    }
+    .app-post .app-element.app-element-blog-post-hero-heading > .app-widget-container {
+        margin:-10px 0 -10px 0;
+    }
+    .app-post .app-element.app-element-blog-post-hero-heading .section-main-title {
+        font-size:var( --global-typography-secondary-font-size );
+        line-height:var( --global-typography-secondary-line-height );
+        letter-spacing:var( --global-typography-secondary-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-hero-list .list-meta a,
+    .app-post .app-element.app-element-blog-post-hero-list .list-meta .meta-text {
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article {
+        --margin-top:0;
+        --margin-bottom:0;
+        --margin-left:0;
+        --margin-right:0;
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-post .app-element.app-element-blog-post-article-content {
+        --margin-top:0;
+        --margin-bottom:0;
+        --margin-left:0;
+        --margin-right:0;
+        --padding-top:0;
+        --padding-bottom:0;
+        --padding-left:0;
+        --padding-right:0;
+    }
+    .app-post .app-element.app-element-blog-post-article-text {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-image .blog-featureimage,
+    .app-post .app-element.app-element-blog-post-article-image .blog-featureimage img {
+        height:430px;
+    }
+    .app-widget-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-widget-icon-list .app-icon-list-item > a {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    .app-widget-heading .app-heading-title {
+        font-size:var( --global-typography-primary-font-size );
+        line-height:var( --global-typography-primary-line-height );
+        letter-spacing:var( --global-typography-primary-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags-text {
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags-list .list-term .meta-text {
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-text {
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li > div {
+        width:28px;
+        height:28px;
+        cursor:pointer;
+        line-height:28px;
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li > div i {
+        font-size:12px;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li > div svg {
+        max-width:12px;
+    }
+}
+/*==================================== Mobile 767 ========================================*/
+@media(max-width:767px) {
+    .app-widget-text-editor {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-hero {
+        --padding-top:0;
+        --padding-bottom:0;
+        --padding-left:10px;
+        --padding-right:10px;
+    }
+    .app-post .app-element.app-element-blog-post-hero-wrapper {
+        --min-height:300px;
+    }
+    .app-post .app-element.app-element-blog-post-hero-heading > .app-widget-container {
+        margin:-10px 0 -10px 0;
+    }
+    .app-post .app-element.app-element-blog-post-hero-heading .section-main-title {
+        font-size:var( --global-typography-secondary-font-size );
+        line-height:var( --global-typography-secondary-line-height );
+        letter-spacing:var( --global-typography-secondary-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-hero-list .list-meta a,
+    .app-post .app-element.app-element-blog-post-hero-list .list-meta .meta-text {
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article {
+        --margin-top:0;
+        --margin-bottom:0;
+        --margin-left:0;
+        --margin-right:0;
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+    .app-post .app-element.app-element-blog-post-article-content {
+        --margin-top:0;
+        --margin-bottom:0;
+        --margin-left:0;
+        --margin-right:0;
+        --padding-top:0;
+        --padding-bottom:0;
+        --padding-left:0;
+        --padding-right:0;
+    }
+    .app-post .app-element.app-element-blog-post-article-text {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-image .blog-featureimage,
+    .app-post .app-element.app-element-blog-post-article-image .blog-featureimage img {
+        height: 250px;
+    }
+    .app-widget-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-widget-icon-list .app-icon-list-item > a {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    .app-widget-heading .app-heading-title {
+        font-size:var( --global-typography-primary-font-size );
+        line-height:var( --global-typography-primary-line-height );
+        letter-spacing:var( --global-typography-primary-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-column-left {
+        --margin-top:0;
+        --margin-bottom:10px;
+        --margin-left:0;
+        --margin-right:0;
+    }
+    .app-post .app-element.app-element-blog-post-article-column-right {
+        --margin-top:0;
+        --margin-bottom:0;
+        --margin-left:0;
+        --margin-right:0;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer {
+        --margin-top:0;
+        --margin-bottom:0;
+        --margin-left:0;
+        --margin-right:0;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags {
+        --align-items:center;
+        --container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+        --padding-top:0;
+        --padding-bottom:30px;
+        --padding-left:0;
+        --padding-right:0;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags.app-con {
+        --align-self:center;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags-text {
+        width:100%;
+        max-width:100%;
+        align-self:center;
+        text-align:center;
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags-text > .app-widget-container {
+        margin:0 50px -5px 50px;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags-list {
+        width:100%;
+        max-width:100%;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags-list.app-element {
+        --align-self:center;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags-list .posts-term {
+        text-align:center;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-tags-list .list-term .meta-text {
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-text {
+        width:100%;
+        max-width:100%;
+        align-self:center;
+        text-align:center;
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-text > .app-widget-container {
+        margin:0 100px -5px 100px;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-list {
+        width:100%;
+        max-width:100%;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-list > .app-widget-container {
+        margin:5px 0 0 0;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare {
+        text-align:center;
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li > div {
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
+    }
+    .app-post .app-element.app-element-blog-post-article-footer-share-links-list .akit_socialshare > li {
+        margin:0 5px 0 5px;
+    }
+}
+@media(min-width:768px) {
+    .app-post .app-element.app-element-blog-post-hero-wrapper {
+        --content-width:1300px;
+    }
+    .app-post .app-element.app-element-blog-post-article {
+        --content-width:1000px;
+    }
+}
+@media(max-width:1024px) and (min-width:768px) {
+    .app-post .app-element.app-element-blog-post-article-content {
+        --width:100%;
+    }
+}

@@ -6,7 +6,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: {
-        index: './src/index.js'
+        index: './src/index.js',
+        postHarmony: './src/pages/posts/blog-post.js',
+        body: './src/pages/posts/post.js',
     },
     mode: 'development',
     module: {
@@ -14,6 +16,10 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
+                loader: 'babel-loader',
+                options: {
+                    presets: ['@babel/preset-env']
+                }
             },
             {
                 test: /\.css$/i,
@@ -39,9 +45,21 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
-            inject: true,
+            inject: 'body',
             chunks: ['index'],
             filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/posts/harmony.html',
+            inject: 'body',
+            chunks: ['postHarmony'],
+            filename: 'harmony.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/posts/body.html',
+            inject: 'body',
+            chunks: ['body'],
+            filename: 'body.html'
         }),
         new CopyPlugin({
             patterns: [
@@ -53,10 +71,13 @@ module.exports = {
                 { from: "./src/assets/images", to: "images" },
             ],
         }),
-        new MiniCssExtractPlugin(),
+        new MiniCssExtractPlugin({
+            filename: "[name].[contenthash].css",
+            chunkFilename: "[id].[contenthash].css"
+        }),
     ],
     output: {
-        filename: 'bundle.js',
+        filename: '[name].[hash:20].js',
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },

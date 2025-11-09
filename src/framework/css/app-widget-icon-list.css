@@ -65,7 +65,7 @@
     text-align:var(--icon-list-icon-align);
 }
 .app-widget.app-widget-icon-list .app-icon-list-icon svg {
-    margin:var(--icon-list-icon-margin,0 calc(var(--icon-list-icon-size, 1em) * .25) 0 0);
+    margin:var(--icon-list-icon-margin,0);
 }
 .app-widget.app-list-item-link-full_width a {
     width:100%;

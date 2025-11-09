@@ -268,6 +268,63 @@ svg) {
     line-height: var( --global-typography-secondary-line-height );
     letter-spacing: var( --global-typography-secondary-letter-spacing );
 }
+.app-post .app-element.app-element-app-vidda-icon-list > .app-widget-container {
+    margin:0;
+}
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-items:not(.app-inline-items) .app-icon-list-item:not(:last-child) {
+    padding-bottom:calc(5px/2);
+}
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-items:not(.app-inline-items) .app-icon-list-item:not(:first-child) {
+    margin-top:calc(5px/2);
+}
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item {
+    margin-right:calc(5px/2);
+    margin-left:calc(5px/2);
+}
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-items.app-inline-items {
+    margin-right:calc(-5px/2);
+    margin-left:calc(-5px/2);
+}
+body.rtl .app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item:after {
+    left:calc(-5px/2);
+}
+body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item:after {
+    right:calc(-5px/2);
+}
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-icon i {
+    transition:color 0.3s;
+}
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-icon svg {
+    transition:fill 0.3s;
+}
+.app-post .app-element.app-element-app-vidda-icon-list {
+    --icon-list-icon-size:15px;
+    --icon-vertical-offset:0;
+}
+.app-post .app-element.app-element-app-vidda-icon-list:NOT(.app-icon-list-ico-position-10) .app-icon-list-text {
+    padding-left:15px;
+}
+.app-post .app-element.app-element-app-vidda-icon-list.app-icon-list-ico-position-10 .app-icon-list-text {
+    padding-right:15px;
+}
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-item > .app-icon-list-text,
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-item > a {
+    font-family:var( --global-typography-text-font-family ), sans-serif;
+    font-size:var( --global-typography-text-font-size );
+    font-weight:var( --global-typography-text-font-weight );
+    text-transform:var( --global-typography-text-text-transform );
+    font-style:var( --global-typography-text-font-style );
+    text-decoration:var( --global-typography-text-text-decoration );
+    line-height:var( --global-typography-text-line-height );
+    letter-spacing:var( --global-typography-text-letter-spacing );
+}
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-text {
+    color:var( --global-color-text );
+    transition: color 0.3s;
+}
+.app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-item:hover .app-icon-list-text {
+    color:var( --global-color-text );
+}
 /* =========================================== max 1024 ===============================================*/
 @media(max-width:1024px) {
     .app .app-element.app-element-secondary-button .app-button {
@@ -308,6 +365,12 @@ svg) {
         line-height: var( --global-typography-secondary-line-height );
         letter-spacing: var( --global-typography-secondary-letter-spacing );
     }
+    .app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-item > a {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
 }
 /*=========================================== max 767 ==========================================*/
 @media(max-width:767px) {
@@ -344,5 +407,11 @@ svg) {
         font-size: var( --global-typography-secondary-font-size );
         line-height: var( --global-typography-secondary-line-height );
         letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-post .app-element.app-element-app-vidda-icon-list .app-icon-list-item > a {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
     }
 }

@@ -5,6 +5,7 @@ import {VideoPlayer} from "./components/video.component.js";
 import scrollObserver from "./services/scrollObserverService.js";
 import counterObserver from "./services/counterService.js";
 import {LightboxComponent} from "./components/lightbox.component.js";
+import {PostRoutesComponent} from "./components/postRoutes.component.js";
 
 (function() {
     "use strict"
@@ -21,6 +22,9 @@ import {LightboxComponent} from "./components/lightbox.component.js";
         const footer = new FooterComponent();
         const videoPlayer = new VideoPlayer('.app-background-video-container', "home-video-widget","CL8j01U66aM", "Woman Exercising Stock Footage | Fitness Footage | Yoga Stock Video | Royalty Free Videos");
         const lightBox = new LightboxComponent("vYprEI6Q270", ".akit-video-popup-btn");
+
+        const posts = new PostRoutesComponent();
+        posts.init();
 
     });
 

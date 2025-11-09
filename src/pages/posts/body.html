@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    <title id="meta-post-title"></title>
+    <link rel="apple-touch-icon-2" sizes="180x180" href="apple-touch-icon-2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-2-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-2-16x16.png">
+    <link rel="manifest" href="site-2.webmanifest">
     <link rel="stylesheet" href="css/ekiticons.css">
     <link rel="stylesheet" href="css/all.min.css">
     <script>
         /*to prevent Firefox FOUC, this must be here*/
         let FF_FOUC_FIX;
     </script>
-    <script src="js/jquery.min.js" defer></script>
-    <script src="js/jquery-numerator.min.js" defer></script>
 </head>
 <body id="totop" class="app-kit-3">
 <header class="app app-header app-section-wrap">
@@ -59,7 +57,7 @@
                              class="appkit-menu-container appkit-menu-offcanvas-elements appkit-navbar-nav-default akit-nav-dropdown-hover">
                             <ul id="menu-header" class="appkit-navbar-nav submenu-click-on-icon">
                                 <li class="menu-item">
-                                    <a href="#" class="akit-menu-nav-link">Home</a>
+                                    <a href="/index.html" class="akit-menu-nav-link">Home</a>
                                 </li>
                                 <li class="menu-item">
                                     <a href="#" class="akit-menu-nav-link">About</a>
@@ -174,12 +172,24 @@
         </div>
     </div>
 </header>
-
 <!--Page Main Content -->
-<main class="app-home app app-section-wrap">
-
+<main class="app-post app site-main">
+    <div class="page-content">
+        <article class="post">
+            <h2 class="entry-title app-align-center">
+                <a href=""></a>
+            </h2>
+            <a href="">
+                <img class="ap-post-image" src="" alt="Blog Main Image" decoding="async" loading="lazy">
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum lorem in ipsum convallis placerat.
+                Nunc lectus eros, tempus id ornare a, volutpat a tortor. Mauris eleifend varius neque at fermentum. Duis
+                fringilla nulla quis urna rutrum, ac luctus sem ultricies. Fusce eleifend est semper, suscipit diam ut,
+                sagittis massa.
+            </p>
+        </article>
+    </div>
 </main>
-
 <!-- Footer -->
 <footer class="app app-footer app-section-wrap akit-template-content-footer">
     <!-- Main Footer -->
@@ -207,7 +217,7 @@
                         <div class="app-widget-container">
                             <ul class="app-icon-list-items app-inline-items">
                                 <li class="app-icon-list-item app-inline-item">
-                                    <a href="#">
+                                    <a href="/index.html">
                                         <span class="app-icon-list-text">Home</span>
                                     </a>
                                 </li>
@@ -366,9 +376,10 @@
                         <!-- Form -->
                         <div class="app-element app-element-footer-main-subscribe-form app-widget app-widget-metform">
                             <div class="app-widget-container">
-                                <div id="mf-response-props" data-response-type="alert" data-erroricon="fas fa-exclamation-triangle"
-                                        data-successicon="fas fa-check"
-                                        data-messageposition="top">
+                                <div id="mf-response-props" data-response-type="alert"
+                                     data-erroricon="fas fa-exclamation-triangle"
+                                     data-successicon="fas fa-check"
+                                     data-messageposition="top">
                                     <div class="mf-widget-container">
                                         <div class="mf-form-wrapper">
                                             <form class="mf-subscribe metform-form-content" novalidate>
@@ -392,7 +403,7 @@
                                                                                id="mf-input-email"
                                                                                name="mf-email"
                                                                                placeholder="Your email "
-                                                                                required>
+                                                                               required>
                                                                     </div>
                                                                 </div>
                                                             </div>
