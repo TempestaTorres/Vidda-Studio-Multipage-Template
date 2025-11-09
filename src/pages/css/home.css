@@ -2364,7 +2364,96 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
     margin: 0 20px 0 0;
 }
 /*======================= Accordion Ends ===================================*/
-
+.app-home .app-element.app-element-follow-us {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --flex-wrap: nowrap;
+    --padding-top: 0;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-follow-us:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-follow-us > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-8c75c4b );
+}
+.app-home .app-element.app-element-follow-us-left-side {
+    --display: flex;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-follow-us-card img {
+    border-radius: 10px;
+}
+.app-home .app-element.app-element-follow-us-video {
+    --display: flex;
+    --overlay-opacity: 0.2;
+    --overlay-mix-blend-mode: overlay;
+    --border-radius: 10px;
+}
+.app-home .app-element.app-element-follow-us-video::before,
+.app-home .app-element.app-element-follow-us-video > .app-background-video-container::before,
+.app-home .app-element.app-element-follow-us-video > .app-con-inner > .app-background-video-container::before,
+.app-home .app-element.app-element-follow-us-video > .app-background-slideshow::before,
+.app-home .app-element.app-element-follow-us-video > .app-con-inner > .app-background-slideshow::before,
+.app-home .app-element.app-element-follow-us-video > .app-motion-effects-container > .app-motion-effects-layer::before {
+    background-color: #683826;
+    --background-overlay: '';
+}
+.app-home .app-element.app-element-follow-us-video:not(.app-motion-effects-element-type-background),  .app-home .app-element.app-element-follow-us-video > .app-motion-effects-container > .app-motion-effects-layer {
+    background: url("../../assets/images/beautiful-young-woman-doing-exercises.jpg") 50% 50%;
+    background-size: cover;
+}
+.app-home .app-element.app-element-follow-us-right-side {
+    --display: flex;
+    --justify-content: flex-end;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-follow-us-instagram-card {
+    --display: flex;
+    --min-height: 378px;
+    --justify-content: center;
+    --border-radius: 10px;
+    --margin-top: 0;
+    --margin-bottom: 0;
+    --margin-left: 0;
+    --margin-right: 0;
+    --padding-top: 30px;
+    --padding-bottom: 30px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+.app-home .app-element.app-element-follow-us-instagram-card:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-follow-us-instagram-card > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-accent );
+}
+.app-home .app-element.app-element-follow-us-instagram-card-heading .app-heading-title {
+    font-family: var( --global-typography-100-font-family ),  sans-serif;
+    font-size: var( --global-typography-100-font-size );
+    font-weight: var( --global-typography-100-font-weight );
+    text-transform: var( --global-typography-100-text-transform );
+    font-style: var( --global-typography-100-font-style );
+    text-decoration: var( --global-typography-100-text-decoration );
+    line-height: var( --global-typography-100-line-height );
+    letter-spacing: var( --global-typography-100-letter-spacing );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-follow-us-instagram-card-text > .app-widget-container {
+    margin: -10px 0 -5px 0;
+}
+.app-home .app-element.app-element-follow-us-instagram-card-text {
+    color: #FFFFFFAB;
+}
 /* ================================================ Mobile ========================================= */
 @media(min-width:768px) {
 
@@ -2430,6 +2519,18 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
     }
     .app-home .app-element.app-element-faqs {
         --content-width: 1300px;
+    }
+    .app-home .app-element.app-element-follow-us {
+        --content-width: 1300px;
+    }
+    .app-home .app-element.app-element-follow-us-left-side {
+        --width: 30%;
+    }
+    .app-home .app-element.app-element-follow-us-video {
+        --width: 40%;
+    }
+    .app-home .app-element.app-element-follow-us-right-side {
+        --width: 30%;
     }
 }
 @media(min-width:1025px) {
@@ -3050,6 +3151,25 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
     }
     .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card .appkit-card-header .appkit-btn-link .akit_accordion_active_icon {
         font-size: 18px;
+    }
+    /*=====================================*/
+    .app-home .app-element.app-element-follow-us {
+        --padding-top: 0;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-follow-us-instagram-card {
+        --min-height: 0;
+        --margin-top: 0;
+        --margin-bottom: 0;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app-home .app-element.app-element-follow-us-instagram-card-heading .app-heading-title {
+        font-size: var( --global-typography-100-font-size );
+        line-height: var( --global-typography-100-line-height );
+        letter-spacing: var( --global-typography-100-letter-spacing );
     }
 }
 /*=========================================== max 767 ==========================================*/
@@ -3714,5 +3834,32 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
     }
     .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card .appkit-card-header .appkit-btn-link .akit_accordion_active_icon {
         font-size: 17px;
+    }
+    .app-home .app-element.app-element-follow-us {
+        --flex-wrap: wrap;
+        --padding-top: 0;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-follow-us-video {
+        --min-height: 400px;
+    }
+    .app-home .app-element.app-element-follow-us-right-side.app-con {
+        --order: -99999 /* order start hack */;
+    }
+    .app-home .app-element.app-element-follow-us-instagram-card {
+        --margin-top: 0;
+        --margin-bottom: 10px;
+        --margin-left: 0;
+        --margin-right: 0;
+    }
+    .app-home .app-element.app-element-follow-us-instagram-card-heading .app-heading-title {
+        font-size: var( --global-typography-100-font-size );
+        line-height: var( --global-typography-100-line-height );
+        letter-spacing: var( --global-typography-100-letter-spacing );
+    }
+    .app-home .app-element.app-element-follow-us-instagram-card-text > .app-widget-container {
+        margin: 0 0 -10px 0;
     }
 }
