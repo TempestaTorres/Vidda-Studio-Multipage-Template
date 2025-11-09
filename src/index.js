@@ -6,6 +6,7 @@ import scrollObserver from "./services/scrollObserverService.js";
 import counterObserver from "./services/counterService.js";
 import {LightboxComponent} from "./components/lightbox.component.js";
 import {PostRoutesComponent} from "./components/postRoutes.component.js";
+import {AccordionService} from "./services/accordionService";
 
 (function() {
     "use strict"
@@ -25,6 +26,9 @@ import {PostRoutesComponent} from "./components/postRoutes.component.js";
 
         const posts = new PostRoutesComponent();
         posts.init();
+        // Accordion
+        const accordion = new AccordionService();
+        accordion.init();
 
     });
 

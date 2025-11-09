@@ -15,13 +15,13 @@ p {
   margin-block-end: .9rem;
   margin-block-start: 0;
 }
-.app-kit-3 {
+.app-kit-3-vidda {
   --global-color-primary:#2A1A13;
   --global-color-secondary:#683826;
   --global-color-text:#675249;
   --global-color-accent:#31452D;
   --global-color-2d8c8bd:#F0EDE1;
-  --global-color-8c75c4b:#E9E5D7;
+  --global-color-8c75c4b:#E9E5D7; /* Main background*/
   --global-color-chocklet: #20140E;
   --global-typography-primary-font-family:"Taviraj";
   --global-typography-primary-font-size:68px;
@@ -242,10 +242,10 @@ p {
 .app-button {
   display: inline-block;
 }
-.app-kit-3 button,
-.app-kit-3 input[type="button"],
-.app-kit-3 input[type="submit"],
-.app-kit-3 .app-button {
+.app-kit-3-vidda button,
+.app-kit-3-vidda input[type="button"],
+.app-kit-3-vidda input[type="submit"],
+.app-kit-3-vidda .app-button {
   background-color:var( --global-color-primary );
   font-family:var( --global-typography-accent-font-family ), sans-serif;
   font-size:var( --global-typography-accent-font-size );
@@ -261,27 +261,27 @@ p {
               border-radius .3s,
               box-shadow .3s,transform .4s;
 }
-.app-kit-3 button {
+.app-kit-3-vidda button {
   transition: all .4s ease;
 }
-.app-kit-3 button:hover,
-.app-kit-3 button:focus,
-.app-kit-3 input[type="button"]:hover,
-.app-kit-3 input[type="button"]:focus,
-.app-kit-3 input[type="submit"]:hover,
-.app-kit-3 input[type="submit"]:focus,
-.app-kit-3 .app-button:hover,
-.app-kit-3 .app-button:focus {
+.app-kit-3-vidda button:hover,
+.app-kit-3-vidda button:focus,
+.app-kit-3-vidda input[type="button"]:hover,
+.app-kit-3-vidda input[type="button"]:focus,
+.app-kit-3-vidda input[type="submit"]:hover,
+.app-kit-3-vidda input[type="submit"]:focus,
+.app-kit-3-vidda .app-button:hover,
+.app-kit-3-vidda .app-button:focus {
   background-color:var( --global-color-secondary );
   color:#FFFFFF;
 }
-.app-kit-3 a {
+.app-kit-3-vidda a {
   color:var( --global-color-accent );
 }
-.app-kit-3 a:hover {
+.app-kit-3-vidda a:hover {
   color:var( --global-color-primary );
 }
-.app-kit-3 h1 {
+.app-kit-3-vidda h1 {
   color:var( --global-color-primary );
   font-family:var( --global-typography-primary-font-family ), sans-serif;
   font-size:var( --global-typography-primary-font-size );
@@ -293,7 +293,7 @@ p {
   letter-spacing:var( --global-typography-primary-letter-spacing );
 
 }
-.app-kit-3 h2 {
+.app-kit-3-vidda h2 {
   color:var( --global-color-primary );
   font-family:var( --global-typography-secondary-font-family ), sans-serif;
   font-size:var( --global-typography-secondary-font-size );
@@ -304,7 +304,7 @@ p {
   line-height:var( --global-typography-secondary-line-height );
   letter-spacing:var( --global-typography-secondary-letter-spacing );
 }
-.app-kit-3 h3 {
+.app-kit-3-vidda h3 {
   color:var( --global-color-primary );
   font-family:var( --global-typography-100-font-family ), sans-serif;
   font-size:var( --global-typography-100-font-size );
@@ -315,7 +315,7 @@ p {
   line-height:var( --global-typography-100-line-height );
   letter-spacing:var( --global-typography-100-letter-spacing );
 }
-.app-kit-3 h4 {
+.app-kit-3-vidda h4 {
   color:var( --global-color-primary );
   font-family:var( --global-typography-101-font-family ), sans-serif;
   font-size:var( --global-typography-101-font-size );
@@ -326,7 +326,7 @@ p {
   line-height:var( --global-typography-101-line-height );
   letter-spacing:var( --global-typography-101-letter-spacing );
 }
-.app-kit-3 h5 {
+.app-kit-3-vidda h5 {
   color:var( --global-color-primary );
   font-family:var( --global-typography-102-font-family ), sans-serif;
   font-size:var( --global-typography-102-font-size );
@@ -337,7 +337,7 @@ p {
   line-height:var( --global-typography-102-line-height );
   letter-spacing:var( --global-typography-102-letter-spacing );
 }
-.app-kit-3 h6 {
+.app-kit-3-vidda h6 {
   color:var( --global-color-primary );
   font-family:var( --global-typography-bd2d915-font-family ), sans-serif;
   font-size:var( --global-typography-bd2d915-font-size );
@@ -390,7 +390,7 @@ p {
   margin: 0;
   padding: 0;
 }
-.app-kit-3 .app-element.app-element-text {
+.app-kit-3-vidda .app-element.app-element-text {
   font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
   font-size: var( --global-typography-2eec24c-font-size );
   font-weight: var( --global-typography-2eec24c-font-weight );
@@ -402,7 +402,7 @@ p {
   color: #FFFFFF;
 }
 
-.app-kit-3 img {
+.app-kit-3-vidda img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -469,7 +469,7 @@ p {
   margin:0;
   padding:0
 }
-.app-kit-3 .app-button-link {
+.app-kit-3-vidda .app-button-link {
   background-color: #FE6F6200;
   font-family: var( --global-typography-2eec24c-font-family ), sans-serif;
   font-size: var( --global-typography-2eec24c-font-size );
@@ -488,7 +488,7 @@ p {
   padding: 0;
   transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s;
 }
-.app-kit-3 .app-button-link:hover {
+.app-kit-3-vidda .app-button-link:hover {
   color: #CAC0BB;
 }
 .app-button-menu-close {
@@ -970,7 +970,7 @@ p {
 /* ===================================== Mobile ================================ */
 
 @media(max-width:1024px) {
-  .app-kit-3 {
+  .app-kit-3-vidda {
     --global-typography-primary-font-size:55px;
     --global-typography-secondary-font-size:40px;
     --global-typography-text-font-size:15px;
@@ -985,51 +985,51 @@ p {
     line-height:var( --global-typography-text-line-height );
     letter-spacing:var( --global-typography-text-letter-spacing );
   }
-  .app-kit-3 h1 {
+  .app-kit-3-vidda h1 {
     font-size:var( --global-typography-primary-font-size );
     line-height:var( --global-typography-primary-line-height );
     letter-spacing:var( --global-typography-primary-letter-spacing );
   }
-  .app-kit-3 h2 {
+  .app-kit-3-vidda h2 {
     font-size:var( --global-typography-secondary-font-size );
     line-height:var( --global-typography-secondary-line-height );
     letter-spacing:var( --global-typography-secondary-letter-spacing );
   }
-  .app-kit-3 h3 {
+  .app-kit-3-vidda h3 {
     font-size:var( --global-typography-100-font-size );
     line-height:var( --global-typography-100-line-height );
     letter-spacing:var( --global-typography-100-letter-spacing );
   }
-  .app-kit-3 h4 {
+  .app-kit-3-vidda h4 {
     font-size:var( --global-typography-101-font-size );
     line-height:var( --global-typography-101-line-height );
     letter-spacing:var( --global-typography-101-letter-spacing );
   }
-  .app-kit-3 h5 {
+  .app-kit-3-vidda h5 {
     font-size:var( --global-typography-102-font-size );
     line-height:var( --global-typography-102-line-height );
     letter-spacing:var( --global-typography-102-letter-spacing );
   }
-  .app-kit-3 h6 {
+  .app-kit-3-vidda h6 {
     font-size:var( --global-typography-bd2d915-font-size );
     line-height:var( --global-typography-bd2d915-line-height );
     letter-spacing:var( --global-typography-bd2d915-letter-spacing );
   }
-  .app-kit-3 button,
-  .app-kit-3 input[type="button"],
-  .app-kit-3 input[type="submit"],
-  .app-kit-3 .app-button {
+  .app-kit-3-vidda button,
+  .app-kit-3-vidda input[type="button"],
+  .app-kit-3-vidda input[type="submit"],
+  .app-kit-3-vidda .app-button {
     font-size:var( --global-typography-accent-font-size );
     letter-spacing:var( --global-typography-accent-letter-spacing );
   }
-  .app-kit-3 .app-button {
+  .app-kit-3-vidda .app-button {
     padding: 12px 22px 12px 22px;
   }
   .app-section.app-section-boxed > .app-container {
     max-width:1024px;
   }
 
-  .app-kit-3 .app-element.app-element-text {
+  .app-kit-3-vidda .app-element.app-element-text {
     font-size: var( --global-typography-2eec24c-font-size );
     line-height: var( --global-typography-2eec24c-line-height );
     letter-spacing: var( --global-typography-2eec24c-letter-spacing );
@@ -1075,7 +1075,7 @@ p {
 }
 
 @media(max-width:767px) {
-  .app-kit-3 {
+  .app-kit-3-vidda {
     --global-typography-primary-font-size:45px;
     --global-typography-secondary-font-size:35px;
     --global-typography-text-font-size:15px;
@@ -1090,51 +1090,51 @@ p {
     line-height:var( --global-typography-text-line-height );
     letter-spacing:var( --global-typography-text-letter-spacing );
   }
-  .app-kit-3 h1 {
+  .app-kit-3-vidda h1 {
     font-size:var( --global-typography-primary-font-size );
     line-height:var( --global-typography-primary-line-height );
     letter-spacing:var( --global-typography-primary-letter-spacing );
   }
-  .app-kit-3 h2 {
+  .app-kit-3-vidda h2 {
     font-size:var( --global-typography-secondary-font-size );
     line-height:var( --global-typography-secondary-line-height );
     letter-spacing:var( --global-typography-secondary-letter-spacing );
   }
-  .app-kit-3 h3 {
+  .app-kit-3-vidda h3 {
     font-size:var( --global-typography-100-font-size );
     line-height:var( --global-typography-100-line-height );
     letter-spacing:var( --global-typography-100-letter-spacing );
   }
-  .app-kit-3 h4 {
+  .app-kit-3-vidda h4 {
     font-size:var( --global-typography-101-font-size );
     line-height:var( --global-typography-101-line-height );
     letter-spacing:var( --global-typography-101-letter-spacing );
   }
-  .app-kit-3 h5 {
+  .app-kit-3-vidda h5 {
     font-size:var( --global-typography-102-font-size );
     line-height:var( --global-typography-102-line-height );
     letter-spacing:var( --global-typography-102-letter-spacing );
   }
-  .app-kit-3 h6 {
+  .app-kit-3-vidda h6 {
     font-size:var( --global-typography-bd2d915-font-size );
     line-height:var( --global-typography-bd2d915-line-height );
     letter-spacing:var( --global-typography-bd2d915-letter-spacing );
   }
-  .app-kit-3 button,
-  .app-kit-3 input[type="button"],
-  .app-kit-3 input[type="submit"],
-  .app-kit-3 .app-button {
+  .app-kit-3-vidda button,
+  .app-kit-3-vidda input[type="button"],
+  .app-kit-3-vidda input[type="submit"],
+  .app-kit-3-vidda .app-button {
     font-size:var( --global-typography-accent-font-size );
     letter-spacing:var( --global-typography-accent-letter-spacing );
   }
-  .app-kit-3 .app-button {
+  .app-kit-3-vidda .app-button {
     padding: 11px 18px 11px 18px;
   }
   .app-section.app-section-boxed > .app-container {
     max-width:767px;
   }
 
-  .app-kit-3 .app-element.app-element-text {
+  .app-kit-3-vidda .app-element.app-element-text {
     font-size: var( --global-typography-2eec24c-font-size );
     line-height: var( --global-typography-2eec24c-line-height );
     letter-spacing: var( --global-typography-2eec24c-letter-spacing );

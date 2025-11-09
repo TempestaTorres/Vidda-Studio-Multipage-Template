@@ -2242,6 +2242,129 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
 .app-home .app-element.app-element-articles-blog-posts .appkit-blog-block-post .appkit-post-footer > p {
     margin: 0;
 }
+.app-home .app-element.app-element-faqs {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-faqs:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-faqs > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-8c75c4b );
+}
+.app-home .app-element.app-element-faqs-heading {
+    width: var( --container-widget-width,  55% );
+    max-width: 55%;
+    --container-widget-width: 55%;
+    --container-widget-flex-grow: 0;
+    text-align: center;
+}
+.app-home .app-element.app-element-faqs-heading > .app-widget-container {
+    margin: 0 0 50px 0;
+}
+.app-home .app-element.app-element-faqs-heading.app-element {
+    --align-self: center;
+}
+.app-home .app-element.app-element-faqs-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+    color: var( --global-color-primary );
+}
+/*======================= Accordion ===================================*/
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion.accordion-primary .appkit-card .appkit-card-header>.appkit-btn-link[aria-expanded="true"],
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header>.appkit-btn-link[aria-expanded=true],
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion.floating-style .appkit-card .appkit-btn-link[aria-expanded="true"] {
+    background-color: #F8F6EF;
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header>.appkit-btn-link {
+    background-color: #F8F6EF;
+    font-family: var( --global-typography-bd2d915-font-family ),  sans-serif;
+    font-size: var( --global-typography-bd2d915-font-size );
+    font-weight: var( --global-typography-bd2d915-font-weight );
+    text-transform: var( --global-typography-bd2d915-text-transform );
+    font-style: var( --global-typography-bd2d915-font-style );
+    text-decoration: var( --global-typography-bd2d915-text-decoration );
+    line-height: var( --global-typography-bd2d915-line-height );
+    letter-spacing: var( --global-typography-bd2d915-letter-spacing );
+    color: var( --global-color-primary );
+    border-radius: 7px;
+    padding: 14px 40px 14px 25px;
+}
+.app-home .app-element.app-element-faqs-accordion {
+    width: 100%;
+    max-width: 100%;
+}
+.app-home .app-element.app-element-faqs-accordion > .app-widget-container {
+    margin: 0 250px 0 250px;
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card .appkit-card-header>.appkit-btn-link[aria-expanded="true"] {
+    color: var( --global-color-primary );
+    border-radius: 7px;
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion.curve-shape .appkit-card-header>.appkit-btn-link[aria-expanded=true] {
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card:not(:last-child) {
+    margin-bottom: 6px;
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body p {
+    color: var( --global-color-text );
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body {
+    color: var( --global-color-text );
+    border-radius: 0;
+    padding: 20px 40px 30px 20px;
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body p,
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body {
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion > .appkit-card.active {
+    border-style: solid;
+    border-width: 0;
+    border-color: #68382675;
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion > .appkit-card {
+    border-style: solid;
+    border-width: 0;
+    border-color: #68382630;
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header .appkit-btn-link .akit_accordion_normal_icon {
+    font-size: 17px;
+    color: var( --global-color-accent );
+    fill: var( --global-color-accent );
+}
+.app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card .appkit-card-header .appkit-btn-link .akit_accordion_active_icon {
+    font-size: 20px;
+    color: var( --global-color-accent );
+    fill: var( --global-color-accent );
+}
+.app-home .app-element.app-element-faqs-accordion .akit_accordion_icon_group,
+.app-home .app-element.app-element-faqs-accordion .akit_accordion_icon_left_group {
+    margin: 0 20px 0 0;
+}
+/*======================= Accordion Ends ===================================*/
+
 /* ================================================ Mobile ========================================= */
 @media(min-width:768px) {
 
@@ -2304,6 +2427,9 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
     }
     .app-home .app-element.app-element-articles-header-button-wrapper {
         --width: 30%;
+    }
+    .app-home .app-element.app-element-faqs {
+        --content-width: 1300px;
     }
 }
 @media(min-width:1025px) {
@@ -2883,6 +3009,47 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
         font-size: var( --global-typography-text-font-size );
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-faqs {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-faqs-heading > .app-widget-container {
+        margin: 0 0 30px 0;
+    }
+    .app-home .app-element.app-element-faqs-heading {
+        --container-widget-width: 80%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  80% );
+        max-width: 80%;
+    }
+    .app-home .app-element.app-element-faqs-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    /*=============== Accordion =========================*/
+    .app-home .app-element.app-element-faqs-accordion > .app-widget-container {
+        margin: 0;
+    }
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header>.appkit-btn-link {
+        font-size: var( --global-typography-bd2d915-font-size );
+        line-height: var( --global-typography-bd2d915-line-height );
+        letter-spacing: var( --global-typography-bd2d915-letter-spacing );
+    }
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body p,
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header .appkit-btn-link .akit_accordion_normal_icon {
+        font-size: 15px;
+    }
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card .appkit-card-header .appkit-btn-link .akit_accordion_active_icon {
+        font-size: 18px;
     }
 }
 /*=========================================== max 767 ==========================================*/
@@ -3508,5 +3675,44 @@ body:not(.rtl) .app-home .app-element.app-element-package-card-included-list .ap
         font-size: var( --global-typography-text-font-size );
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-faqs {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-faqs-heading {
+        --container-widget-width: 100%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  100% );
+        max-width: 100%;
+    }
+    .app-home .app-element.app-element-faqs-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    /*============================= Accordion ==============================*/
+    .app-home .app-element.app-element-faqs-accordion > .app-widget-container {
+        margin: 0;
+    }
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header>.appkit-btn-link {
+        font-size: var( --global-typography-bd2d915-font-size );
+        line-height: var( --global-typography-bd2d915-line-height );
+        letter-spacing: var( --global-typography-bd2d915-letter-spacing );
+        padding: 12px 30px 12px 20px;
+    }
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body p,
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header .appkit-btn-link .akit_accordion_normal_icon {
+        font-size: 14px;
+    }
+    .app-home .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card .appkit-card-header .appkit-btn-link .akit_accordion_active_icon {
+        font-size: 17px;
     }
 }
