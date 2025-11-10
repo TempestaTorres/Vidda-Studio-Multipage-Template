@@ -1,19 +1,27 @@
 import {WidgitsService} from "../services/widgitsService.js";
 import {NavigationComponent} from "./navigation.component.js";
-import {NavigationRoutes} from "../navigationRoutes/navigation.routes";
+import {NavigationRoutes} from "../navigationRoutes/navigation.routes.js";
 
 export class HeaderComponent {
 
-    constructor(responsiveData = 1024) {
+    constructor(routes = [], responsiveData = 1024) {
 
         this._responsiveData = responsiveData;
         this._subLinks = null;
         this._menuIndex = null;
+        this._routes = routes;
     }
     initialize() {
 
         const navigation = new NavigationComponent();
         navigation.init();
+
+        if (Array.isArray(this._routes) && this._routes.length > 0) {
+
+            for (let route of this._routes) {
+                navigation.setRoute(route.selector, route.name, route.textSelector, this.#navLinkClick);
+            }
+        }
 
         WidgitsService.menuToggler();
         WidgitsService.dropdownMenuToggler();
@@ -36,18 +44,18 @@ export class HeaderComponent {
 
         e.preventDefault();
 
-        console.log("Menu clicked");
         let href = e.currentTarget.attributes.href.value;
         let name = href.slice(1);
         let route = NavigationRoutes.getRouteByName(name);
-
-        if (route !== null && route !== window.location.pathname) {
-            window.location = route;
-        }
 
         if (window.innerWidth <= this._responsiveData) {
 
             WidgitsService.menuToggle(e);
         }
+
+        if (route !== null && route !== window.location.pathname) {
+            window.location = route;
+        }
+
     }
 }

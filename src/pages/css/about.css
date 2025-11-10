@@ -1,3 +1,591 @@
 @import "../../framework/css/framework-vidda-kit.css";
 @import "../../css/header-footer.css";
 @import "../../css/app-vidda.css";
+
+.app-widget-heading .app-heading-title {
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-about-hero {
+    --display: flex;
+    --min-height: 0px;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 0;
+    --padding-bottom: 0px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+.app-home .app-element.app-element-about-hero-image {
+    --display: flex;
+    --min-height: 500px;
+    --justify-content: center;
+    --align-items: center;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --overlay-opacity: 0.7;
+    --overlay-mix-blend-mode: darken;
+    --border-radius: 10px;
+}
+.app-home .app-element.app-element-about-hero-image:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-about-hero-image > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../../assets/images/woman-standing-in-yoga-position.webp");
+    background-position: center center;
+    background-size: cover;
+}
+.app-home .app-element.app-element-about-hero-image::before,
+.app-home .app-element.app-element-about-hero-image > .app-background-video-container::before,
+.app-home .app-element.app-element-about-hero-image > .app-con-inner > .app-background-video-container::before,
+.app-home .app-element.app-element-about-hero-image > .app-background-slideshow::before,
+.app-home .app-element.app-element-about-hero-image > .app-con-inner > .app-background-slideshow::before,
+.app-home .app-element.app-element-about-hero-image > .app-motion-effects-container > .app-motion-effects-layer::before {
+    background-color: #2A1A13;
+    --background-overlay: '';
+}
+.app-home .app-element.app-element-about-hero-heading > .app-widget-container {
+    margin: -8px 0 -10px 0;
+}
+.app-home .app-element.app-element-about-hero-heading .app-heading-title {
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+    color: #FFFFFF;
+}
+.app-widget-icon-list .app-icon-list-item:not(:last-child):after {
+    border-color: var( --global-color-text );
+}
+.app-widget-icon-list .app-icon-list-icon i {
+    color: var( --global-color-primary );
+}
+.app-widget-icon-list .app-icon-list-icon svg {
+    fill: var( --global-color-primary );
+}
+.app-widget-icon-list .app-icon-list-item > .app-icon-list-text,
+.app-widget-icon-list .app-icon-list-item > a {
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+}
+.app-widget-icon-list .app-icon-list-text {
+    color: var( --global-color-secondary );
+}
+.app-home .app-element.app-element-about-hero-icon-list > .app-widget-container {
+    margin: 0 0 0 -15px;
+}
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-items:not(.app-inline-items) .app-icon-list-item:not(:last-child) {
+    padding-bottom: calc(15px/2);
+}
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-items:not(.app-inline-items) .app-icon-list-item:not(:first-child) {
+    margin-top: calc(15px/2);
+}
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item {
+    margin-right: calc(15px/2);
+    margin-left: calc(15px/2);
+}
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-items.app-inline-items {
+    margin-right: calc(-15px/2);
+    margin-left: calc(-15px/2);
+}
+body.rtl .app-home .app-element.app-element-about-hero-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item:after {
+    left: calc(-15px/2);
+}
+body:not(.rtl) .app-home .app-element.app-element-about-hero-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item:after {
+    right: calc(-15px/2);
+}
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-icon i {
+    color: var( --global-color-2d8c8bd );
+    transition: color 0.3s;
+}
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-icon svg {
+    fill: var( --global-color-2d8c8bd );
+    transition: fill 0.3s;
+}
+.app-home .app-element.app-element-about-hero-icon-list {
+    --icon-list-icon-size: 14px;
+    --icon-vertical-offset: 0;
+}
+.app-home .app-element.app-element-about-hero-icon-list:NOT(.app-icon-list-ico-position-10) .app-icon-list-text {
+    padding-left: 15px;
+}
+.app-home .app-element.app-element-about-hero-icon-list.app-icon-list-ico-position-10 .app-icon-list-text {
+    padding-right: 15px;
+}
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-item > .app-icon-list-text,
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-item > a {
+    font-family: var( --global-typography-658dc5b-font-family ),  sans-serif;
+    font-size: var( --global-typography-658dc5b-font-size );
+    font-weight: var( --global-typography-658dc5b-font-weight );
+    text-transform: var( --global-typography-658dc5b-text-transform );
+    font-style: var( --global-typography-658dc5b-font-style );
+    text-decoration: var( --global-typography-658dc5b-text-decoration );
+    line-height: var( --global-typography-658dc5b-line-height );
+    letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+}
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-text {
+    color: #FFFFFF82;
+    transition: color 0.3s;
+}
+.app-home .app-element.app-element-about-hero-icon-list .app-icon-list-item:hover .app-icon-list-text {
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-section-about {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-section-about-header {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --gap: 20px 100px;
+    --row-gap: 20px;
+    --column-gap: 100px;
+    --flex-wrap: nowrap;
+    --margin-top: 0px;
+    --margin-bottom: 10px;
+    --margin-left: 0;
+    --margin-right: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-section-about-header-left {
+    --display: flex;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-section-about-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+}
+.app-home .app-element.app-element-section-about-header-right {
+    --display: flex;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-section-about-header-right.app-con {
+    --align-self: flex-end;
+}
+.app-home .app-element.app-element-section-about-header-text > .app-widget-container {
+    margin: 0 0 -5px 0;
+}
+.app-home .app-element.app-element-section-about-content {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --gap: 20px 20px;
+    --row-gap: 20px;
+    --column-gap: 20px;
+    --flex-wrap: nowrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-section-about-content-left {
+    --display: flex;
+    --justify-content: space-between;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-widget-image .widget-image-caption {
+    color: var( --global-color-text );
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+}
+.app-widget-image-box .app-image-box-title {
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-widget-image-box:has(:hover) .app-image-box-title,
+.app-widget-image-box:has(:focus) .app-image-box-title {
+    color: var( --global-color-primary );
+}
+.app-widget-image-box .app-image-box-description {
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+    color: var( --global-color-text );
+}
+.app-home .app-element.app-element-section-about-image img {
+    border-radius: 10px;
+}
+.app-home .app-element.app-element-section-about-content-right {
+    --display: flex;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-section-counter-grid {
+    --display: grid;
+    --con-grid-template-columns: repeat(4,  1fr);
+    --con-grid-template-rows: repeat(1,  1fr);
+    --gap: 20px 0px;
+    --row-gap: 20px;
+    --column-gap: 0;
+    --grid-auto-flow: row;
+    --padding-top: 0;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-widget-counter .app-counter-number-wrapper {
+    color: var( --global-color-primary );
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+}
+.app-widget-counter .app-counter-title {
+    color: var( --global-color-secondary );
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+}
+.app-home .app-element.app-element-section-counter-item .app-counter-title {
+    text-align: center;
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+}
+.app-home .app-element.app-element-section-counter-item > .app-widget-container {
+    margin: 0;
+    padding: 5px 0 15px 0;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: #2A1A1330;
+}
+.app-home .app-element.app-element-section-counter-item.item-4 > .app-widget-container {
+    border-width: 0;
+}
+.app-home .app-element.app-element-section-counter-item .app-counter-number-wrapper {
+    font-family: var( --global-typography-1a61658-font-family ),  sans-serif;
+    font-size: var( --global-typography-1a61658-font-size );
+    font-weight: var( --global-typography-1a61658-font-weight );
+    text-transform: var( --global-typography-1a61658-text-transform );
+    font-style: var( --global-typography-1a61658-font-style );
+    text-decoration: var( --global-typography-1a61658-text-decoration );
+    line-height: var( --global-typography-1a61658-line-height );
+    letter-spacing: var( --global-typography-1a61658-letter-spacing );
+}
+/*======================================== Mobile 1024 =======================================*/
+@media(max-width:1024px) {
+
+    .app-widget-heading .app-heading-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-home .app-element.app-element-about-hero {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-about-hero-image {
+        --min-height: 400px;
+    }
+    .app-home .app-element.app-element-about-hero-heading .app-heading-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-widget-icon-list .app-icon-list-item > a {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-about-hero-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-home .app-element.app-element-about-hero-icon-list .app-icon-list-item > a {
+        font-size: var( --global-typography-658dc5b-font-size );
+        line-height: var( --global-typography-658dc5b-line-height );
+        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-about {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-section-about-header {
+        --gap: 20px 50px;
+        --row-gap: 20px;
+        --column-gap: 50px;
+    }
+    .app-home .app-element.app-element-section-about-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-widget-image .widget-image-caption {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-widget-image-box .app-image-box-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-image-box .app-image-box-description {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-counter-grid {
+        --con-grid-template-columns: repeat(2,  1fr);
+        --gap: 0 0;
+        --row-gap: 0;
+        --column-gap: 0;
+        --grid-auto-flow: row;
+        --padding-top: 0;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-widget-counter .app-counter-number-wrapper {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-counter .app-counter-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-counter-item > .app-widget-container {
+        margin: 0;
+        border-width: 0 1px 1px 0;
+    }
+    .app-home .app-element.app-element-section-counter-item.item-2 > .app-widget-container {
+        border-width: 0 0 1px 0;
+    }
+    .app-home .app-element.app-element-section-counter-item.item-3 > .app-widget-container {
+        border-width: 0 1px 0 0;
+    }
+    .app-home .app-element.app-element-section-counter-item.item-4 > .app-widget-container {
+        margin: 0;
+        border-width: 0;
+    }
+    .app-home .app-element.app-element-section-counter-item .app-counter-number-wrapper {
+        font-size: var( --global-typography-1a61658-font-size );
+        line-height: var( --global-typography-1a61658-line-height );
+        letter-spacing: var( --global-typography-1a61658-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-counter-item .app-counter-title {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+}
+/*======================================== 767 ==================================================*/
+@media(max-width:767px) {
+    .app-home .app-element.app-element-about-hero {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 10px;
+        --padding-right: 10px;
+    }
+    .app-home .app-element.app-element-about-hero-image {
+        --min-height: 300px;
+    }
+    .app-widget-heading .app-heading-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-home .app-element.app-element-about-hero-heading .app-heading-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-widget-icon-list .app-icon-list-item > a {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-about-hero-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-home .app-element.app-element-about-hero-icon-list .app-icon-list-item > a {
+        font-size: var( --global-typography-658dc5b-font-size );
+        line-height: var( --global-typography-658dc5b-line-height );
+        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-about {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-section-about-header {
+        --flex-wrap: wrap;
+    }
+    .app-home .app-element.app-element-section-about-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-about-content {
+        --flex-wrap: wrap;
+    }
+    .app-widget-image .widget-image-caption {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-widget-image-box .app-image-box-title {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-image-box .app-image-box-description {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-about-content-right.app-con {
+        --order: -99999 /* order start hack */;
+    }
+    .app-home .app-element.app-element-section-counter-grid {
+        --con-grid-template-columns: repeat(1,  1fr);
+        --grid-auto-flow: row;
+        --padding-top: 0;
+        --padding-bottom: 70px;
+        --padding-left: 50px;
+        --padding-right: 50px;
+    }
+    .app-widget-counter .app-counter-number-wrapper {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-counter .app-counter-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-counter-item > .app-widget-container {
+        padding: 0 0 30px 0;
+        border-width: 0 0 1px 0;
+    }
+    .app-home .app-element.app-element-section-counter-item.item-2 > .app-widget-container {
+        padding: 30px 0;
+    }
+    .app-home .app-element.app-element-section-counter-item.item-3 > .app-widget-container {
+        padding: 30px 0;
+        border-width: 0 0 1px 0;
+    }
+    .app-home .app-element.app-element-section-counter-item.item-4 > .app-widget-container {
+        padding: 30px 0;
+    }
+    .app-home .app-element.app-element-section-counter-item .app-counter-number-wrapper {
+        font-size: var( --global-typography-1a61658-font-size );
+        line-height: var( --global-typography-1a61658-line-height );
+        letter-spacing: var( --global-typography-1a61658-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-counter-item .app-counter-title {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+}
+@media(min-width:768px) {
+    .app-home .app-element.app-element-about-hero-image {
+        --content-width: 1300px;
+    }
+    .app-home .app-element.app-element-section-about {
+        --content-width: 1300px;
+    }
+    .app-home .app-element.app-element-section-about-content-left {
+        --width: 60%;
+    }
+    .app-home .app-element.app-element-section-about-content-right {
+        --width: 40%;
+    }
+    .app-home .app-element.app-element-section-counter-grid {
+        --content-width: 1300px;
+    }
+}

@@ -1968,8 +1968,8 @@ body.rtl .app-con {
 .app-form .app-button.app-size-xl {
   min-height:72px
 }
-.app-element:where(:not(.app-con)):where(:not(.e-div-block-base)) .app-widget-container,
-.app-element:where(:not(.app-con)):where(:not(.e-div-block-base)):not(:has(.app-widget-container)) {
+.app-element:where(:not(.app-con)):where(:not(.a-div-block-base)) .app-widget-container,
+.app-element:where(:not(.app-con)):where(:not(.a-div-block-base)):not(:has(.app-widget-container)) {
   transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--transform-transition-duration,.4s)
 }
 .app-heading-title {

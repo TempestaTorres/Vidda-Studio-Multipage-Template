@@ -1,6 +1,6 @@
 import "../css/about.css";
 import scrollObserver from "../../services/scrollObserverService.js";
-//import counterObserver from "../../services/counterService.js";
+import counterObserver from "../../services/counterService.js";
 import {HeaderComponent} from "../../components/header.component.js";
 import {FooterComponent} from "../../components/footer.component.js";
 //import {AccordionService} from "../../services/accordionService.js";
@@ -10,7 +10,11 @@ import {FooterComponent} from "../../components/footer.component.js";
 
     window.addEventListener("DOMContentLoaded", function() {
 
-        const header = new HeaderComponent();
+        const header = new HeaderComponent([{
+            selector: ".app-element-about-hero-nav-link",
+            name: "Home",
+            textSelector: true,
+        }]);
         header.initialize();
 
         const footer = new FooterComponent();
@@ -18,7 +22,7 @@ import {FooterComponent} from "../../components/footer.component.js";
         scrollObserver(".app-invisible", ["animated", "fadeIn"], { once: true ,
             threshold: 0.1 });
 
-        //counterObserver(".app-counter-number");
+        counterObserver(".app-counter-number");
 
         // Accordion
         //const accordion = new AccordionService();

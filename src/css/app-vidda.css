@@ -241,6 +241,25 @@ svg) {
     width:auto;
     fill:var(--rating-icon-color);
 }
+.app-widget-text-editor-secondary {
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+    color: var( --global-color-text );
+}
+.app-widget-text-editor-secondary.app-drop-cap-view-stacked .app-drop-cap {
+    background-color: var( --global-color-primary );
+}
+.app-widget-text-editor-secondary.app-drop-cap-view-framed .app-drop-cap,
+.app-widget-text-editor-secondary.app-drop-cap-view-default .app-drop-cap {
+    color: var( --global-color-primary );
+    border-color: var( --global-color-primary );
+}
 .app .app-element.app-element-text-secondary {
     width: 100%;
     max-width: 100%;
@@ -371,6 +390,11 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
         line-height:var( --global-typography-text-line-height );
         letter-spacing:var( --global-typography-text-letter-spacing );
     }
+    .app-widget-text-editor-secondary {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
 }
 /*=========================================== max 767 ==========================================*/
 @media(max-width:767px) {
@@ -413,5 +437,10 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
         font-size:var( --global-typography-text-font-size );
         line-height:var( --global-typography-text-line-height );
         letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    .app-widget-text-editor-secondary {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
     }
 }

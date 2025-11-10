@@ -90,4 +90,25 @@ export class NavigationComponent {
         let pathName = window.location.pathname;
         return NavigationRoutes.getRouteId(pathName);
     }
+    setRoute(selector, routeName, textSelector = false, callback = null) {
+        let item = document.querySelector(selector);
+
+        if (item && item.nodeName === "A") {
+            let route = NavigationRoutes.getRouteByName(routeName);
+
+            if (route !== null) {
+                item.href = "/" + routeName;
+
+                if (!textSelector) {
+                    item.textContent = routeName;
+                }
+                else {
+                    item.firstElementChild.textContent = routeName;
+                }
+            }
+            if (callback) {
+                item.addEventListener("click", callback);
+            }
+        }
+    }
 }

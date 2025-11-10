@@ -68,6 +68,10 @@ module.exports = {
             chunks: ['body'],
             filename: 'body.html'
         }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/404.html',
+            filename: '404.html'
+        }),
         new CopyPlugin({
             patterns: [
                 { from: "./src/plugins/css", to: "css" },
