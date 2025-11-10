@@ -1,14 +1,14 @@
-import "./blog-post.css";
-
+import "../css/about.css";
 import scrollObserver from "../../services/scrollObserverService.js";
+//import counterObserver from "../../services/counterService.js";
 import {HeaderComponent} from "../../components/header.component.js";
 import {FooterComponent} from "../../components/footer.component.js";
-import {BlogpostComponent} from "../../components/blogpost.component.js";
+//import {AccordionService} from "../../services/accordionService.js";
 
-(function () {
-    'use strict';
+(function() {
+    "use strict";
 
-    document.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener("DOMContentLoaded", function() {
 
         const header = new HeaderComponent();
         header.initialize();
@@ -18,8 +18,11 @@ import {BlogpostComponent} from "../../components/blogpost.component.js";
         scrollObserver(".app-invisible", ["animated", "fadeIn"], { once: true ,
             threshold: 0.1 });
 
-        const blogPost = new BlogpostComponent("#blog-post-title");
-        blogPost.init();
+        //counterObserver(".app-counter-number");
+
+        // Accordion
+        //const accordion = new AccordionService();
+        //accordion.init();
 
     });
 })();

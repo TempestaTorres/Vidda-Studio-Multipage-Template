@@ -7,6 +7,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
     entry: {
         index: './src/index.js',
+        about: './src/pages/js/about.js',
         postHarmony: './src/pages/posts/blog-post.js',
         body: './src/pages/posts/post.js',
     },
@@ -48,6 +49,12 @@ module.exports = {
             inject: 'body',
             chunks: ['index'],
             filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/about.html',
+            inject: 'body',
+            chunks: ['about'],
+            filename: 'about.html'
         }),
         new HtmlWebpackPlugin({
             template: './src/pages/posts/harmony.html',

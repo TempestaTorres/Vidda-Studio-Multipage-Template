@@ -13,14 +13,16 @@ import {AccordionService} from "./services/accordionService";
 
     window.addEventListener("DOMContentLoaded", function() {
 
+        const header = new HeaderComponent();
+        header.initialize();
+
+        const footer = new FooterComponent();
+
         scrollObserver(".app-invisible", ["animated", "fadeIn"], { once: true ,
         threshold: 0.1 });
 
         counterObserver(".app-counter-number");
 
-        const header = new HeaderComponent();
-        header.initialize();
-        const footer = new FooterComponent();
         const videoPlayer = new VideoPlayer('.app-background-video-container', "home-video-widget-1","CL8j01U66aM", "Woman Exercising Stock Footage | Fitness Footage | Yoga Stock Video | Royalty Free Videos");
         const videoPlayer2 = new VideoPlayer('.app-follow-us-video-container', "home-video-widget-2","4gmV7kPoDgY", "Free Stock Video - People Doing the Warrior Pose in a Yoga Class - VidStock Hub #YogaEmpowerment");
         const lightBox = new LightboxComponent("vYprEI6Q270", ".akit-video-popup-btn");

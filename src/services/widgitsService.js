@@ -16,7 +16,7 @@ export class WidgitsService {
                     navbar.children[i].classList.remove('current-menu-item');
                     navbar.children[i].firstElementChild.classList.remove('active');
 
-                    if (i === activeMenuIndex) {
+                    if (activeMenuIndex !== null && i === activeMenuIndex) {
                         navbar.children[i].classList.add('current-menu-item');
                         navbar.children[i].firstElementChild.classList.add('active');
                     }
@@ -84,12 +84,15 @@ export class WidgitsService {
 
                 if (icon) {
 
-                    if (submenu.classList.contains('appkit-dropdown-open'))
-                    {
-                        icon.style.transform = 'rotate(180deg)';
-                    }
-                    else {
-                        icon.style.transform = 'rotate(360deg)';
+                    if (window.innerWidth <= 1024) {
+
+                        if (submenu.classList.contains('appkit-dropdown-open'))
+                        {
+                            icon.style.transform = 'rotate(180deg)';
+                        }
+                        else {
+                            icon.style.transform = 'rotate(360deg)';
+                        }
                     }
                 }
             }

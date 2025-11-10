@@ -10,11 +10,13 @@ import {PostComponent} from "../../components/post.component";
 
     document.addEventListener('DOMContentLoaded', () => {
 
-        scrollObserver(".app-invisible", ["animated", "fadeIn"], { once: true ,
-            threshold: 0.1 });
         const header = new HeaderComponent();
         header.initialize();
+
         const footer = new FooterComponent();
+
+        scrollObserver(".app-invisible", ["animated", "fadeIn"], { once: true ,
+            threshold: 0.1 });
         // Post
         const post = new PostComponent("#meta-post-title");
         post.init();
