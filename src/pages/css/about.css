@@ -350,6 +350,115 @@ body:not(.rtl) .app-home .app-element.app-element-about-hero-icon-list .app-icon
     line-height: var( --global-typography-1a61658-line-height );
     letter-spacing: var( --global-typography-1a61658-letter-spacing );
 }
+.app-home .app-element.app-element-section-classes {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-section-classes:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-section-classes > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-8c75c4b );
+}
+.app-home .app-element.app-element-section-classes-heading {
+    width: var( --container-widget-width,  60% );
+    max-width: 60%;
+    --container-widget-width: 60%;
+    --container-widget-flex-grow: 0;
+    text-align: center;
+}
+.app-home .app-element.app-element-section-classes-heading > .app-widget-container {
+    margin: 0 0 50px 0;
+}
+.app-home .app-element.app-element-section-classes-heading.app-element {
+    --align-self: center;
+}
+.app-home .app-element.app-element-section-classes-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+}
+.app-home .app-element.app-element-section-classes-cards {
+    --display: grid;
+    --con-grid-template-columns: repeat(3,  1fr);
+    --con-grid-template-rows: repeat(1,  1fr);
+    --grid-auto-flow: row;
+    --margin-top: 0;
+    --margin-bottom: 50px;
+    --margin-left: 0;
+    --margin-right: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-section-classes-card {
+    --display: flex;
+    --border-radius: 10px;
+    --padding-top: 30px;
+    --padding-bottom: 30px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+.app-home .app-element.app-element-section-classes-card:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-section-classes-card > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: #F8F6EF;
+}
+.app-home .app-element.app-element-section-classes-card-mage .app-image-box-wrapper {
+    text-align: left;
+}
+.app-home .app-element.app-element-section-classes-card-mage.app-position-right .app-image-box-img {
+    margin-left: 40px;
+}
+.app-home .app-element.app-element-section-classes-card-mage.app-position-left .app-image-box-img {
+    margin-right: 40px;
+}
+.app-home .app-element.app-element-section-classes-card-mage.app-position-top .app-image-box-img {
+    margin-bottom: 40px;
+}
+.app-home .app-element.app-element-section-classes-card-mage .app-icon-box-title {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.app-home .app-element.app-element-section-classes-card-mage .app-image-box-title {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: var( --global-typography-101-font-family ),  sans-serif;
+    font-size: var( --global-typography-101-font-size );
+    font-weight: var( --global-typography-101-font-weight );
+    text-transform: var( --global-typography-101-text-transform );
+    font-style: var( --global-typography-101-font-style );
+    text-decoration: var( --global-typography-101-text-decoration );
+    line-height: var( --global-typography-101-line-height );
+    letter-spacing: var( --global-typography-101-letter-spacing );
+}
+.app-home .app-element.app-element-section-classes-card-mage .app-image-box-wrapper .app-image-box-img {
+    width: 19%;
+}
+.app-home .app-element.app-element-section-classes-card-mage .app-image-box-img img {
+    transition-duration: 0.3s;
+}
+.app-home .app-element.app-element-section-classes-card-mage .app-image-box-description {
+    color: var( --global-color-text );
+}
+.app-home .app-element.app-element-section-classes-footer-text > .app-widget-container {
+    margin: 0 0 30px 0;
+}
+.app-home .app-element.app-element-section-classes-footer-text {
+    text-align: center;
+}
 /*======================================== Mobile 1024 =======================================*/
 @media(max-width:1024px) {
 
@@ -459,6 +568,51 @@ body:not(.rtl) .app-home .app-element.app-element-about-hero-icon-list .app-icon
         font-size: var( --global-typography-text-font-size );
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-classes {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-section-classes-heading {
+        --container-widget-width: 95%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  95% );
+        max-width: 95%;
+    }
+    .app-home .app-element.app-element-section-classes-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-classes-cards {
+        --con-grid-template-columns: repeat(2,  1fr);
+        --grid-auto-flow: row;
+    }
+    .app-home .app-element.app-element-section-classes-card-mage .app-image-box-title {
+        font-size: var( --global-typography-101-font-size );
+        line-height: var( --global-typography-101-line-height );
+        letter-spacing: var( --global-typography-101-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-classes-card-mage.app-position-right.app-keep-position-yes .app-image-box-img {
+        margin-left: 40px!important;
+        margin-right: 0!important;
+    }
+    .app-home .app-element.app-element-section-classes-card-mage.app-position-left.app-keep-position-yes .app-image-box-img {
+        margin-right: 40px!important;
+        margin-left: 0!important;
+    }
+    .app-home .app-element.app-element-section-classes-card-mage:not(.app-keep-position-yes) .app-image-box-img {
+        margin-bottom: 40px;
+    }
+    .app-home .app-element.app-element-section-classes-card-mage .app-image-box-wrapper .app-image-box-img {
+        width: 22%;
+    }
+    .app-home .app-element.app-element-section-classes-card-mage .app-image-box-title {
+        font-size: var( --global-typography-101-font-size );
+        line-height: var( --global-typography-101-line-height );
+        letter-spacing: var( --global-typography-101-letter-spacing );
     }
 }
 /*======================================== 767 ==================================================*/
@@ -571,6 +725,21 @@ body:not(.rtl) .app-home .app-element.app-element-about-hero-icon-list .app-icon
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );
     }
+    .app-home .app-element.app-element-section-classes {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-section-classes-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-classes-cards {
+        --con-grid-template-columns: repeat(1,  1fr);
+        --grid-auto-flow: row;
+    }
 }
 @media(min-width:768px) {
     .app-home .app-element.app-element-about-hero-image {
@@ -586,6 +755,9 @@ body:not(.rtl) .app-home .app-element.app-element-about-hero-icon-list .app-icon
         --width: 40%;
     }
     .app-home .app-element.app-element-section-counter-grid {
+        --content-width: 1300px;
+    }
+    .app-home .app-element.app-element-section-classes {
         --content-width: 1300px;
     }
 }
