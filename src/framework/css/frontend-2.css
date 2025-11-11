@@ -77,6 +77,9 @@ html[dir=rtl] {
   max-width:100%;
   width:100%
 }
+.app .app-background-inherit {
+  background-color: inherit !important;
+}
 .app .app-background,
 .app .app-background-holder,
 .app .app-background-video-container {

@@ -8,6 +8,7 @@ module.exports = {
     entry: {
         index: './src/index.js',
         about: './src/pages/js/about.js',
+        classes: './src/pages/js/classes.js',
         postHarmony: './src/pages/posts/blog-post.js',
         body: './src/pages/posts/post.js',
     },
@@ -55,6 +56,12 @@ module.exports = {
             inject: 'body',
             chunks: ['about'],
             filename: 'about.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/classes.html',
+            inject: 'body',
+            chunks: ['classes'],
+            filename: 'classes.html'
         }),
         new HtmlWebpackPlugin({
             template: './src/pages/posts/harmony.html',

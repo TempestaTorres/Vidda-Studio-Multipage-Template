@@ -1,0 +1,18 @@
+
+.app-con.a-parent:nth-of-type(n+4):not(.a-lazyloaded):not(.a-no-lazyload),
+.app-con.a-parent:nth-of-type(n+4):not(.a-lazyloaded):not(.a-no-lazyload) * {
+	background-image: none !important;
+}
+@media screen and (max-height: 1024px) {
+	.app-con.a-parent:nth-of-type(n+3):not(.a-lazyloaded):not(.a-no-lazyload),
+	.app-con.a-parent:nth-of-type(n+3):not(.a-lazyloaded):not(.a-no-lazyload) * {
+		background-image: none !important;
+	}
+}
+@media screen and (max-height: 640px) {
+	.app-con.a-parent:nth-of-type(n+2):not(.a-lazyloaded):not(.a-no-lazyload),
+	.app-con.a-parent:nth-of-type(n+2):not(.a-lazyloaded):not(.a-no-lazyload) * {
+		background-image: none !important;
+	}
+}
+			

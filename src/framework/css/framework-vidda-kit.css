@@ -5,6 +5,7 @@
 @import "widget-styles.css";
 @import "app-widget-icon-list.css";
 @import "widgit-social-icons.css";
+@import "widget-icon-box.css";
 @import "metaform.css";
 @import "metform-ui.css";
 @import "widget-counter.css";
@@ -12,3 +13,4 @@
 @import "frontend-style.css";
 @import "frontend-2.css";
 @import "app-metform.css";
+@import "lazyloaded.css";

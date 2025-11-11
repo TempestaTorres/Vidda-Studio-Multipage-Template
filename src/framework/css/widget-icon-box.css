@@ -1,0 +1,189 @@
+.app-widget-icon-box .app-icon-box-wrapper {
+    display:flex;
+    flex-direction:column;
+    gap:var(--icon-box-icon-margin,15px);
+    text-align:center
+}
+.app-widget-icon-box .app-icon-box-icon {
+    display:inline-block;
+    flex:0 0 auto;
+    line-height:0
+}
+.app-widget-icon-box .app-icon-box-content {
+    flex-grow:1;
+    width:100%
+}
+.app-widget-icon-box .app-icon-box-title a {
+    color:inherit
+}
+.app-widget-icon-box .app-icon-box-description {
+    margin:0
+}
+.app-widget-icon-box.app-position-right .app-icon-box-wrapper {
+    flex-direction:row-reverse;
+    gap:var(--icon-box-icon-margin,15px);
+    text-align:end
+}
+.app-widget-icon-box.app-position-left .app-icon-box-wrapper {
+    flex-direction:row;
+    gap:var(--icon-box-icon-margin,15px);
+    text-align:start
+}
+.app-widget-icon-box.app-position-top .app-icon-box-wrapper {
+    align-items:unset!important;
+    flex-direction:column;
+    gap:var(--icon-box-icon-margin,15px);
+    text-align:center
+}
+.app-widget-icon-box.app-position-bottom .app-icon-box-wrapper {
+    align-items:unset!important;
+    flex-direction:column-reverse;
+    gap:var(--icon-box-icon-margin,15px);
+    text-align:center
+}
+@media (min-width:-1px) {
+    .app-widget-icon-box.app-widescreen-position-right .app-icon-box-wrapper {
+        flex-direction:row-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:end
+    }
+    .app-widget-icon-box.app-widescreen-position-left .app-icon-box-wrapper {
+        flex-direction:row;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:start
+    }
+    .app-widget-icon-box.app-widescreen-position-top .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+    .app-widget-icon-box.app-widescreen-position-bottom .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+}
+@media (max-width:-1px) {
+    .app-widget-icon-box.app-laptop-position-right .app-icon-box-wrapper {
+        flex-direction:row-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:end
+    }
+    .app-widget-icon-box.app-laptop-position-left .app-icon-box-wrapper {
+        flex-direction:row;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:start
+    }
+    .app-widget-icon-box.app-laptop-position-top .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+    .app-widget-icon-box.app-laptop-position-bottom .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+    .app-widget-icon-box.app-tablet_extra-position-right .app-icon-box-wrapper {
+        flex-direction:row-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:end
+    }
+    .app-widget-icon-box.app-tablet_extra-position-left .app-icon-box-wrapper {
+        flex-direction:row;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:start
+    }
+    .app-widget-icon-box.app-tablet_extra-position-top .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+    .app-widget-icon-box.app-tablet_extra-position-bottom .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+}
+@media (max-width:1024px) {
+    .app-widget-icon-box.app-tablet-position-right .app-icon-box-wrapper {
+        flex-direction:row-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:end
+    }
+    .app-widget-icon-box.app-tablet-position-left .app-icon-box-wrapper {
+        flex-direction:row;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:start
+    }
+    .app-widget-icon-box.app-tablet-position-top .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+    .app-widget-icon-box.app-tablet-position-bottom .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+}
+@media (max-width:-1px) {
+    .app-widget-icon-box.app-mobile_extra-position-right .app-icon-box-wrapper {
+        flex-direction:row-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:end
+    }
+    .app-widget-icon-box.app-mobile_extra-position-left .app-icon-box-wrapper {
+        flex-direction:row;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:start
+    }
+    .app-widget-icon-box.app-mobile_extra-position-top .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+    .app-widget-icon-box.app-mobile_extra-position-bottom .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+}
+@media (max-width:767px) {
+    .app-widget-icon-box.app-mobile-position-right .app-icon-box-wrapper {
+        flex-direction:row-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:end
+    }
+    .app-widget-icon-box.app-mobile-position-left .app-icon-box-wrapper {
+        flex-direction:row;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:start
+    }
+    .app-widget-icon-box.app-mobile-position-top .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+    .app-widget-icon-box.app-mobile-position-bottom .app-icon-box-wrapper {
+        align-items:unset!important;
+        flex-direction:column-reverse;
+        gap:var(--icon-box-icon-margin,15px);
+        text-align:center
+    }
+    .app-widget-icon-box.app-position-left .app-icon-box-icon,
+    .app-widget-icon-box.app-position-right .app-icon-box-icon {
+        flex-direction:column
+    }
+}
