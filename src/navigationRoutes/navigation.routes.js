@@ -134,6 +134,17 @@ export class NavigationRoutes {
         if (found !== undefined) {
             return found.id;
         }
+        for (let i = 0; i < this.routes.length; i++) {
+            let route = this.routes[i];
+
+            if (route.dropdown) {
+
+                let item = route.submenu.find((subroute) => subroute.route === routePath);
+                if (item !== undefined) {
+                    return route.id;
+                }
+            }
+        }
         return null;
     }
 }
