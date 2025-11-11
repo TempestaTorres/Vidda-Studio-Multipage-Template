@@ -1,0 +1,313 @@
+@import "../../framework/css/framework-vidda-kit.css";
+@import "../../css/header-footer.css";
+@import "../../css/app-vidda.css";
+
+.app-home .app-element.app-element-get-started.secondary-background:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-get-started.secondary-background > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color:var( --global-color-8c75c4b );
+}
+.app-home .app-element.app-element-about-vidda {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --gap:20px 100px;
+    --row-gap:20px;
+    --column-gap:100px;
+    --padding-top:100px;
+    --padding-bottom:100px;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-about-vidda-image {
+    --display:flex;
+    --min-height:600px;
+    --flex-direction:column;
+    --container-widget-width:100%;
+    --container-widget-height:initial;
+    --container-widget-flex-grow:0;
+    --container-widget-align-self:initial;
+    --flex-wrap-mobile:wrap;
+    --border-radius:10px;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-about-vidda-image:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-about-vidda-image > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/relaxed-caucasian-woman-doing-yoga-at-home.jpg");
+    background-position:center center;
+    background-size:cover;
+}
+.app-home .app-element.app-element-about-vidda-divider {
+    --divider-border-style:solid;
+    --divider-color:#FFFFFF00;
+    --divider-border-width:1px;
+}
+.app-home .app-element.app-element-about-vidda-divider .app-divider-separator {
+    width:100%;
+}
+.app-home .app-element.app-element-about-vidda-divider .app-divider {
+    padding-block-start:15px;
+    padding-block-end:15px;
+}
+.app-home .app-element.app-element-about-vidda-card {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --justify-content:flex-start;
+    --flex-wrap:wrap;
+    --align-content:center;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-secondary-button.register-class-button .app-button-content-wrapper {
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+.app-home .app-element.app-element-about-class {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --gap:20px 100px;
+    --row-gap:20px;
+    --column-gap:100px;
+    --padding-top:100px;
+    --padding-bottom:100px;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-about-class:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-about-class > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color:var( --global-color-8c75c4b );
+}
+.app-home .app-element.app-element-about-class-info {
+    --display:flex;
+    --flex-direction:column;
+    --container-widget-width:100%;
+    --container-widget-height:initial;
+    --container-widget-flex-grow:0;
+    --container-widget-align-self:initial;
+    --flex-wrap-mobile:wrap;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-about-class-info-heading .app-heading-title {
+    font-family:var( --global-typography-100-font-family ), sans-serif;
+    font-size:var( --global-typography-100-font-size );
+    font-weight:var( --global-typography-100-font-weight );
+    text-transform:var( --global-typography-100-text-transform );
+    font-style:var( --global-typography-100-font-style );
+    text-decoration:var( --global-typography-100-text-decoration );
+    line-height:var( --global-typography-100-line-height );
+    letter-spacing:var( --global-typography-100-letter-spacing );
+}
+.app-home .app-element.app-element-about-class-info-icon-list .app-icon-list-items:not(.app-inline-items) .app-icon-list-item:not(:last-child) {
+    padding-bottom:calc(7px/2);
+}
+.app-home .app-element.app-element-about-class-info-icon-list .app-icon-list-items:not(.app-inline-items) .app-icon-list-item:not(:first-child) {
+    margin-top:calc(7px/2);
+}
+.app-home .app-element.app-element-about-class-info-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item {
+    margin-right:calc(7px/2);
+    margin-left:calc(7px/2);
+}
+.app-home .app-element.app-element-about-class-info-icon-list .app-icon-list-items.app-inline-items {
+    margin-right:calc(-7px/2);
+    margin-left:calc(-7px/2);
+}
+body.rtl .app-home .app-element.app-element-about-class-info-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item:after {
+    left:calc(-7px/2);
+}
+body:not(.rtl) .app-home .app-element.app-element-about-class-info-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item:after {
+    right:calc(-7px/2);
+}
+.app-home .app-element.app-element-about-class-info-icon-list .app-icon-list-icon i {
+    color:var( --global-color-accent );
+    transition:color 0.3s;
+}
+.app-home .app-element.app-element-about-class-info-icon-list .app-icon-list-icon svg {
+    fill:var( --global-color-accent );
+    transition:fill 0.3s;
+}
+.app-home .app-element.app-element-about-class-info-icon-list {
+    --icon-list-icon-size:7px;
+    --icon-vertical-offset:0;
+}
+.app-home .app-element.app-element-about-class-info-icon-list:not(.app-icon-list-ico-position-10) .app-icon-list-text {
+    padding-left:10px;
+}
+.app-home .app-element.app-element-about-class-info-icon-list.app-icon-list-ico-position-10 .app-icon-list-text {
+    padding-right:10px;
+}
+.app-home .app-element.app-element-about-class-info-icon-list .app-icon-list-text {
+    color:var( --global-color-text );
+    transition:color 0.3s;
+}
+.app-home .app-element.app-element-class-detail-card {
+    --display:flex;
+    --flex-direction:column;
+    --container-widget-width:100%;
+    --container-widget-height:initial;
+    --container-widget-flex-grow:0;
+    --container-widget-align-self:initial;
+    --flex-wrap-mobile:wrap;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-class-detail-card-heading {
+    width:100%;
+    max-width:100%;
+    text-align:left;
+}
+.app-home .app-element.app-element-class-detail-card-heading > .app-widget-container {
+    margin:0 0 -10px 0;
+}
+.app-home .app-element.app-element-class-detail-card-heading .app-heading-title {
+    font-family:var( --global-typography-100-font-family ), sans-serif;
+    font-size:var( --global-typography-100-font-size );
+    font-weight:var( --global-typography-100-font-weight );
+    text-transform:var( --global-typography-100-text-transform );
+    font-style:var( --global-typography-100-font-style );
+    text-decoration:var( --global-typography-100-text-decoration );
+    line-height:var( --global-typography-100-line-height );
+    letter-spacing:var( --global-typography-100-letter-spacing );
+}
+.app-home .app-element.app-element-secondary-button.book-class-button {
+    width:100%;
+    max-width:100%;
+}
+.app-home .app-element.app-element-secondary-button.book-class-button .app-button-content-wrapper {
+    flex-direction:row-reverse;
+}
+.app-home .app-element.app-element-secondary-button.book-class-button .app-button .app-button-content-wrapper {
+    gap:10px;
+}
+.app-home .app-element.app-element-get-started.class-detail {
+    --padding-bottom: 130px;
+}
+/*===================================== Mobile 1024 ===============================================*/
+@media(max-width:1024px) {
+    .app-home .app-element.app-element-about-vidda {
+        --gap:20px 50px;
+        --row-gap:20px;
+        --column-gap:50px;
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-about-class {
+        --gap:50px 20px;
+        --row-gap:50px;
+        --column-gap:20px;
+        --flex-wrap:wrap;
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-about-class-info-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+    .app-home .app-element.app-element-class-detail-card-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+    .app-home .app-element.app-element-get-started.class-detail {
+        --padding-top:0px;
+        --padding-bottom:70px;
+    }
+}
+/*====================================== 767 ========================================================*/
+@media(max-width:767px) {
+    .app-home .app-element.app-element-about-vidda {
+        --gap:50px 20px;
+        --row-gap:50px;
+        --column-gap:20px;
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+    .app-home .app-element.app-element-about-vidda-image {
+        --min-height:300px;
+    }
+    .app-home .app-element.app-element-about-vidda-card.app-con {
+        --order:-99999 /* order start hack */;
+    }
+    .app-home .app-element.app-element-about-class {
+        --gap:50px 20px;
+        --row-gap:50px;
+        --column-gap:20px;
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+    .app-home .app-element.app-element-about-class-info-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+    .app-home .app-element.app-element-class-detail-card-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+    .app-home .app-element.app-element-get-started.class-detail {
+        --padding-top:0px;
+        --padding-bottom:90px;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+}
+@media(min-width:768px) {
+    .app-home .app-element.app-element-about-vidda {
+        --content-width:1300px;
+    }
+    .app-home .app-element.app-element-about-vidda-image {
+        --width:50%;
+    }
+    .app-home .app-element.app-element-about-vidda-card {
+        --width:50%;
+    }
+    .app-home .app-element.app-element-about-class {
+        --content-width:1300px;
+    }
+    .app-home .app-element.app-element-about-class-info {
+        --width:70%;
+    }
+    .app-home .app-element.app-element-class-detail-card {
+        --width:30%;
+    }
+}
+@media(max-width:1024px) and (min-width:768px) {
+    .app-home .app-element.app-element-about-class-info {
+        --width:100%;
+    }
+    .app-home .app-element.app-element-class-detail-card {
+        --width:100%;
+    }
+}

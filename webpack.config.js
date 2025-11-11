@@ -9,6 +9,7 @@ module.exports = {
         index: './src/index.js',
         about: './src/pages/js/about.js',
         classes: './src/pages/js/classes.js',
+        classDetail: './src/pages/js/class-detail.js',
         postHarmony: './src/pages/posts/blog-post.js',
         body: './src/pages/posts/post.js',
     },
@@ -62,6 +63,12 @@ module.exports = {
             inject: 'body',
             chunks: ['classes'],
             filename: 'classes.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/class-detail.html',
+            inject: 'body',
+            chunks: ['classDetail'],
+            filename: 'class-detail.html'
         }),
         new HtmlWebpackPlugin({
             template: './src/pages/posts/harmony.html',

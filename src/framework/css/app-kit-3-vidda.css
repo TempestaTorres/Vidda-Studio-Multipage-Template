@@ -222,7 +222,8 @@ p {
   background-color: var( --global-color-primary );
 }
 
-.app-widget-text-editor.app-drop-cap-view-framed .app-drop-cap,  .app-widget-text-editor.app-drop-cap-view-default .app-drop-cap {
+.app-widget-text-editor.app-drop-cap-view-framed .app-drop-cap,
+.app-widget-text-editor.app-drop-cap-view-default .app-drop-cap {
   color: var( --global-color-primary );
   border-color: var( --global-color-primary );
 }
@@ -511,11 +512,13 @@ p {
 .app-widget-divider.app-view-stacked .app-icon {
   background-color: var( --global-color-secondary );
 }
-.app-widget-divider.app-view-framed .app-icon,  .app-widget-divider.app-view-default .app-icon {
+.app-widget-divider.app-view-framed .app-icon,
+.app-widget-divider.app-view-default .app-icon {
   color: var( --global-color-secondary );
   border-color: var( --global-color-secondary );
 }
-.app-widget-divider.app-view-framed .app-icon,  .app-widget-divider.app-view-default .app-icon svg {
+.app-widget-divider.app-view-framed .app-icon,
+.app-widget-divider.app-view-default .app-icon svg {
   fill: var( --global-color-secondary );
 }
 .app-widget-divider {

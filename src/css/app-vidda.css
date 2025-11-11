@@ -9,6 +9,16 @@
     letter-spacing: var( --global-typography-primary-letter-spacing );
     color: var( --global-color-primary );
 }
+.app .app-element.app-element-app-widget-heading-secondary .app-heading-title {
+    font-family:var( --global-typography-secondary-font-family ), sans-serif;
+    font-size:var( --global-typography-secondary-font-size );
+    font-weight:var( --global-typography-secondary-font-weight );
+    text-transform:var( --global-typography-secondary-text-transform );
+    font-style:var( --global-typography-secondary-font-style );
+    text-decoration:var( --global-typography-secondary-text-decoration );
+    line-height:var( --global-typography-secondary-line-height );
+    letter-spacing:var( --global-typography-secondary-letter-spacing );
+}
 .app .app-element.app-element-about-hero {
     --display: flex;
     --min-height: 0px;
@@ -42,6 +52,12 @@
 .app .app-element.app-element-about-hero-image[data-item="2"]:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-about-hero-image[data-item="2"] > .app-motion-effects-container > .app-motion-effects-layer {
     background-image: url("../assets/images/white-young-woman-doing-exercise-during-yoga-pract.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app .app-element.app-element-about-hero-image[data-item="3"]:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-about-hero-image[data-item="3"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/class-detail.png");
     background-position: center center;
     background-size: cover;
 }
@@ -196,6 +212,35 @@ body:not(.rtl) .app .app-element.app-element-about-hero-icon-list .app-icon-list
 .app .app-element.app-element-secondary-button .app-button:focus svg {
     fill: #FFFFFF;
 }
+.app .app-element.app-element-secondary-button .app-button .app-button-icon i,
+.app .app-element.app-element-secondary-button .app-button .app-button-icon svg,
+.app .app-element.app-element-primary-button .app-button .app-button-icon i,
+.app .app-element.app-element-primary-button .app-button .app-button-icon svg {
+    transform:rotate(0deg);
+}
+.app .app-element.app-element-accent-button .app-button {
+    background-color:var( --global-color-accent );
+    font-family:var( --global-typography-accent-font-family ), sans-serif;
+    font-size:var( --global-typography-accent-font-size );
+    font-weight:var( --global-typography-accent-font-weight );
+    text-transform:var( --global-typography-accent-text-transform );
+    font-style:var( --global-typography-accent-font-style );
+    text-decoration:var( --global-typography-accent-text-decoration );
+    letter-spacing:var( --global-typography-accent-letter-spacing );
+    fill:#FFFFFF;
+    color:#FFFFFF;
+    border-radius:6px 6px 6px 6px;
+    padding:15px 26px 15px 26px;
+}
+.app .app-element.app-element-accent-button .app-button:hover,
+.app .app-element.app-element-accent-button .app-button:focus {
+    background-color:var( --global-color-primary );
+    color:#FFFFFF;
+}
+.app .app-element.app-element-accent-button .app-button:hover svg,
+.app .app-element.app-element-accent-button .app-button:focus svg {
+    fill:#FFFFFF;
+}
 .app .app-element.app-element-default-card {
     --display: flex;
     --flex-direction: row;
@@ -334,7 +379,7 @@ body:not(.rtl) .app .app-element.app-element-about-hero-icon-list .app-icon-list
     --row-gap: 15px;
     --column-gap: 15px;
     --flex-wrap: wrap;
-    --border-radius: 10px 10px 10px 10px;
+    --border-radius: 10px;
     --padding-top: 30px;
     --padding-bottom: 30px;
     --padding-left: 30px;
@@ -424,6 +469,9 @@ svg) {
 .app-widget-text-editor-secondary.app-drop-cap-view-default .app-drop-cap {
     color: var( --global-color-primary );
     border-color: var( --global-color-primary );
+}
+.app .app-element.app-element-text-margin-bottom > .app-widget-container {
+    margin:0 0 -15px 0;
 }
 .app .app-element.app-element-text-secondary {
     width: 100%;
@@ -1225,11 +1273,13 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
 .app-widget-divider.app-view-stacked .app-icon {
     background-color: var( --global-color-secondary );
 }
-.app-widget-divider.app-view-framed .app-icon,  .app-widget-divider.app-view-default .app-icon {
+.app-widget-divider.app-view-framed .app-icon,
+.app-widget-divider.app-view-default .app-icon {
     color: var( --global-color-secondary );
     border-color: var( --global-color-secondary );
 }
-.app-widget-divider.app-view-framed .app-icon,  .app-widget-divider.app-view-default .app-icon svg {
+.app-widget-divider.app-view-framed .app-icon,
+.app-widget-divider.app-view-default .app-icon svg {
     fill: var( --global-color-secondary );
 }
 .app .app-element.app-element-schedule-table-button .app-button {
@@ -1748,12 +1798,50 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
 .app .app-element.app-element-pricing-plan-footer-button > .app-widget-container {
     margin: -6px 0 -6px 0;
 }
+.app .app-element.app-element-info-block {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --gap:10px 10px;
+    --row-gap:10px;
+    --column-gap:10px;
+    --flex-wrap:wrap;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app .app-element.app-element-info-block-name > .app-widget-container {
+    margin:-6px 0 -20px 0;
+}
+.app .app-element.app-element-info-block-description > .app-widget-container {
+    margin:-4px 0 -20px 0;
+}
+.app-home .app-element.app-element-info-block-description {
+    font-family:var( --global-typography-658dc5b-font-family ), sans-serif;
+    font-size:var( --global-typography-658dc5b-font-size );
+    font-weight:var( --global-typography-658dc5b-font-weight );
+    text-transform:var( --global-typography-658dc5b-text-transform );
+    font-style:var( --global-typography-658dc5b-font-style );
+    text-decoration:var( --global-typography-658dc5b-text-decoration );
+    line-height:var( --global-typography-658dc5b-line-height );
+    letter-spacing:var( --global-typography-658dc5b-letter-spacing );
+}
 /* =========================================== max 1024 ===============================================*/
 @media(max-width:1024px) {
     .app-widget-heading .app-heading-title {
         font-size: var( --global-typography-primary-font-size );
         line-height: var( --global-typography-primary-line-height );
         letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app .app-element.app-element-app-widget-heading-secondary .app-heading-title {
+        font-size:var( --global-typography-secondary-font-size );
+        line-height:var( --global-typography-secondary-line-height );
+        letter-spacing:var( --global-typography-secondary-letter-spacing );
     }
     .app .app-element.app-element-about-hero {
         --padding-top: 0;
@@ -1784,6 +1872,10 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     .app .app-element.app-element-secondary-button .app-button {
         font-size: var( --global-typography-accent-font-size );
         letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app .app-element.app-element-accent-button .app-button {
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
     }
     .app .app-element.app-element-default-card {
         --margin-top: 0;
@@ -2098,12 +2190,22 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         letter-spacing: var( --global-typography-text-letter-spacing );
     }
     .app .app-element.app-element-pricing-plan-footer-button > .app-widget-container {
-        margin: 0px;
+        margin: 0;
+    }
+    .app .app-element.app-element-info-block-description {
+        font-size:var( --global-typography-658dc5b-font-size );
+        line-height:var( --global-typography-658dc5b-line-height );
+        letter-spacing:var( --global-typography-658dc5b-letter-spacing );
     }
 }
 /*=========================================== max 767 ==========================================*/
 @media(max-width:767px) {
 
+    .app .app-element.app-element-app-widget-heading-secondary .app-heading-title {
+        font-size:var( --global-typography-secondary-font-size );
+        line-height:var( --global-typography-secondary-line-height );
+        letter-spacing:var( --global-typography-secondary-letter-spacing );
+    }
     .app .app-element.app-element-about-hero {
         --padding-top: 0;
         --padding-bottom: 0;
@@ -2138,6 +2240,10 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     .app .app-element.app-element-secondary-button .app-button {
         font-size: var( --global-typography-accent-font-size );
         letter-spacing: var( --global-typography-accent-letter-spacing );
+    }
+    .app .app-element.app-element-accent-button .app-button {
+        font-size:var( --global-typography-accent-font-size );
+        letter-spacing:var( --global-typography-accent-letter-spacing );
     }
     .app .app-element.app-element-default-card {
         --margin-top: 0;
@@ -2513,6 +2619,11 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         font-size: var( --global-typography-text-font-size );
         line-height: var( --global-typography-text-line-height );
         letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app .app-element.app-element-info-block-description {
+        font-size:var( --global-typography-658dc5b-font-size );
+        line-height:var( --global-typography-658dc5b-line-height );
+        letter-spacing:var( --global-typography-658dc5b-letter-spacing );
     }
 }
 @media(min-width:768px) {
