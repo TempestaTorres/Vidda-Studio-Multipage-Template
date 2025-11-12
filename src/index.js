@@ -6,7 +6,8 @@ import scrollObserver from "./services/scrollObserverService.js";
 import counterObserver from "./services/counterService.js";
 import {LightboxComponent} from "./components/lightbox.component.js";
 import {PostRoutesComponent} from "./components/postRoutes.component.js";
-import {AccordionService} from "./services/accordionService";
+import {AccordionService} from "./services/accordionService.js";
+import {McModalService} from "./services/mcmodalService.js";
 
 (function() {
     "use strict"
@@ -32,6 +33,9 @@ import {AccordionService} from "./services/accordionService";
         // Accordion
         const accordion = new AccordionService();
         accordion.init();
+
+        //Modals
+        McModalService.activateModalService();
 
     });
 

@@ -1,11 +1,8 @@
-import "../css/about.css";
+import "../css/instructots.css";
 import scrollObserver from "../../services/scrollObserverService.js";
-import counterObserver from "../../services/counterService.js";
 import {HeaderComponent} from "../../components/header.component.js";
 import {FooterComponent} from "../../components/footer.component.js";
 import {LazyLoadService} from "../../services/lazyloadService.js";
-import {AccordionService} from "../../services/accordionService.js";
-import {VideoPlayer} from "../../components/video.component.js";
 import {McModalService} from "../../services/mcmodalService.js";
 
 (function() {
@@ -27,14 +24,6 @@ import {McModalService} from "../../services/mcmodalService.js";
 
         LazyLoadService.lazyLoadObserver();
 
-        counterObserver(".app-counter-number");
-
-        // Accordion
-        const accordion = new AccordionService();
-        accordion.init();
-
-        //Video
-        const videoPlayer = new VideoPlayer('.app-follow-us-video-container', "home-video-widget-2","4gmV7kPoDgY", "Free Stock Video - People Doing the Warrior Pose in a Yoga Class - VidStock Hub #YogaEmpowerment");
         //Modals
         McModalService.activateModalService();
     });

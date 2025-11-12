@@ -4,6 +4,7 @@ import scrollObserver from "../../services/scrollObserverService.js";
 import {HeaderComponent} from "../../components/header.component.js";
 import {FooterComponent} from "../../components/footer.component.js";
 import {BlogpostComponent} from "../../components/blogpost.component.js";
+import {McModalService} from "../../services/mcmodalService.js";
 
 (function () {
     'use strict';
@@ -20,6 +21,9 @@ import {BlogpostComponent} from "../../components/blogpost.component.js";
 
         const blogPost = new BlogpostComponent("#blog-post-title");
         blogPost.init();
+
+        //Modals
+        McModalService.activateModalService();
 
     });
 })();

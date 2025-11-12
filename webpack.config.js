@@ -10,6 +10,7 @@ module.exports = {
         about: './src/pages/js/about.js',
         classes: './src/pages/js/classes.js',
         classDetail: './src/pages/js/class-detail.js',
+        instructors: './src/pages/js/instructors.js',
         postHarmony: './src/pages/posts/blog-post.js',
         body: './src/pages/posts/post.js',
     },
@@ -69,6 +70,12 @@ module.exports = {
             inject: 'body',
             chunks: ['classDetail'],
             filename: 'class-detail.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/instructors.html',
+            inject: 'body',
+            chunks: ['instructors'],
+            filename: 'instructors.html'
         }),
         new HtmlWebpackPlugin({
             template: './src/pages/posts/harmony.html',

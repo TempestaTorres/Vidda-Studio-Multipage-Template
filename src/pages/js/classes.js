@@ -4,6 +4,7 @@ import {HeaderComponent} from "../../components/header.component.js";
 import {FooterComponent} from "../../components/footer.component.js";
 import {LazyLoadService} from "../../services/lazyloadService.js";
 import {AccordionService} from "../../services/accordionService.js";
+import {McModalService} from "../../services/mcmodalService.js";
 
 (function() {
     "use strict";
@@ -28,5 +29,7 @@ import {AccordionService} from "../../services/accordionService.js";
         const accordion = new AccordionService();
         accordion.init();
 
+        //Modals
+        McModalService.activateModalService();
     });
 })();

@@ -265,8 +265,8 @@ p {
 .app-kit-3-vidda button {
   transition: all .4s ease;
 }
-.app-kit-3-vidda button:hover,
-.app-kit-3-vidda button:focus,
+.app-kit-3-vidda button:not(.mc-closeModal):hover,
+.app-kit-3-vidda button:not(.mc-closeModal):focus,
 .app-kit-3-vidda input[type="button"]:hover,
 .app-kit-3-vidda input[type="button"]:focus,
 .app-kit-3-vidda input[type="submit"]:hover,

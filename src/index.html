@@ -30,7 +30,7 @@
         <div class="app-element app-element-subheader-button app-widget app-widget-button">
             <div class="app-widget-container">
                 <div class="app-button-wrapper">
-                    <a class="app-button" href="javascript:void(0);">
+                    <a class="app-button" href="#" data-toggle="mc-modal" data-target="#mc-ask-project">
                         <span class="app-button-content-wrapper">
                             <span class="app-button-text">Register Now</span>
                         </span>
@@ -85,12 +85,12 @@
             </div>
         </div>
         <!--Contacts-->
-        <div class="app-element app-element-header-buttons app-con-full a-flex app-con e-child">
+        <div class="app-element app-element-header-buttons app-con-full a-flex app-con">
             <!--Contact us button -->
             <div class="app-element app-element-header-contactus-button app-hidden-mobile app-widget app-widget-button">
                 <div class="app-widget-container">
                     <div class="app-button-wrapper">
-                        <a class="app-button" href="javascript:void(0);">
+                        <a class="app-button" href="#" data-toggle="mc-modal" data-target="#mc-ask-project">
                             <span class="app-button-content-wrapper">
                                 <span class="app-button-text">Contact Us</span>
                             </span>
@@ -102,7 +102,7 @@
             <div class="app-element app-element-header-book-button app-align-right app-widget app-widget-button">
                 <div class="app-widget-container">
                     <div class="app-button-wrapper">
-                        <a class="app-button" href="javascript:void(0);">
+                        <a class="app-button" href="#" data-toggle="mc-modal" data-target="#mc-ask-project">
                             <span class="app-button-content-wrapper">
                                 <span class="app-button-text">Book Now</span>
                             </span>
@@ -147,7 +147,7 @@
                 <div class="app-element-button-get-started app-element app-widget app-widget-button app-invisible">
                     <div class="app-widget-container">
                         <div class="app-button-wrapper">
-                            <a class="app-button" href="javascript:void(0);">
+                            <a class="app-button" href="#" data-toggle="mc-modal" data-target="#mc-ask-project">
                                 <span class="app-button-content-wrapper">
 									<span class="app-button-text">Get Started</span>
 					            </span>
@@ -2538,7 +2538,7 @@
                 <div class="app-element app-element-pricing-plan-footer-button app-element-default-link-button app-align-left app-mobile-align-left app-widget__width-auto app-widget app-widget-button">
                     <div class="app-widget-container">
                         <div class="app-button-wrapper">
-                            <a class="app-button" href="javascript:void(0);">
+                            <a class="app-button" href="#" data-toggle="mc-modal" data-target="#mc-ask-project">
                                 <span class="app-button-content-wrapper"><span
                                         class="app-button-text">Let's Talk!</span></span>
                             </a>
@@ -2798,7 +2798,7 @@
                                         <!-- Author info -->
                                         <div class="post-meta-list">
                                             <span class="meta-author">
-                                                <a class="author-name" href="/admin" target="_blank">ASK Project</a>
+                                                <a class="author-name" href="/admin" data-toggle="mc-modal" data-target="#mc-ask-project">ASK Project</a>
                                             </span>
                                             <span class="meta-date">
                                                 <i aria-hidden="true" class="icon icon-flickr-1"></i>
@@ -2830,7 +2830,7 @@
                                         <!-- Author info -->
                                         <div class="post-meta-list">
                                             <span class="meta-author">
-                                                <a class="author-name" href="/admin" target="_blank">ASK Project</a>
+                                                <a class="author-name" href="/admin" data-toggle="mc-modal" data-target="#mc-ask-project">ASK Project</a>
                                             </span>
                                             <span class="meta-date">
                                                 <i aria-hidden="true" class="icon icon-flickr-1"></i>
@@ -2863,7 +2863,7 @@
                                         <!-- Author info -->
                                         <div class="post-meta-list">
                                             <span class="meta-author">
-                                                <a class="author-name" href="/admin" target="_blank">ASK Project</a>
+                                                <a class="author-name" href="/admin" data-toggle="mc-modal" data-target="#mc-ask-project">ASK Project</a>
                                             </span>
                                             <span class="meta-date">
                                                 <i aria-hidden="true" class="icon icon-flickr-1"></i>
@@ -3454,5 +3454,40 @@
         </div>
     </div>
 </footer>
+<!--Banner-->
+<div class="mc-banner">
+    <div class="mc-layout__bannerContent">
+        <div class="bannerContent">
+            <div class="bannerContent__closeButton"></div>
+            <div class="bannerContent__description app-align-center">
+                <h3><strong>Welcome to Mad Jun Vidda Yoga Project</strong></h3>
+            </div>
+            <div class="bannerContent__buttonContainer">
+                <button class="button banner-button bannerContent__subscribeButton">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+<div id="mc-ask-project" class="mc-modal">
+    <button aria-label="Close" class="mc-closeModal" data-action="close-mc-modal"></button>
+    <div class="mc-layout__modalContent">
+        <div class="modalContent">
+            <div class="flash-block"></div>
+            <div class="modalContent__content strictContent m">
+                <div class="content__titleDescription">
+                    <h3><span>Welcome to Mad Jun Vidda Yoga Project</span></h3>
+                    <p class="app-align-center">Have a project in mind?</p>
+                    <p class="app-align-center">Let's collaborate and create something amazing.</p>
+                    <p class="app-align-center">Send me a message to: migelangelo10@gmail.com.</p>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="modalContent__image"></div>
+        </div>
+    </div>
+</div>
+<!--Modal Overlay-->
+<div class="mc-modal-bg"></div>
 </body>
 </html>

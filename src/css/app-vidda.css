@@ -1,3 +1,13 @@
+.modalContent__image {
+    background-image: url("../assets/images/youga-monk.jpg");
+}
+.strictContent h1, .strictContent h2, .strictContent h3, .strictContent h4 {
+    color: rgb(189, 131, 45);
+    text-align: center;
+}
+.strictContent h1 > span, .strictContent h2 > span, .strictContent h3 > span, .strictContent h4 > {
+    color:#bd832d;
+}
 .app-widget-heading .app-heading-title {
     font-family: var( --global-typography-primary-font-family ),  sans-serif;
     font-size: var( --global-typography-primary-font-size );
@@ -58,6 +68,12 @@
 .app .app-element.app-element-about-hero-image[data-item="3"]:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-about-hero-image[data-item="3"] > .app-motion-effects-container > .app-motion-effects-layer {
     background-image: url("../assets/images/class-detail.png");
+    background-position: center center;
+    background-size: cover;
+}
+.app .app-element.app-element-about-hero-image[data-item="4"]:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-about-hero-image[data-item="4"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/group-of-female-athletes-stretching.jpg");
     background-position: center center;
     background-size: cover;
 }
@@ -674,6 +690,30 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
 .app .app-element.app-element-instructors-card[data-item="3"]:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-instructors-card[data-item="3"] > .app-motion-effects-container > .app-motion-effects-layer {
     background-image: url("../assets/images/young-woman-on-mat.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app .app-element.app-element-instructors-card[data-item="4"]:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-instructors-card[data-item="4"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/woman-exercising-at-home.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app .app-element.app-element-instructors-card[data-item="5"]:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-instructors-card[data-item="5"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/black-woman-smiling-at-camera-while-standing.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app .app-element.app-element-instructors-card[data-item="6"]:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-instructors-card[data-item="6"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/yoga-mat-hands-young-sportive-woman.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app .app-element.app-element-instructors-card[data-item="7"]:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-instructors-card[data-item="7"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/model-with-blonde-hair-white-shorts-sits-mat-room.jpg");
     background-position: center center;
     background-size: cover;
 }
@@ -1821,7 +1861,7 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
 .app .app-element.app-element-info-block-description > .app-widget-container {
     margin:-4px 0 -20px 0;
 }
-.app-home .app-element.app-element-info-block-description {
+.app .app-element.app-element-info-block-description {
     font-family:var( --global-typography-658dc5b-font-family ), sans-serif;
     font-size:var( --global-typography-658dc5b-font-size );
     font-weight:var( --global-typography-658dc5b-font-weight );
@@ -1830,6 +1870,329 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     text-decoration:var( --global-typography-658dc5b-text-decoration );
     line-height:var( --global-typography-658dc5b-line-height );
     letter-spacing:var( --global-typography-658dc5b-letter-spacing );
+}
+.app .app-element.app-element-section-our-values {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+.app .app-element.app-element-section-our-values:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-section-our-values > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-8c75c4b );
+}
+.app .app-element.app-element-section-our-values-container {
+    --display: flex;
+    --min-height: 95vh;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    --overlay-opacity: 0.3;
+    --overlay-mix-blend-mode: multiply;
+    --border-radius: 10px;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app .app-element.app-element-section-our-values-container:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-section-our-values-container > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/female-hands-in-yoga-pose.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app .app-element.app-element-section-our-values-container[data-item="2"]:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-section-our-values-container[data-item="2"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/12.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app .app-element.app-element-section-our-values-container::before,
+.app .app-element.app-element-section-our-values-container > .app-background-video-container::before,
+.app .app-element.app-element-section-our-values-container > .app-con-inner > .app-background-video-container::before,
+.app .app-element.app-element-section-our-values-container > .app-background-slideshow::before,
+.app .app-element.app-element-section-our-values-container > .app-con-inner > .app-background-slideshow::before,
+.app .app-element.app-element-section-our-values-container > .app-motion-effects-container > .app-motion-effects-layer::before {
+    background-color: #683826;
+    --background-overlay: '';
+}
+.app .app-element.app-element-section-our-values-text > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app .app-element.app-element-section-our-values-text {
+    text-align: center;
+    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
+    font-size: var( --global-typography-f911175-font-size );
+    font-weight: var( --global-typography-f911175-font-weight );
+    text-transform: var( --global-typography-f911175-text-transform );
+    font-style: var( --global-typography-f911175-font-style );
+    text-decoration: var( --global-typography-f911175-text-decoration );
+    line-height: var( --global-typography-f911175-line-height );
+    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    color: #FFFFFF;
+}
+.app .app-element.app-element-section-our-values-heading {
+    width: var( --container-widget-width,  55% );
+    max-width: 55%;
+    --container-widget-width: 55%;
+    --container-widget-flex-grow: 0;
+    text-align: center;
+}
+.app .app-element.app-element-section-our-values-heading > .app-widget-container {
+    margin: 0 0 50px 0;
+}
+.app .app-element.app-element-section-our-values-heading.app-element {
+    --align-self: center;
+}
+.app .app-element.app-element-section-our-values-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+    color: #FFFFFF;
+}
+.app .app-element.app-element-section-our-values-cards-grid {
+    --display: grid;
+    --con-grid-template-columns: repeat(4,  1fr);
+    --con-grid-template-rows: repeat(1,  1fr);
+    --gap: 20px 20px;
+    --row-gap: 20px;
+    --column-gap: 20px;
+    --grid-auto-flow: row;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-widget-icon-box.app-view-stacked .app-icon {
+    background-color: var( --global-color-primary );
+}
+.app-widget-icon-box.app-view-framed .app-icon,  .app-widget-icon-box.app-view-default .app-icon {
+    fill: var( --global-color-primary );
+    color: var( --global-color-primary );
+    border-color: var( --global-color-primary );
+}
+.app-widget-icon-box .app-icon-box-title,  .app-widget-icon-box .app-icon-box-title a {
+    font-family: var( --global-typography-primary-font-family ),  sans-serif;
+    font-size: var( --global-typography-primary-font-size );
+    font-weight: var( --global-typography-primary-font-weight );
+    text-transform: var( --global-typography-primary-text-transform );
+    font-style: var( --global-typography-primary-font-style );
+    text-decoration: var( --global-typography-primary-text-decoration );
+    line-height: var( --global-typography-primary-line-height );
+    letter-spacing: var( --global-typography-primary-letter-spacing );
+}
+.app-widget-icon-box .app-icon-box-title {
+    color: var( --global-color-primary );
+}
+.app-widget-icon-box:has(:hover) .app-icon-box-title,
+.app-widget-icon-box:has(:focus) .app-icon-box-title {
+    color: var( --global-color-primary );
+}
+.app-widget-icon-box .app-icon-box-description {
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+    color: var( --global-color-text );
+}
+.app .app-element.app-element-our-values-card {
+    --display: flex;
+    border-style: solid;
+    --border-style: solid;
+    --border-top-width: 1px;
+    --border-right-width: 1px;
+    --border-bottom-width: 1px;
+    --border-left-width: 1px;
+    --border-color: #F0EDE130;
+    --border-radius: 10px;
+    --padding-top: 30px;
+    --padding-bottom: 30px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+    border-width: 1px;
+    border-color: #F0EDE130;
+}
+.app .app-element.app-element-our-values-card:hover {
+    border-style: solid;
+    border-color: #F0EDE1AB;
+    --border-color: #F0EDE1AB;
+}
+.app .app-element.app-element-our-values-card,
+.app .app-element.app-element-our-values-card::before {
+    --border-transition: 0.3s;
+}
+/*================= Icon box ==================================================================*/
+.app .app-element.app-element-our-values-card-icon-box {
+    --icon-box-icon-margin: 30px;
+}
+.app .app-element.app-element-our-values-card-icon-box .app-icon-box-title {
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: #FFFFFF;
+}
+.app .app-element.app-element-our-values-card-icon-box .app-image-box-title {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.app .app-element.app-element-our-values-card-icon-box.app-view-stacked .app-icon {
+    background-color: var( --global-color-2d8c8bd );
+}
+.app .app-element.app-element-our-values-card-icon-box.app-view-framed .app-icon,
+.app .app-element.app-element-our-values-card-icon-box.app-view-default .app-icon {
+    fill: var( --global-color-2d8c8bd );
+    color: var( --global-color-2d8c8bd );
+    border-color: var( --global-color-2d8c8bd );
+}
+.app .app-element.app-element-our-values-card-icon-box .app-icon {
+    font-size: 40px;
+}
+.app .app-element.app-element-our-values-card-icon-box .app-icon-box-title,
+.app .app-element.app-element-our-values-card-icon-box .app-icon-box-title a {
+    font-family: var( --global-typography-100-font-family ),  sans-serif;
+    font-size: var( --global-typography-100-font-size );
+    font-weight: var( --global-typography-100-font-weight );
+    text-transform: var( --global-typography-100-text-transform );
+    font-style: var( --global-typography-100-font-style );
+    text-decoration: var( --global-typography-100-text-decoration );
+    line-height: var( --global-typography-100-line-height );
+    letter-spacing: var( --global-typography-100-letter-spacing );
+}
+.app .app-element.app-element-our-values-card-icon-box .app-icon-box-description {
+    color: #FFFFFFC7;
+}
+.app .app-element.app-element-instructors.our-values:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-instructors.our-values > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-8c75c4b );
+}
+.app .app-element.app-element-section-classes {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app .app-element.app-element-section-classes:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-section-classes > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: var( --global-color-8c75c4b );
+}
+.app .app-element.app-element-section-classes-heading {
+    width: var( --container-widget-width,  60% );
+    max-width: 60%;
+    --container-widget-width: 60%;
+    --container-widget-flex-grow: 0;
+    text-align: center;
+}
+.app .app-element.app-element-section-classes-heading > .app-widget-container {
+    margin: 0 0 50px 0;
+}
+.app .app-element.app-element-section-classes-heading.app-element {
+    --align-self: center;
+}
+.app .app-element.app-element-section-classes-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+}
+.app .app-element.app-element-section-classes-cards {
+    --display: grid;
+    --con-grid-template-columns: repeat(3,  1fr);
+    --con-grid-template-rows: repeat(1,  1fr);
+    --grid-auto-flow: row;
+    --margin-top: 0;
+    --margin-bottom: 50px;
+    --margin-left: 0;
+    --margin-right: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app .app-element.app-element-section-classes-card {
+    --display: flex;
+    --border-radius: 10px;
+    --padding-top: 30px;
+    --padding-bottom: 30px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+.app .app-element.app-element-section-classes-card:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-section-classes-card > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color: #F8F6EF;
+}
+.app .app-element.app-element-section-classes-card-mage .app-image-box-wrapper {
+    text-align: left;
+}
+.app .app-element.app-element-section-classes-card-mage.app-position-right .app-image-box-img {
+    margin-left: 40px;
+}
+.app .app-element.app-element-section-classes-card-mage.app-position-left .app-image-box-img {
+    margin-right: 40px;
+}
+.app .app-element.app-element-section-classes-card-mage.app-position-top .app-image-box-img {
+    margin-bottom: 40px;
+}
+.app .app-element.app-element-section-classes-card-mage .app-icon-box-title {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.app .app-element.app-element-section-classes-card-mage .app-image-box-title {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: var( --global-typography-101-font-family ),  sans-serif;
+    font-size: var( --global-typography-101-font-size );
+    font-weight: var( --global-typography-101-font-weight );
+    text-transform: var( --global-typography-101-text-transform );
+    font-style: var( --global-typography-101-font-style );
+    text-decoration: var( --global-typography-101-text-decoration );
+    line-height: var( --global-typography-101-line-height );
+    letter-spacing: var( --global-typography-101-letter-spacing );
+}
+.app .app-element.app-element-section-classes-card-mage .app-image-box-wrapper .app-image-box-img {
+    width: 19%;
+}
+.app .app-element.app-element-section-classes-card-mage .app-image-box-img img {
+    transition-duration: 0.3s;
+}
+.app .app-element.app-element-section-classes-card-mage .app-image-box-description {
+    color: var( --global-color-text );
+}
+.app .app-element.app-element-section-classes-footer-text > .app-widget-container {
+    margin: 0 0 30px 0;
+}
+.app .app-element.app-element-section-classes-footer-text {
+    text-align: center;
 }
 /* =========================================== max 1024 ===============================================*/
 @media(max-width:1024px) {
@@ -2196,6 +2559,103 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         font-size:var( --global-typography-658dc5b-font-size );
         line-height:var( --global-typography-658dc5b-line-height );
         letter-spacing:var( --global-typography-658dc5b-letter-spacing );
+    }
+    .app .app-element.app-element-section-our-values {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app .app-element.app-element-section-our-values-container {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app .app-element.app-element-section-our-values-text {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app .app-element.app-element-section-our-values-heading > .app-widget-container {
+        margin: 0 0 30px 0;
+    }
+    .app .app-element.app-element-section-our-values-heading {
+        --container-widget-width: 80%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  80% );
+        max-width: 80%;
+    }
+    .app .app-element.app-element-section-our-values-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app .app-element.app-element-section-our-values-cards-grid {
+        --con-grid-template-columns: repeat(2,  1fr);
+        --grid-auto-flow: row;
+    }
+    .app-widget-icon-box .app-icon-box-title,
+    .app-widget-icon-box .app-icon-box-title a {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-icon-box .app-icon-box-description {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app .app-element.app-element-our-values-card-icon-box .app-icon-box-title,
+    .app .app-element.app-element-our-values-card-icon-box .app-icon-box-title a {
+        font-size: var( --global-typography-100-font-size );
+        line-height: var( --global-typography-100-line-height );
+        letter-spacing: var( --global-typography-100-letter-spacing );
+    }
+    .app .app-element.app-element-section-classes {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app .app-element.app-element-section-classes-heading {
+        --container-widget-width: 95%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  95% );
+        max-width: 95%;
+    }
+    .app .app-element.app-element-section-classes-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app .app-element.app-element-section-classes-cards {
+        --con-grid-template-columns: repeat(2,  1fr);
+        --grid-auto-flow: row;
+    }
+    .app .app-element.app-element-section-classes-card-mage .app-image-box-title {
+        font-size: var( --global-typography-101-font-size );
+        line-height: var( --global-typography-101-line-height );
+        letter-spacing: var( --global-typography-101-letter-spacing );
+    }
+    .app .app-element.app-element-section-classes-card-mage.app-position-right.app-keep-position-yes .app-image-box-img {
+        margin-left: 40px!important;
+        margin-right: 0!important;
+    }
+    .app .app-element.app-element-section-classes-card-mage.app-position-left.app-keep-position-yes .app-image-box-img {
+        margin-right: 40px!important;
+        margin-left: 0!important;
+    }
+    .app .app-element.app-element-section-classes-card-mage:not(.app-keep-position-yes) .app-image-box-img {
+        margin-bottom: 40px;
+    }
+    .app .app-element.app-element-section-classes-card-mage .app-image-box-wrapper .app-image-box-img {
+        width: 22%;
+    }
+    .app .app-element.app-element-section-classes-card-mage .app-image-box-title {
+        font-size: var( --global-typography-101-font-size );
+        line-height: var( --global-typography-101-line-height );
+        letter-spacing: var( --global-typography-101-letter-spacing );
     }
 }
 /*=========================================== max 767 ==========================================*/
@@ -2625,6 +3085,70 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         line-height:var( --global-typography-658dc5b-line-height );
         letter-spacing:var( --global-typography-658dc5b-letter-spacing );
     }
+    .app .app-element.app-element-section-our-values {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-left: 10px;
+        --padding-right: 10px;
+    }
+    .app .app-element.app-element-section-our-values-container {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app .app-element.app-element-section-our-values-text {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app .app-element.app-element-section-our-values-heading {
+        --container-widget-width: 100%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  100% );
+        max-width: 100%;
+    }
+    .app .app-element.app-element-section-our-values-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app .app-element.app-element-section-our-values-cards-grid {
+        --con-grid-template-columns: repeat(1,  1fr);
+        --grid-auto-flow: row;
+    }
+    .app-widget-icon-box .app-icon-box-title,
+    .app-widget-icon-box .app-icon-box-title a {
+        font-size: var( --global-typography-primary-font-size );
+        line-height: var( --global-typography-primary-line-height );
+        letter-spacing: var( --global-typography-primary-letter-spacing );
+    }
+    .app-widget-icon-box .app-icon-box-description {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app .app-element.app-element-our-values-card-icon-box .app-icon-box-title,
+    .app .app-element.app-element-our-values-card-icon-box .app-icon-box-title a {
+        font-size: var( --global-typography-100-font-size );
+        line-height: var( --global-typography-100-line-height );
+        letter-spacing: var( --global-typography-100-letter-spacing );
+    }
+    .app .app-element.app-element-section-classes {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app .app-element.app-element-section-classes-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app .app-element.app-element-section-classes-cards {
+        --con-grid-template-columns: repeat(1,  1fr);
+        --grid-auto-flow: row;
+    }
 }
 @media(min-width:768px) {
     .app .app-element.app-element-about-hero-image {
@@ -2669,6 +3193,12 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     .app .app-element.app-element-pricing-plan-header-button {
         --width: 30%;
     }
+    .app .app-element.app-element-section-our-values-container {
+        --content-width: 1300px;
+    }
+    .app .app-element.app-element-section-classes {
+        --content-width: 1300px;
+    }
 }
 @media(max-width:1024px) and (min-width:768px) {
     .app .app-element.app-element-schedule-dashboard {
@@ -2679,5 +3209,11 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     }
     .app .app-element.app-element-testimonials-column {
         --width: 48.5%;
+    }
+}
+@media(min-width:1025px) {
+    .app .app-element.app-element-section-our-values-container:not(.app-motion-effects-element-type-background),
+    .app .app-element.app-element-section-our-values-container > .app-motion-effects-container > .app-motion-effects-layer {
+        background-attachment: fixed;
     }
 }

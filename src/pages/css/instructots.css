@@ -1,0 +1,19 @@
+@import "../../framework/css/framework-vidda-kit.css";
+@import "../../css/header-footer.css";
+@import "../../css/app-vidda.css";
+
+
+/*===================================== Mobile 1024 ===============================================*/
+@media(max-width:1024px) {
+
+}
+/*====================================== 767 ========================================================*/
+@media(max-width:767px) {
+
+}
+@media(min-width:768px) {
+
+}
+@media(max-width:1024px) and (min-width:768px) {
+
+}
