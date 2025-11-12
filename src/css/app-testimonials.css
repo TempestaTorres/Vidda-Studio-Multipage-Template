@@ -1,0 +1,334 @@
+.app-home .app-element.testimonials {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-testimonials-title > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-testimonials-title {
+    text-align: center;
+    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
+    font-size: var( --global-typography-f911175-font-size );
+    font-weight: var( --global-typography-f911175-font-weight );
+    text-transform: var( --global-typography-f911175-text-transform );
+    font-style: var( --global-typography-f911175-font-style );
+    text-decoration: var( --global-typography-f911175-text-decoration );
+    line-height: var( --global-typography-f911175-line-height );
+    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    color: var( --global-color-accent );
+}
+.app-home .app-element.app-element-testimonials-heading {
+    width: var( --container-widget-width,  55% );
+    max-width: 55%;
+    --container-widget-width: 55%;
+    --container-widget-flex-grow: 0;
+    text-align: center;
+}
+.app-home .app-element.app-element-testimonials-heading > .app-widget-container {
+    margin: 0 0 50px 0;
+}
+.app-home .app-element.app-element-testimonials-heading.app-element {
+    --align-self: center;
+}
+.app-home .app-element.app-element-testimonials-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-testimonials-dashboard {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: space-between;
+    --gap: 20px 20px;
+    --row-gap: 20px;
+    --column-gap: 20px;
+    --flex-wrap: nowrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-testimonials-column {
+    --display: flex;
+    --gap: 20px 20px;
+    --row-gap: 20px;
+    --column-gap: 20px;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app-home .app-element.app-element-white-card-heading > .app-widget-container {
+    margin: 0 0 -5px 0;
+}
+.app-home .app-element.app-element-white-card-heading .app-heading-title {
+    font-family: var( --global-typography-102-font-family ),  sans-serif;
+    font-size: var( --global-typography-102-font-size );
+    font-weight: var( --global-typography-102-font-weight );
+    text-transform: var( --global-typography-102-text-transform );
+    font-style: var( --global-typography-102-font-style );
+    text-decoration: var( --global-typography-102-text-decoration );
+    line-height: var( --global-typography-102-line-height );
+    letter-spacing: var( --global-typography-102-letter-spacing );
+}
+.app-home .app-element.app-element-white-card-text > .app-widget-container {
+    margin: 0 0 -15px 0;
+}
+.app-home .app-element.app-element-user-avatar img {
+    width: 55px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 50%;
+}
+.app-home .app-element.app-element-client-name {
+    width: auto;
+    max-width: 100%;
+    font-family: var( --global-typography-658dc5b-font-family ),  sans-serif;
+    font-size: var( --global-typography-658dc5b-font-size );
+    font-weight: var( --global-typography-658dc5b-font-weight );
+    text-transform: var( --global-typography-658dc5b-text-transform );
+    font-style: var( --global-typography-658dc5b-font-style );
+    text-decoration: var( --global-typography-658dc5b-text-decoration );
+    line-height: var( --global-typography-658dc5b-line-height );
+    letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-client-name > .app-widget-container {
+    margin: -5px 0 -18px 0;
+}
+.app-home .app-element.app-element-client-name.app-element {
+    --align-self: center;
+}
+.app-home .app-element.app-element-testimonial-image-card {
+    --display: flex;
+    --min-height: 400px;
+    --flex-direction: column;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --justify-content: flex-end;
+    --align-items: flex-start;
+    --gap: 15px 15px;
+    --row-gap: 15px;
+    --column-gap: 15px;
+    --flex-wrap: wrap;
+    --overlay-opacity: 0.5;
+    --border-radius: 10px;
+    --padding-top: 30px;
+    --padding-bottom: 30px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+.app-home .app-element.app-element-testimonial-image-card::before,
+.app-home .app-element.app-element-testimonial-image-card > .app-background-video-container::before,
+.app-home .app-element.app-element-testimonial-image-card > .app-con-inner > .app-background-video-container::before,
+.app-home .app-element.app-element-testimonial-image-card > .app-background-slideshow::before,
+.app-home .app-element.app-element-testimonial-image-card > .app-con-inner > .app-background-slideshow::before,
+.app-home .app-element.app-element-testimonial-image-card > .app-motion-effects-container > .app-motion-effects-layer::before {
+    background-color: var( --global-color-primary );
+    --background-overlay: '';
+}
+.app-home .app-element.app-element-testimonial-image-card.image-card-1:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-testimonial-image-card.image-card-1 > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/an-adult-man-with-a-beard-and-long-hair-stands-on.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app-home .app-element.app-element-testimonial-image-card.image-card-2:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-testimonial-image-card.image-card-2 > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/a-slender-woman-in-a-beige-top-and-leggings.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app-home .app-element.app-element-testimonial-image-card.image-card-3:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-testimonial-image-card.image-card-3 > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/young-happy-fit-woman-yoga-coach-sitting-on-mat.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app-home .app-element.app-element-testimonial-image-card-heading {
+    width: 100%;
+    max-width: 100%;
+}
+.app-home .app-element.app-element-testimonial-image-card-heading > .app-widget-container {
+    margin: 0 0 -10px 0;
+}
+.app-home .app-element.app-element-testimonial-image-card-heading .app-heading-title {
+    font-family: var( --global-typography-102-font-family ),  sans-serif;
+    font-size: var( --global-typography-102-font-size );
+    font-weight: var( --global-typography-102-font-weight );
+    text-transform: var( --global-typography-102-text-transform );
+    font-style: var( --global-typography-102-font-style );
+    text-decoration: var( --global-typography-102-text-decoration );
+    line-height: var( --global-typography-102-line-height );
+    letter-spacing: var( --global-typography-102-letter-spacing );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-testimonial-image-card-text {
+    width: 100%;
+    max-width: 100%;
+    font-family: var( --global-typography-text-font-family ),  sans-serif;
+    font-size: var( --global-typography-text-font-size );
+    font-weight: var( --global-typography-text-font-weight );
+    text-transform: var( --global-typography-text-text-transform );
+    font-style: var( --global-typography-text-font-style );
+    text-decoration: var( --global-typography-text-text-decoration );
+    line-height: var( --global-typography-text-line-height );
+    letter-spacing: var( --global-typography-text-letter-spacing );
+    color: #FFFFFF;
+}
+.app-home .app-element.app-element-testimonial-image-card-text > .app-widget-container {
+    margin: -5px 0 -20px 0;
+}
+
+/* ================================================ Mobile ========================================= */
+@media(min-width:768px) {
+
+    .app-home .app-element.testimonials {
+        --content-width: 1300px;
+    }
+}
+/* =========================================== max 1024 ===============================================*/
+@media(max-width:1024px) {
+    .app-home .app-element.testimonials {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-testimonials-title {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-testimonials-heading > .app-widget-container {
+        margin: 0 0 30px 0;
+    }
+    .app-home .app-element.app-element-testimonials-heading {
+        --container-widget-width: 80%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  80% );
+        max-width: 80%;
+    }
+    .app-home .app-element.app-element-testimonials-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-testimonials-dashboard {
+        --flex-wrap: wrap;
+    }
+    .app-home .app-element.app-element-white-card-heading .app-heading-title {
+        font-size: var( --global-typography-102-font-size );
+        line-height: var( --global-typography-102-line-height );
+        letter-spacing: var( --global-typography-102-letter-spacing );
+    }
+    .app-home .app-element.app-element-client-name {
+        width: var( --container-widget-width,  145px );
+        max-width: 145px;
+        --container-widget-width: 145px;
+        --container-widget-flex-grow: 0;
+        font-size: var( --global-typography-658dc5b-font-size );
+        line-height: var( --global-typography-658dc5b-line-height );
+        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    }
+    .app-home .app-element.app-element-testimonial-image-card {
+        --padding-top: 30px;
+        --padding-bottom: 30px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-testimonial-image-card-heading .app-heading-title {
+        font-size: var( --global-typography-102-font-size );
+        line-height: var( --global-typography-102-line-height );
+        letter-spacing: var( --global-typography-102-letter-spacing );
+    }
+    .app-home .app-element.app-element-testimonial-image-card-text {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+}
+/*=========================================== max 767 ==========================================*/
+@media(max-width:767px) {
+    .app-home .app-element.testimonials {
+        --padding-top: 70px;
+        --padding-bottom: 70px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-testimonials-title {
+        font-size: var( --global-typography-f911175-font-size );
+        line-height: var( --global-typography-f911175-line-height );
+        letter-spacing: var( --global-typography-f911175-letter-spacing );
+    }
+    .app-home .app-element.app-element-testimonials-heading {
+        --container-widget-width: 100%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  100% );
+        max-width: 100%;
+    }
+    .app-home .app-element.app-element-testimonials-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-testimonials-dashboard,
+    .app-home .app-element.app-element-testimonials-column {
+        --gap: 20px 20px;
+        --row-gap: 20px;
+        --column-gap: 20px;
+    }
+    .app-home .app-element.app-element-white-card-heading .app-heading-title {
+        font-size: var( --global-typography-102-font-size );
+        line-height: var( --global-typography-102-line-height );
+        letter-spacing: var( --global-typography-102-letter-spacing );
+    }
+    .app-home .app-element.app-element-client-name {
+        --container-widget-width: 125px;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  125px );
+        max-width: 125px;
+        font-size: var( --global-typography-658dc5b-font-size );
+        line-height: var( --global-typography-658dc5b-line-height );
+        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    }
+    .app-home .app-element.app-element-testimonial-image-card {
+        --min-height: 350px;
+    }
+    .app-home .app-element.app-element-testimonial-image-card-heading .app-heading-title {
+        font-size: var( --global-typography-102-font-size );
+        line-height: var( --global-typography-102-line-height );
+        letter-spacing: var( --global-typography-102-letter-spacing );
+    }
+    .app-home .app-element.app-element-testimonial-image-card-text {
+        font-size: var( --global-typography-text-font-size );
+        line-height: var( --global-typography-text-line-height );
+        letter-spacing: var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-testimonial-image-card.image-card-3 {
+        --order: 99999;
+    }
+}

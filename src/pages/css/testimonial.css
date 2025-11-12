@@ -1,6 +1,7 @@
 @import "../../framework/css/framework-vidda-kit.css";
 @import "../../css/header-footer.css";
 @import "../../css/app-vidda.css";
+@import "../../css/app-testimonials.css";
 
 .app-home .app-element.app-element-faqs.faqs-about-classes {
     --padding-top: 100px;
