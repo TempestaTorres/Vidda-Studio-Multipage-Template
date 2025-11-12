@@ -1,0 +1,24 @@
+@import "../../framework/css/framework-vidda-kit.css";
+@import "../../css/header-footer.css";
+@import "../../css/app-vidda.css";
+
+.app-home .app-element.app-element-faqs.faqs-about-classes {
+    --padding-top: 100px;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+/*===================================== Mobile 1024 ===============================================*/
+@media(max-width:1024px) {
+
+}
+/*====================================== 767 ========================================================*/
+@media(max-width:767px) {
+
+}
+@media(min-width:768px) {
+
+}
+@media(max-width:1024px) and (min-width:768px) {
+
+}

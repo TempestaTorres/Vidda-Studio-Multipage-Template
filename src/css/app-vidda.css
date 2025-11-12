@@ -77,6 +77,12 @@
     background-position: center center;
     background-size: cover;
 }
+.app .app-element.app-element-about-hero-image[data-item="5"]:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-about-hero-image[data-item="5"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/portrait-of-a-sportswoman-doing-yoga-on-mat.jpg");
+    background-position: center center;
+    background-size: cover;
+}
 .app .app-element.app-element-about-hero-image::before,
 .app .app-element.app-element-about-hero-image > .app-background-video-container::before,
 .app .app-element.app-element-about-hero-image > .app-con-inner > .app-background-video-container::before,
