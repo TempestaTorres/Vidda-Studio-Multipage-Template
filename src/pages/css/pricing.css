@@ -1,0 +1,89 @@
+@import "../../framework/css/framework-vidda-kit.css";
+@import "../../css/header-footer.css";
+@import "../../css/app-vidda.css";
+
+.app-home .app-element.app-element-hero-video-wrapper {
+    --display: flex;
+    --min-height: 720px;
+    --justify-content: center;
+    --align-items: center;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --flex-wrap: wrap;
+    --overlay-opacity: 0.8;
+    --border-radius: 10px;
+    --padding-top: 100px;
+    --padding-bottom: 70px;
+    --padding-left: 70px;
+    --padding-right: 70px;
+}
+.app-home .app-element.app-element-hero-video-wrapper::before,
+.app-home .app-element.app-element-hero-video-wrapper > .app-background-video-container::before
+ {
+    background-color: transparent;
+    --background-overlay: '';
+    background-image: linear-gradient(200deg,  #2A1A1300 0%,  var( --global-color-primary ) 100%);
+}
+
+.app-home .app-element.app-element-hero-video-wrapper:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-hero-video-wrapper > .app-motion-effects-container > .app-motion-effects-layer {
+    background: url("../../assets/images/poster.jpg") 50% 50%;
+    background-size: cover;
+}
+.app-teaser-video {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.app-teaser-video video {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    object-fit: cover;
+}
+.app-home .app-element.app-element-get-started.secondary-background:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-get-started.secondary-background > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color:var( --global-color-8c75c4b );
+}
+.app-home .app-element.app-element-get-started.secondary-background {
+    --padding-bottom: 100px;
+}
+/*===================================== Mobile 1024 ===============================================*/
+@media(max-width:1024px) {
+    .app-home .app-element.app-element-hero-video-wrapper {
+        --min-height: 650px;
+        --padding-top: 70px;
+        --padding-bottom: 50px;
+        --padding-left: 50px;
+        --padding-right: 50px;
+    }
+    .app-home .app-element.app-element-get-started.secondary-background {
+        --padding-bottom: 50px;
+    }
+}
+/*====================================== 767 ========================================================*/
+@media(max-width:767px) {
+    .app-home .app-element.app-element-hero-video-wrapper {
+        --padding-top: 70px;
+        --padding-bottom: 30px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+    .app-home .app-element.app-element-get-started.secondary-background {
+        --padding-bottom: 30px;
+    }
+}
+@media(min-width:768px) {
+
+}
+@media(max-width:1024px) and (min-width:768px) {
+
+}

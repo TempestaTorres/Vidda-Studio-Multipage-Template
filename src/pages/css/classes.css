@@ -84,7 +84,7 @@
         --padding-right:30px;
     }
     .app-home .app-element.app-element-our-classes-heading > .app-widget-container {
-        margin:0px 0px 30px 0px;
+        margin:0 0 30px 0;
     }
     .app-home .app-element.app-element-our-classes-heading {
         --container-widget-width:80%;
