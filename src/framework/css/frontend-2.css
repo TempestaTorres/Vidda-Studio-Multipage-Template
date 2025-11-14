@@ -1642,6 +1642,16 @@ body.rtl .app-con {
 .app-con .app-widget:not(:last-child) {
   --kit-widget-spacing:0px
 }
+.app-widget-google_maps .app-widget-container,
+.app-widget-google_maps:not(:has(.app-widget-container)) {
+  overflow:hidden
+}
+.app-widget-google_maps .app-custom-embed {
+  line-height:0
+}
+.app-widget-google_maps iframe {
+  height:300px
+}
 @media (max-width:767px) {
   .app-con.a-flex {
     --width:100%;

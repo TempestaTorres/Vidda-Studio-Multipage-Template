@@ -124,6 +124,200 @@
     padding-block-start:10px;
     padding-block-end:10px;
 }
+.app-home .app-element.app-element-google-map > .app-widget-container {
+    border-radius:10px;
+}
+.app-home .app-element.app-element-google-map iframe {
+    height:500px;
+    filter:brightness( 95% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+    transition-duration:0.4s;
+}
+.app-home .app-element.app-element-google-map:hover iframe {
+    filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+}
+.app-home .app-element.app-element-our-studios {
+    --display:flex;
+    --flex-direction:column;
+    --container-widget-width:100%;
+    --container-widget-height:initial;
+    --container-widget-flex-grow:0;
+    --container-widget-align-self:initial;
+    --flex-wrap-mobile:wrap;
+    --padding-top:100px;
+    --padding-bottom:100px;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-our-studios:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-our-studios > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color:var( --global-color-8c75c4b );
+}
+.app-home .app-element.app-element-670f032 > .app-widget-container {
+    margin:0 0 -15px 0;
+}
+.app-home .app-element.app-element-our-studios-heading {
+    width:var( --container-widget-width, 55% );
+    max-width:55%;
+    --container-widget-width:55%;
+    --container-widget-flex-grow:0;
+    text-align:center;
+}
+.app-home .app-element.app-element-our-studios-heading > .app-widget-container {
+    margin:0 0 50px 0;
+}
+.app-home .app-element.app-element-our-studios-heading.app-element {
+    --align-self:center;
+}
+.app-home .app-element.app-element-studio {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --gap:20px 100px;
+    --row-gap:20px;
+    --column-gap:100px;
+    --flex-wrap:nowrap;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-studio-image-box {
+    --display:flex;
+    --min-height:500px;
+    --border-radius:10px;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-studio-image-box:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-studio-image-box > .app-motion-effects-container > .app-motion-effects-layer {
+    background-position:center center;
+    background-size:cover;
+}
+.app-home .studio-hampshire .app-element.app-element-studio-image-box:not(.app-motion-effects-element-type-background),
+.app-home .studio-hampshire .app-element.app-element-studio-image-box > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/group-of-fit-women-practicing-supported-headstand.jpg");
+}
+.app-home .studio-arizona .app-element.app-element-studio-image-box:not(.app-motion-effects-element-type-background),
+.app-home .studio-arizona .app-element.app-element-studio-image-box > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/dance-studio-in-health-club.jpg");
+}
+.app-home .studio-tennessee .app-element.app-element-studio-image-box:not(.app-motion-effects-element-type-background),
+.app-home .studio-tennessee .app-element.app-element-studio-image-box > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/relaxation-studio.jpg");
+}
+.app-home .app-element.app-element-studio-divider {
+    --divider-border-style:solid;
+    --divider-color:#00000000;
+    --divider-border-width:1px;
+}
+.app-home .app-element.app-element-studio-divider .app-divider-separator {
+    width:100%;
+}
+.app-home .app-element.app-element-studio-divider .app-divider {
+    padding-block-start:15px;
+    padding-block-end:15px;
+}
+.app-home .app-element.app-element-studio-contact-info-box {
+    --display:flex;
+    --justify-content:center;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-studio-contact-info-box-heading > .app-widget-container {
+    margin:0 0 -10px 0;
+}
+.app-home .app-element.app-element-studio-contact-info-box-heading .app-heading-title {
+    font-family:var( --global-typography-100-font-family ), sans-serif;
+    font-size:var( --global-typography-100-font-size );
+    font-weight:var( --global-typography-100-font-weight );
+    text-transform:var( --global-typography-100-text-transform );
+    font-style:var( --global-typography-100-font-style );
+    text-decoration:var( --global-typography-100-text-decoration );
+    line-height:var( --global-typography-100-line-height );
+    letter-spacing:var( --global-typography-100-letter-spacing );
+}
+.app-home .app-element.app-element-studio-contact-info-box-text > .app-widget-container {
+    margin:0 100px -15px 0;
+}
+/* Icon List */
+.app-widget-icon-list .app-icon-list-item:not(:last-child):after {
+    border-color:var( --global-color-text );
+}
+.app-widget-icon-list .app-icon-list-icon i {
+    color:var( --global-color-primary );
+}
+.app-widget-icon-list .app-icon-list-icon svg {
+    fill:var( --global-color-primary );
+}
+.app-widget-icon-list .app-icon-list-item > .app-icon-list-text,
+.app-widget-icon-list .app-icon-list-item > a {
+    font-family:var( --global-typography-text-font-family ), sans-serif;
+    font-size:var( --global-typography-text-font-size );
+    font-weight:var( --global-typography-text-font-weight );
+    text-transform:var( --global-typography-text-text-transform );
+    font-style:var( --global-typography-text-font-style );
+    text-decoration:var( --global-typography-text-text-decoration );
+    line-height:var( --global-typography-text-line-height );
+    letter-spacing:var( --global-typography-text-letter-spacing );
+}
+.app-widget-icon-list .app-icon-list-text {
+    color:var( --global-color-secondary );
+}
+
+.app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-items:not(.app-inline-items) .app-icon-list-item:not(:last-child) {
+    padding-bottom:calc(10px/2);
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-items:not(.app-inline-items) .app-icon-list-item:not(:first-child) {
+    margin-top:calc(10px/2);
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item {
+    margin-right:calc(10px/2);
+    margin-left:calc(10px/2);
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-items.app-inline-items {
+    margin-right:calc(-10px/2);
+    margin-left:calc(-10px/2);
+}
+body.rtl .app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item:after {
+    left:calc(-10px/2);
+}
+body:not(.rtl) .app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-items.app-inline-items .app-icon-list-item:after {
+    right:calc(-10px/2);
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-icon i {
+    color:var( --global-color-accent );
+    transition:color 0.3s;
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-icon svg {
+    fill:var( --global-color-accent );
+    transition:fill 0.3s;
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list {
+    --icon-list-icon-size:14px;
+    --icon-vertical-offset:0;
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list:not(.app-icon-list-ico-position-10) .app-icon-list-text {
+    padding-left:10px;
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list.app-icon-list-ico-position-10 .app-icon-list-text {
+    padding-right:10px;
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-text {
+    color:var( --global-color-text );
+    transition:color 0.3s;
+}
+.app-home .app-element.app-element-studio-contact-info-box-icon-list .app-icon-list-item:hover .app-icon-list-text {
+    color:var( --global-color-primary );
+}
+/* Icon List Ends */
 /*===================================== Mobile 1024 ===============================================*/
 @media(max-width:1024px) {
     .app-home .app-element.app-element-section-contact {
@@ -167,6 +361,45 @@
         line-height:var( --global-typography-100-line-height );
         letter-spacing:var( --global-typography-100-letter-spacing );
     }
+    .app-home .app-element.app-element-google-map iframe {
+        height:400px;
+    }
+    .app-home .app-element.app-element-our-studios {
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-our-studios-heading > .app-widget-container {
+        margin:0 0 30px 0;
+    }
+    .app-home .app-element.app-element-our-studios-heading {
+        --container-widget-width:80%;
+        --container-widget-flex-grow:0;
+        width:var( --container-widget-width, 80% );
+        max-width:80%;
+    }
+    .app-home .app-element.app-element-studio {
+        --gap:20px 50px;
+        --row-gap:20px;
+        --column-gap:50px;
+    }
+    .app-home .app-element.app-element-studio-image-box {
+        --min-height:400px;
+    }
+    .app-home .app-element.app-element-studio-contact-info-box-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+    /*Icon List*/
+    .app-widget-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-widget-icon-list .app-icon-list-item > a {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    /*Icon List ends*/
 }
 /*====================================== 767 ========================================================*/
 @media(max-width:767px) {
@@ -202,6 +435,44 @@
         line-height:var( --global-typography-100-line-height );
         letter-spacing:var( --global-typography-100-letter-spacing );
     }
+    .app-home .app-element.app-element-our-studios {
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+    .app-home .app-element.app-element-our-studios-heading {
+        --container-widget-width:100%;
+        --container-widget-flex-grow:0;
+        width:var( --container-widget-width, 100% );
+        max-width:100%;
+    }
+    .app-home .app-element.app-element-studio {
+        --gap:30px 20px;
+        --row-gap:30px;
+        --column-gap:20px;
+        --flex-wrap:wrap;
+    }
+    .app-home .app-element.app-element-studio-image-box {
+        --min-height:300px;
+    }
+    .app-home .app-element-studio.studio-hampshire .app-element.app-element-studio-contact-info-box.app-con,
+    .app-home .app-element-studio.studio-tennessee .app-element.app-element-studio-contact-info-box.app-con {
+        --order:-99999 /* order start hack */;
+    }
+    .app-home .app-element.app-element-studio-contact-info-box-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+    /*Icon List*/
+    .app-widget-icon-list .app-icon-list-item > .app-icon-list-text,
+    .app-widget-icon-list .app-icon-list-item > a {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    /*Icon List ends*/
 }
 @media(min-width:768px) {
     .app-home .app-element.app-element-section-contact {
@@ -218,6 +489,9 @@
     }
     .app-home .app-element.app-element-more-details-card {
         --width:40%;
+    }
+    .app-home .app-element.app-element-our-studios {
+        --content-width:1300px;
     }
 }
 @media(max-width:1024px) and (min-width:768px) {
