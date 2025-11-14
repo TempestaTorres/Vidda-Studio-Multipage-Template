@@ -83,6 +83,9 @@
   -webkit-animation-name:metform-responseClose;
   animation-name:metform-responseClose
 }
+.mf-main-response-wrap {
+  border-radius: 10px;
+}
 .mf-main-response-wrap .mf-response-msg {
   border-radius:10px;
   border:1px solid #c3c2c2

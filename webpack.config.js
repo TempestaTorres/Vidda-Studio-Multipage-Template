@@ -14,6 +14,7 @@ module.exports = {
         faqs: './src/pages/js/faqs.js',
         testimonial: './src/pages/js/testimonial.js',
         pricing: './src/pages/js/pricing.js',
+        contact: './src/pages/js/contact.js',
         postHarmony: './src/pages/posts/blog-post.js',
         body: './src/pages/posts/post.js',
     },
@@ -97,6 +98,12 @@ module.exports = {
             inject: 'body',
             chunks: ['pricing'],
             filename: 'pricing.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/contact.html',
+            inject: 'body',
+            chunks: ['contact'],
+            filename: 'contact.html'
         }),
         new HtmlWebpackPlugin({
             template: './src/pages/posts/harmony.html',

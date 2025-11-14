@@ -1,0 +1,225 @@
+@import "../../framework/css/framework-vidda-kit.css";
+@import "../../css/header-footer.css";
+@import "../../css/app-vidda.css";
+
+.app-home .app-element.app-element-section-contact {
+    --display:flex;
+    --flex-direction:column;
+    --container-widget-width:100%;
+    --container-widget-height:initial;
+    --container-widget-flex-grow:0;
+    --container-widget-align-self:initial;
+    --flex-wrap-mobile:wrap;
+    --padding-top:100px;
+    --padding-bottom:100px;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-section-contact-heading {
+    width:var( --container-widget-width, 55% );
+    max-width:55%;
+    --container-widget-width:55%;
+    --container-widget-flex-grow:0;
+    text-align:center;
+}
+.app-home .app-element.app-element-section-contact-heading > .app-widget-container {
+    margin:0;
+}
+.app-home .app-element.app-element-section-contact-heading.app-element {
+    --align-self:center;
+}
+.app-home .app-element.app-element-section-contact-text {
+    width:var( --container-widget-width, 50% );
+    max-width:50%;
+    --container-widget-width:50%;
+    --container-widget-flex-grow:0;
+    text-align:center;
+}
+.app-home .app-element.app-element-section-contact-text > .app-widget-container {
+    margin:0 0 50px 0;
+}
+.app-home .app-element.app-element-section-contact-text.app-element {
+    --align-self:center;
+}
+.app-home .app-element.app-element-section-contact-details {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --flex-wrap:nowrap;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+
+.app-home .app-element.app-element-submit-form {
+    --display:flex;
+    --justify-content:center;
+    --border-radius:10px;
+    --padding-top:40px;
+    --padding-bottom:40px;
+    --padding-left:40px;
+    --padding-right:40px;
+}
+.app-home .app-element.app-element-submit-form:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-submit-form > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color:var( --global-color-secondary );
+}
+.app .app-element.app-element-left-input-block {
+    --display: flex;
+    --margin-top: 0;
+    --margin-bottom: 0;
+    --margin-left: 0;
+    --margin-right: 10px;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app .app-element.app-element-right-input-block {
+    --display: flex;
+    --margin-top: 0;
+    --margin-bottom: 0;
+    --margin-left: 10px;
+    --margin-right: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 0;
+    --padding-right: 0;
+}
+.app .app-element.app-element-input-wrapper .mf-textarea {
+    height: 150px;
+}
+.app-home .app-element.app-element-more-details-card {
+    --display:flex;
+    --justify-content:center;
+    --border-radius:10px 10px 10px 10px;
+    --padding-top:40px;
+    --padding-bottom:40px;
+    --padding-left:40px;
+    --padding-right:40px;
+}
+.app-home .app-element.app-element-more-details-card:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-more-details-card > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color:#F8F6EF;
+}
+.app-home .app-element.app-element-more-details-card-heading > .app-widget-container {
+    margin:0 0 -10px 0;
+}
+.app-home .app-element.app-element-more-details-card-heading .app-heading-title {
+    font-family:var( --global-typography-100-font-family ), sans-serif;
+    font-size:var( --global-typography-100-font-size );
+    font-weight:var( --global-typography-100-font-weight );
+    text-transform:var( --global-typography-100-text-transform );
+    font-style:var( --global-typography-100-font-style );
+    text-decoration:var( --global-typography-100-text-decoration );
+    line-height:var( --global-typography-100-line-height );
+    letter-spacing:var( --global-typography-100-letter-spacing );
+}
+.app-home .app-element.app-element-default-divider {
+    padding-block-start:10px;
+    padding-block-end:10px;
+}
+/*===================================== Mobile 1024 ===============================================*/
+@media(max-width:1024px) {
+    .app-home .app-element.app-element-section-contact {
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-section-contact-heading > .app-widget-container {
+        margin:0;
+    }
+    .app-home .app-element.app-element-section-contact-heading {
+        --container-widget-width:80%;
+        --container-widget-flex-grow:0;
+        width:var( --container-widget-width, 80% );
+        max-width:80%;
+    }
+    .app-home .app-element.app-element-section-contact-text > .app-widget-container {
+        margin:0 0 30px 0;
+    }
+    .app-home .app-element.app-element-section-contact-text {
+        --container-widget-width:75%;
+        --container-widget-flex-grow:0;
+        width:var( --container-widget-width, 75% );
+        max-width:75%;
+    }
+    .app-home .app-element.app-element-submit-form {
+        --padding-top:30px;
+        --padding-bottom:30px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-more-details-card {
+        --padding-top:30px;
+        --padding-bottom:30px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-more-details-card-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+}
+/*====================================== 767 ========================================================*/
+@media(max-width:767px) {
+    .app-home .app-element.app-element-section-contact {
+        --padding-top:70px;
+        --padding-bottom:70px;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+    .app-home .app-element.app-element-section-contact-heading {
+        --container-widget-width:100%;
+        --container-widget-flex-grow:0;
+        width:var( --container-widget-width, 100% );
+        max-width:100%;
+    }
+    .app-home .app-element.app-element-section-contact-text {
+        --container-widget-width:100%;
+        --container-widget-flex-grow:0;
+        width:var( --container-widget-width, 100% );
+        max-width:100%;
+    }
+    .app-home .app-element.app-element-section-contact-details {
+        --flex-wrap:wrap;
+    }
+    .app .app-element.app-element-left-input-block {
+        --width: 50%;
+    }
+    .app .app-element.app-element-right-input-block {
+        --width: 50%;
+    }
+    .app-home .app-element.app-element-more-details-card-heading .app-heading-title {
+        font-size:var( --global-typography-100-font-size );
+        line-height:var( --global-typography-100-line-height );
+        letter-spacing:var( --global-typography-100-letter-spacing );
+    }
+}
+@media(min-width:768px) {
+    .app-home .app-element.app-element-section-contact {
+        --content-width:1300px;
+    }
+    .app-home .app-element.app-element-submit-form {
+        --width:60%;
+    }
+    .app .app-element.app-element-left-input-block {
+        --width: 50%;
+    }
+    .app .app-element.app-element-right-input-block {
+        --width: 50%;
+    }
+    .app-home .app-element.app-element-more-details-card {
+        --width:40%;
+    }
+}
+@media(max-width:1024px) and (min-width:768px) {
+
+}
