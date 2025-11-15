@@ -400,6 +400,9 @@
 .app-home .app-element.app-element-get-started-image img {
     border-radius:10px;
 }
+.app-teaser-video video {
+    border-radius: 10px;
+}
 /*===================================== Mobile 1024 ===============================================*/
 @media(max-width:1024px) {
 
