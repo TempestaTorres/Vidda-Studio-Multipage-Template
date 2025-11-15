@@ -15,6 +15,7 @@ module.exports = {
         testimonial: './src/pages/js/testimonial.js',
         pricing: './src/pages/js/pricing.js',
         contact: './src/pages/js/contact.js',
+        products: './src/pages/js/products.js',
         postHarmony: './src/pages/posts/blog-post.js',
         body: './src/pages/posts/post.js',
     },
@@ -104,6 +105,12 @@ module.exports = {
             inject: 'body',
             chunks: ['contact'],
             filename: 'contact.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/products.html',
+            inject: 'body',
+            chunks: ['products'],
+            filename: 'products.html'
         }),
         new HtmlWebpackPlugin({
             template: './src/pages/posts/harmony.html',

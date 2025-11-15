@@ -1,0 +1,630 @@
+@import "../../framework/css/framework-vidda-kit.css";
+@import "../../css/header-footer.css";
+@import "../../css/app-vidda.css";
+@import "../../framework/css/widget-slider.css";
+
+.app-home .app-element.app-element-section-products {
+    --display:flex;
+    --flex-direction:column;
+    --container-widget-width:100%;
+    --container-widget-height:initial;
+    --container-widget-flex-grow:0;
+    --container-widget-align-self:initial;
+    --flex-wrap-mobile:wrap;
+    --padding-top:100px;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-section-products-heading {
+    width:var( --container-widget-width, 55% );
+    max-width:55%;
+    --container-widget-width:55%;
+    --container-widget-flex-grow:0;
+    text-align:center;
+}
+.app-home .app-element.app-element-section-products-heading > .app-widget-container {
+    margin:0 0 50px 0;
+}
+.app-home .app-element.app-element-section-products-heading.app-element {
+    --align-self:center;
+}
+.app-home .app-element.app-element-section-products-heading .app-heading-title {
+    font-family:var( --global-typography-secondary-font-family ), sans-serif;
+    font-size:var( --global-typography-secondary-font-size );
+    font-weight:var( --global-typography-secondary-font-weight );
+    text-transform:var( --global-typography-secondary-text-transform );
+    font-style:var( --global-typography-secondary-font-style );
+    text-decoration:var( --global-typography-secondary-text-decoration );
+    line-height:var( --global-typography-secondary-line-height );
+    letter-spacing:var( --global-typography-secondary-letter-spacing );
+    color:var( --global-color-primary );
+}
+.app-home .app-element.app-element-product-cards-viewer {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --justify-content:center;
+    --flex-wrap:wrap;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-widget-swiper > .swiper__image_wrapper {
+    border-radius: 10px;
+}
+.media-viewer__swiper .navigation.navigation--prev,
+.media-viewer__swiper .navigation.navigation--next {
+    color:var(--global-color-8c75c4b);
+}
+
+.product__dropdown-size-selector {
+    --dropdown-size-selector-min-height: 44px;
+    min-height:var(--dropdown-size-selector-min-height)
+}
+.product__dropdown-size-selector,
+.product__view-bundle {
+    transition:opacity .3s ease-in-out;
+    position:absolute;
+    z-index:1;
+    display:none;
+    bottom:16px;
+    left:8px;
+    width:calc(100% - 16px);
+}
+.product__view-bundle {
+    font-family:var(--global-typography-accent-font-family), sans-serif;
+    font-weight:var(--global-typography-accent-font-weight);
+    font-size:var(--global-typography-accent-font-size);
+    line-height:18px;
+    text-transform:none;
+    background-color:var(--color-primary-black);
+    padding:12px 4px;
+    color:var(--color-primary-ultra-light);
+    text-align:center
+}
+
+.swiper__image_wrapper:hover .product__dropdown-size-selector,
+.swiper__image_wrapper:hover .product__view-bundle {
+    display:block;
+}
+
+.dropdown-size-selector {
+    display:flex;
+    gap:8px;
+    width:100%;
+}
+.product__info {
+    --padding-left-product-info: 4px;
+    display:block;
+    position:relative;
+    width:100%;
+    padding-top:8px;
+}
+/*========================================================*/
+.app .app-element.app-element-product-add-to-cart-button {
+    width: 100%;
+}
+
+.app-home .app-element.app-element-product-card-teaser {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --justify-content:center;
+    --flex-wrap:wrap;
+    --padding-top:30px;
+    --padding-bottom:30px;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-product-card-teaser > .app-widget-container img {
+    border-radius: 10px;
+}
+.app-home .app-element.app-element-motivation {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
+    --padding-left: 0;
+    --padding-right: 0;
+    width: var( --container-widget-width,  60% );
+    max-width: 60%;
+    --container-widget-width: 60%;
+
+}
+.app-home .app-element.app-element-motivation-header {
+    --flex-direction: row;
+    --justify-content:flex-start;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-left: 10px;
+    --padding-right: 10px;
+    background-color: var(--global-color-8c75c4b);
+}
+
+.app-home .app-element.app-element-motivation-heading .app-heading-title {
+    font-family: var( --global-typography-secondary-font-family ),  sans-serif;
+    font-size: var( --global-typography-secondary-font-size );
+    font-weight: var( --global-typography-secondary-font-weight );
+    text-transform: var( --global-typography-secondary-text-transform );
+    font-style: var( --global-typography-secondary-font-style );
+    text-decoration: var( --global-typography-secondary-text-decoration );
+    line-height: var( --global-typography-secondary-line-height );
+    letter-spacing: var( --global-typography-secondary-letter-spacing );
+    color: var( --global-color-primary );
+}
+.app-home .app-element.app-element-motivation-image > .app-widget-container img {
+    border-radius: 10px;
+}
+
+.app-home .app-element.app-element-black-products {
+    --display:flex;
+    --flex-direction:column;
+    --container-widget-width:100%;
+    --container-widget-height:initial;
+    --container-widget-flex-grow:0;
+    --container-widget-align-self:initial;
+    --flex-wrap-mobile:wrap;
+    --padding-top:0;
+    --padding-bottom:100px;
+    --padding-left:0px;
+    --padding-right:0px;
+}
+.app-home .app-element.app-element-viewers-grid {
+    --display:grid;
+    --con-grid-template-columns:repeat(1, 1fr);
+    --con-grid-template-rows:repeat(2, 1fr);
+    --gap:20px 20px;
+    --row-gap:20px;
+    --column-gap:20px;
+    --grid-auto-flow:row;
+    --margin-top:0;
+    --margin-bottom:0;
+    --margin-left:0;
+    --margin-right:0;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:30px;
+    --padding-right:30px;
+}
+.app-home .app-element.app-element-product-stock-grid {
+    --display:grid;
+    --con-grid-template-columns:repeat(2, 1fr);
+    --con-grid-template-rows:repeat(2, 1fr);
+    --gap:20px 20px;
+    --row-gap:20px;
+    --column-gap:20px;
+    --grid-auto-flow:row;
+    --margin-top:0;
+    --margin-bottom:0;
+    --margin-left:0;
+    --margin-right:0;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-product-stock-item {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --justify-content:space-between;
+    --flex-wrap:wrap;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-poster img {
+    border-radius:10px;
+}
+.app-home .app-element.app-element-product-items-grid {
+    --display:grid;
+    --con-grid-template-columns:repeat(3, 1fr);
+    --con-grid-template-rows:repeat(2, 1fr);
+    --gap:20px 20px;
+    --row-gap:20px;
+    --column-gap:20px;
+    --grid-auto-flow:row;
+    --margin-top:0px;
+    --margin-bottom:0px;
+    --margin-left:0px;
+    --margin-right:0px;
+    --padding-top:0px;
+    --padding-bottom:0px;
+    --padding-left:0px;
+    --padding-right:0px;
+}
+.app-home .app-element.app-element-product-stock-item-heading {
+    width:100%;
+    max-width:100%;
+}
+.app-home .app-element.app-element-product-stock-item-heading > .app-widget-container {
+    margin:-5px 0;
+}
+.app-home .app-element.app-element-product-stock-item-heading .app-heading-title {
+    font-family:var( --global-typography-101-font-family ), sans-serif;
+    font-size:var( --global-typography-101-font-size );
+    font-weight:var( --global-typography-101-font-weight );
+    text-transform:var( --global-typography-101-text-transform );
+    font-style:var( --global-typography-101-font-style );
+    text-decoration:var( --global-typography-101-text-decoration );
+    line-height:var( --global-typography-101-line-height );
+    letter-spacing:var( --global-typography-101-letter-spacing );
+    color:var( --global-color-primary );
+}
+.app-home .app-element.app-element-product-stock-item-text {
+    width:var( --container-widget-width, 70% );
+    max-width:70%;
+    --container-widget-width:70%;
+    --container-widget-flex-grow:0;
+    font-family:var( --global-typography-text-font-family ), sans-serif;
+    font-size:var( --global-typography-text-font-size );
+    font-weight:var( --global-typography-text-font-weight );
+    text-transform:var( --global-typography-text-text-transform );
+    font-style:var( --global-typography-text-font-style );
+    text-decoration:var( --global-typography-text-text-decoration );
+    line-height:var( --global-typography-text-line-height );
+    letter-spacing:var( --global-typography-text-letter-spacing );
+    color:var( --global-color-text );
+}
+.app-home .app-element.app-element-product-stock-item-text > .app-widget-container {
+    margin:-10px 0 -15px 0;
+}
+/* Order button */
+.app-home .app-element.app-element-order-button .app-button {
+    background-color:#FE6F6200;
+    font-family:"Instrument Sans", sans-serif;
+    font-size:14px;
+    font-weight:500;
+    text-transform:none;
+    fill:var( --global-color-accent );
+    color:var( --global-color-accent );
+    border-style:solid;
+    border-width:0 0 1px 0;
+    border-color:#31452D30;
+    border-radius:0;
+    padding:0 0 4px 0;
+}
+.app-home .app-element.app-element-order-button .app-button:hover,
+.app-home .app-element.app-element-order-button .app-button:focus {
+    background-color:#68382600;
+    color:var( --global-color-accent );
+    border-color:var( --global-color-accent );
+}
+.app-home .app-element.app-element-order-button > .app-widget-container {
+    margin:-3px 5px 6px 0;
+}
+.app-home .app-element.app-element-order-button .app-button:hover svg,
+.app-home .app-element.app-element-order-button .app-button:focus svg {
+    fill:var( --global-color-accent );
+}
+.app-home .app-element.app-element-product-stock-grid-inline {
+    --display:grid;
+    --con-grid-template-columns:repeat(2, 1fr);
+    --con-grid-template-rows:repeat(1, 1fr);
+    --gap:20px 20px;
+    --row-gap:20px;
+    --column-gap:20px;
+    --grid-auto-flow:row;
+    --margin-top:0;
+    --margin-bottom:0;
+    --margin-left:0;
+    --margin-right:0;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-section-get-started {
+    --display:flex;
+    /*--flex-direction:column;*/
+    --container-widget-width:100%;
+    --container-widget-height:initial;
+    --container-widget-flex-grow:0;
+    --container-widget-align-self:initial;
+    --flex-wrap-mobile:wrap;
+    --margin-top:0px;
+    --margin-bottom:0px;
+    --margin-left:0px;
+    --margin-right:0px;
+    --padding-top:30px;
+    --padding-bottom:120px;
+    --padding-left:0px;
+    --padding-right:0px;
+}
+.app-home .app-element.app-element-get-started-row {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --gap:20px 70px;
+    --row-gap:20px;
+    --column-gap:70px;
+    --flex-wrap:nowrap;
+    --border-radius:10px;
+    --padding-top:70px;
+    --padding-bottom:70px;
+    --padding-left:70px;
+    --padding-right:70px;
+}
+.app-home .app-element.app-element-get-started-row:not(.app-motion-effects-element-type-background),
+.app-home .app-element.app-element-get-started-row > .app-motion-effects-container > .app-motion-effects-layer {
+    background-color:var( --global-color-accent );
+}
+.app-home .app-element.app-element-get-started-images {
+    --display:flex;
+    --flex-direction:row;
+    --container-widget-width:initial;
+    --container-widget-height:100%;
+    --container-widget-flex-grow:1;
+    --container-widget-align-self:stretch;
+    --flex-wrap-mobile:wrap;
+    --flex-wrap:nowrap;
+    --padding-top:0;
+    --padding-bottom:0;
+    --padding-left:0;
+    --padding-right:0;
+}
+.app-home .app-element.app-element-get-started-image.img-left > .app-widget-container {
+    margin:-100px 0 0 0;
+}
+.app-home .app-element.app-element-get-started-image.img-right > .app-widget-container {
+    margin:0 0 -100px 0;
+}
+.app-home .app-element.app-element-get-started-image img {
+    border-radius:10px;
+}
+/*===================================== Mobile 1024 ===============================================*/
+@media(max-width:1024px) {
+
+    .app .app-element.app-element-about-hero-image {
+        --min-height: 387px;
+    }
+    .app-home .app-element.app-element-section-products {
+        --padding-top:70px;
+        --padding-bottom:0;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-section-products-heading > .app-widget-container {
+        margin:0 0 30px 0;
+    }
+    .app-home .app-element.app-element-section-products-heading {
+        --container-widget-width:80%;
+        --container-widget-flex-grow:0;
+        width:var( --container-widget-width, 80% );
+        max-width:80%;
+    }
+    .app-home .app-element.app-element-section-products-heading .app-heading-title {
+        font-size:var( --global-typography-secondary-font-size );
+        line-height:var( --global-typography-secondary-line-height );
+        letter-spacing:var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-motivation {
+        --padding-bottom: 70px;
+        --padding-top:70px;
+        --container-widget-width: 80%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  80% );
+        max-width: 80%;
+    }
+    .app-home .app-element.app-element-motivation-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-black-products {
+        --padding-bottom:70px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-product-stock-grid {
+        --con-grid-template-columns:repeat(2, 1fr);
+        --grid-auto-flow:row;
+        --margin-top:0;
+        --margin-bottom:0;
+        --margin-left:0;
+        --margin-right:0;
+    }
+    .app-home .app-element.app-element-product-stock-grid-inline {
+        --con-grid-template-columns:repeat(2, 1fr);
+        --grid-auto-flow:row;
+        --margin-top:0;
+        --margin-bottom:0;
+        --margin-left:0;
+        --margin-right:0;
+    }
+    .app-home .app-element.app-element-product-items-grid {
+        --con-grid-template-columns:repeat(2, 1fr);
+        --grid-auto-flow:row;
+        --margin-top:0px;
+        --margin-bottom:0px;
+        --margin-left:0px;
+        --margin-right:0px;
+    }
+    .app-home .app-element.app-element-product-stock-item-heading .app-heading-title {
+        font-size:var( --global-typography-101-font-size );
+        line-height:var( --global-typography-101-line-height );
+        letter-spacing:var( --global-typography-101-letter-spacing );
+    }
+    .app-home .app-element.app-element-product-stock-item-text {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    /*Order button*/
+    .app-home .app-element.app-element-order-button .app-button {
+        font-size:13px;
+    }
+    .app-home .app-element.app-element-section-get-started {
+        --padding-top:0;
+        --padding-bottom:70px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-get-started-row {
+        --padding-top:50px;
+        --padding-bottom:50px;
+        --padding-left:30px;
+        --padding-right:30px;
+    }
+    .app-home .app-element.app-element-get-started-images {
+        --justify-content:center;
+    }
+    .app-home .app-element.app-element-get-started-images.app-con {
+        --align-self:center;
+    }
+}
+/*====================================== 767 ========================================================*/
+@media(max-width:767px) {
+    .app .app-element.app-element-about-hero-image {
+        --min-height: 160px;
+    }
+    .app-home .app-element.app-element-section-products {
+        --padding-top:70px;
+        --padding-bottom:0;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+    .app-home .app-element.app-element-section-products-heading {
+        --container-widget-width:100%;
+        --container-widget-flex-grow:0;
+        width:var( --container-widget-width, 100% );
+        max-width:100%;
+    }
+    .app-home .app-element.app-element-section-products-heading .app-heading-title {
+        font-size:var( --global-typography-secondary-font-size );
+        line-height:var( --global-typography-secondary-line-height );
+        letter-spacing:var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-motivation {
+        --container-widget-width: 100%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width,  100% );
+        max-width: 100%;
+        --padding-top:60px;
+        --padding-bottom:60px;
+        --padding-left: 30px;
+        --padding-right: 30px;
+    }
+    .app-home .app-element.app-element-motivation-heading .app-heading-title {
+        font-size: var( --global-typography-secondary-font-size );
+        line-height: var( --global-typography-secondary-line-height );
+        letter-spacing: var( --global-typography-secondary-letter-spacing );
+    }
+    .app-home .app-element.app-element-black-products {
+        --padding-bottom:70px;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+    .app-home .app-element.app-element-product-stock-grid {
+        --con-grid-template-columns:repeat(1, 1fr);
+        --grid-auto-flow:row;
+    }
+    .app-home .app-element.app-element-product-stock-grid-inline {
+        --con-grid-template-columns:repeat(1, 1fr);
+        --grid-auto-flow:row;
+    }
+    .app-home .app-element.app-element-motivation-heading {
+        width:100%;
+        text-align:center;
+    }
+    .app-home .app-element.app-element-product-items-grid {
+        --con-grid-template-columns:repeat(1, 1fr);
+        --grid-auto-flow:row;
+    }
+    .app-home .app-element.app-element-product-stock-item-heading .app-heading-title {
+        font-size:var( --global-typography-101-font-size );
+        line-height:var( --global-typography-101-line-height );
+        letter-spacing:var( --global-typography-101-letter-spacing );
+    }
+    .app-home .app-element.app-element-product-stock-item-text {
+        font-size:var( --global-typography-text-font-size );
+        line-height:var( --global-typography-text-line-height );
+        letter-spacing:var( --global-typography-text-letter-spacing );
+    }
+    .app-home .app-element.app-element-section-get-started {
+        --padding-top:0px;
+        --padding-bottom:90px;
+        --padding-left:20px;
+        --padding-right:20px;
+    }
+    .app-home .app-element.app-element-get-started-row {
+        --gap:50px 20px;
+        --row-gap:50px;
+        --column-gap:20px;
+        --flex-wrap:wrap;
+    }
+    .app-home .app-element.app-element-get-started-images.app-con {
+        --order:99999 /* order end hack */;
+    }
+    .app-home .app-element.app-element-get-started-image.img-left > .app-widget-container {
+        margin: 0;
+    }
+    .app-home .app-element.app-element-get-started-image.img-right > .app-widget-container {
+        margin:70px 0 -70px 0;
+    }
+}
+@media(min-width:768px) {
+    .app-home .app-element.app-element-section-products {
+        --content-width:1300px;
+    }
+
+    .dropdown-size-selector {
+        transition:max-height .6s ease;
+        max-height:var(--dropdown-size-selector-min-height);
+    }
+    .app-home .app-element.app-element-product-card-teaser {
+        --content-width:1300px;
+    }
+    .app-home .app-element.app-element-product-card-teaser > .app-widget-container {
+        max-width:40%;
+    }
+    .app-home .app-element.app-element-viewers-grid {
+        --content-width:1300px;
+    }
+    .app-home .app-element.app-element-motivation {
+        --content-width:1300px;
+    }
+    .app-home .app-element.app-element-motivation-heading {
+        width:50%;
+    }
+    .app-home .app-element.app-element-motivation-heading:last-child {
+        text-align: right;
+    }
+    .app-home .app-element.app-element-black-products {
+        --content-width:1300px;
+    }
+    .app-home .app-element.app-element-section-get-started {
+        --content-width:1300px;
+    }
+}
+@media(max-width:1024px) and (min-width:768px) {
+
+}

@@ -8,6 +8,26 @@
 .strictContent h1 > span, .strictContent h2 > span, .strictContent h3 > span, .strictContent h4 > {
     color:#bd832d;
 }
+.app-teaser-video {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.app-teaser-video video {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    object-fit: cover;
+}
 .app-widget-heading .app-heading-title {
     font-family: var( --global-typography-primary-font-family ),  sans-serif;
     font-size: var( --global-typography-primary-font-size );
@@ -92,6 +112,12 @@
 .app .app-element.app-element-about-hero-image[data-item="7"]:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-about-hero-image[data-item="7"] > .app-motion-effects-container > .app-motion-effects-layer {
     background-image: url("../assets/images/yoga-class-people-and-stack-with-hands-for-solid.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.app .app-element.app-element-about-hero-image[data-item="8"]:not(.app-motion-effects-element-type-background),
+.app .app-element.app-element-about-hero-image[data-item="8"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image: url("../assets/images/products.jpg");
     background-position: center center;
     background-size: cover;
 }
