@@ -73,7 +73,7 @@
 }
 .app-home .app-element.app-element-get-started.secondary-background:not(.app-motion-effects-element-type-background),
 .app-home .app-element.app-element-get-started.secondary-background > .app-motion-effects-container > .app-motion-effects-layer {
-    background-color:var( --global-color-8c75c4b );
+    background-color:var( --global-color-11 );
 }
 /*===================================== Mobile 1024 ===============================================*/
 @media(max-width:1024px) {

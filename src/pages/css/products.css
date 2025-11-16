@@ -60,7 +60,7 @@
 }
 .media-viewer__swiper .navigation.navigation--prev,
 .media-viewer__swiper .navigation.navigation--next {
-    color:var(--global-color-8c75c4b);
+    color:var(--global-color-11);
 }
 
 .product__dropdown-size-selector {
@@ -157,7 +157,7 @@
     --padding-bottom: 0;
     --padding-left: 10px;
     --padding-right: 10px;
-    background-color: var(--global-color-8c75c4b);
+    background-color: var(--global-color-11);
 }
 
 .app-home .app-element.app-element-motivation-heading .app-heading-title {

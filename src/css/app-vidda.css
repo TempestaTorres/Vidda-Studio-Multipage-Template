@@ -208,14 +208,14 @@ body:not(.rtl) .app .app-element.app-element-default-icon-list .app-icon-list-it
 }
 .app .app-element.app-element-default-icon-list .app-icon-list-item > .app-icon-list-text,
 .app .app-element.app-element-default-icon-list .app-icon-list-item > a {
-    font-family:var( --global-typography-bd2d915-font-family ), sans-serif;
-    font-size:var( --global-typography-bd2d915-font-size );
-    font-weight:var( --global-typography-bd2d915-font-weight );
-    text-transform:var( --global-typography-bd2d915-text-transform );
-    font-style:var( --global-typography-bd2d915-font-style );
-    text-decoration:var( --global-typography-bd2d915-text-decoration );
-    line-height:var( --global-typography-bd2d915-line-height );
-    letter-spacing:var( --global-typography-bd2d915-letter-spacing );
+    font-family:var( --global-typography-103-font-family ), sans-serif;
+    font-size:var( --global-typography-103-font-size );
+    font-weight:var( --global-typography-103-font-weight );
+    text-transform:var( --global-typography-103-text-transform );
+    font-style:var( --global-typography-103-font-style );
+    text-decoration:var( --global-typography-103-text-decoration );
+    line-height:var( --global-typography-103-line-height );
+    letter-spacing:var( --global-typography-103-letter-spacing );
 }
 .app .app-element.app-element-default-icon-list .app-icon-list-text {
     color:var( --global-color-primary );
@@ -248,11 +248,11 @@ body:not(.rtl) .app .app-element.app-element-about-hero-icon-list .app-icon-list
     right: calc(-15px/2);
 }
 .app .app-element.app-element-about-hero-icon-list .app-icon-list-icon i {
-    color: var( --global-color-2d8c8bd );
+    color: var( --global-color-10 );
     transition: color 0.3s;
 }
 .app .app-element.app-element-about-hero-icon-list .app-icon-list-icon svg {
-    fill: var( --global-color-2d8c8bd );
+    fill: var( --global-color-10 );
     transition: fill 0.3s;
 }
 .app .app-element.app-element-about-hero-icon-list {
@@ -267,14 +267,14 @@ body:not(.rtl) .app .app-element.app-element-about-hero-icon-list .app-icon-list
 }
 .app .app-element.app-element-about-hero-icon-list .app-icon-list-item > .app-icon-list-text,
 .app .app-element.app-element-about-hero-icon-list .app-icon-list-item > a {
-    font-family: var( --global-typography-658dc5b-font-family ),  sans-serif;
-    font-size: var( --global-typography-658dc5b-font-size );
-    font-weight: var( --global-typography-658dc5b-font-weight );
-    text-transform: var( --global-typography-658dc5b-text-transform );
-    font-style: var( --global-typography-658dc5b-font-style );
-    text-decoration: var( --global-typography-658dc5b-text-decoration );
-    line-height: var( --global-typography-658dc5b-line-height );
-    letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    font-family: var( --global-typography-106-font-family ),  sans-serif;
+    font-size: var( --global-typography-106-font-size );
+    font-weight: var( --global-typography-106-font-weight );
+    text-transform: var( --global-typography-106-text-transform );
+    font-style: var( --global-typography-106-font-style );
+    text-decoration: var( --global-typography-106-text-decoration );
+    line-height: var( --global-typography-106-line-height );
+    letter-spacing: var( --global-typography-106-letter-spacing );
 }
 .app .app-element.app-element-about-hero-icon-list .app-icon-list-text {
     color: #FFFFFF82;
@@ -284,7 +284,7 @@ body:not(.rtl) .app .app-element.app-element-about-hero-icon-list .app-icon-list
     color: #FFFFFF;
 }
 .app .app-element.app-element-primary-button .app-button {
-    background-color: var( --global-color-2d8c8bd );
+    background-color: var( --global-color-10 );
     font-family: var( --global-typography-accent-font-family ),  sans-serif;
     font-size: var( --global-typography-accent-font-size );
     font-weight: var( --global-typography-accent-font-weight );
@@ -424,8 +424,8 @@ body:not(.rtl) .app .app-element.app-element-about-hero-icon-list .app-icon-list
     text-decoration: var( --global-typography-text-text-decoration );
     line-height: var( --global-typography-text-line-height );
     letter-spacing: var( --global-typography-text-letter-spacing );
-    fill: var( --global-color-2d8c8bd );
-    color: var( --global-color-2d8c8bd );
+    fill: var( --global-color-10 );
+    color: var( --global-color-10 );
     border-style: solid;
     border-width: 0;
     border-color: #FFFFFF33;
@@ -594,14 +594,14 @@ svg) {
     width: 100%;
     max-width: 100%;
     text-align: left;
-    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
-    font-size: var( --global-typography-f911175-font-size );
-    font-weight: var( --global-typography-f911175-font-weight );
-    text-transform: var( --global-typography-f911175-text-transform );
-    font-style: var( --global-typography-f911175-font-style );
-    text-decoration: var( --global-typography-f911175-text-decoration );
-    line-height: var( --global-typography-f911175-line-height );
-    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    font-family: var( --global-typography-104-font-family ),  sans-serif;
+    font-size: var( --global-typography-104-font-size );
+    font-weight: var( --global-typography-104-font-weight );
+    text-transform: var( --global-typography-104-text-transform );
+    font-style: var( --global-typography-104-font-style );
+    text-decoration: var( --global-typography-104-text-decoration );
+    line-height: var( --global-typography-104-line-height );
+    letter-spacing: var( --global-typography-104-letter-spacing );
     color: var( --global-color-accent );
 }
 .app .app-element.app-element-text-secondary > .app-widget-container,
@@ -713,14 +713,14 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
 }
 .app .app-element.app-element-instructors-text {
     text-align: center;
-    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
-    font-size: var( --global-typography-f911175-font-size );
-    font-weight: var( --global-typography-f911175-font-weight );
-    text-transform: var( --global-typography-f911175-text-transform );
-    font-style: var( --global-typography-f911175-font-style );
-    text-decoration: var( --global-typography-f911175-text-decoration );
-    line-height: var( --global-typography-f911175-line-height );
-    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    font-family: var( --global-typography-104-font-family ),  sans-serif;
+    font-size: var( --global-typography-104-font-size );
+    font-weight: var( --global-typography-104-font-weight );
+    text-transform: var( --global-typography-104-text-transform );
+    font-style: var( --global-typography-104-font-style );
+    text-decoration: var( --global-typography-104-text-decoration );
+    line-height: var( --global-typography-104-line-height );
+    letter-spacing: var( --global-typography-104-letter-spacing );
     color: var( --global-color-accent );
 }
 .app .app-element.app-element-instructors-heading {
@@ -865,14 +865,14 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
     --align-self: center;
 }
 .app .app-element.app-element-instructors-card-text {
-    font-family: var( --global-typography-658dc5b-font-family ),  sans-serif;
-    font-size: var( --global-typography-658dc5b-font-size );
-    font-weight: var( --global-typography-658dc5b-font-weight );
-    text-transform: var( --global-typography-658dc5b-text-transform );
-    font-style: var( --global-typography-658dc5b-font-style );
-    text-decoration: var( --global-typography-658dc5b-text-decoration );
-    line-height: var( --global-typography-658dc5b-line-height );
-    letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    font-family: var( --global-typography-106-font-family ),  sans-serif;
+    font-size: var( --global-typography-106-font-size );
+    font-weight: var( --global-typography-106-font-weight );
+    text-transform: var( --global-typography-106-text-transform );
+    font-style: var( --global-typography-106-font-style );
+    text-decoration: var( --global-typography-106-text-decoration );
+    line-height: var( --global-typography-106-line-height );
+    letter-spacing: var( --global-typography-106-letter-spacing );
     color: var( --global-color-text );
 }
 .app .app-element.app-element-instructors-card-social-icons {
@@ -921,7 +921,7 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
 }
 .app .app-element.app-element-faqs:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-faqs > .app-motion-effects-container > .app-motion-effects-layer {
-    background-color: var( --global-color-8c75c4b );
+    background-color: var( --global-color-11 );
 }
 .app .app-element.app-element-faqs-heading {
     width: var( --container-widget-width,  55% );
@@ -955,14 +955,14 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
 }
 .app .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header>.appkit-btn-link {
     background-color: #F8F6EF;
-    font-family: var( --global-typography-bd2d915-font-family ),  sans-serif;
-    font-size: var( --global-typography-bd2d915-font-size );
-    font-weight: var( --global-typography-bd2d915-font-weight );
-    text-transform: var( --global-typography-bd2d915-text-transform );
-    font-style: var( --global-typography-bd2d915-font-style );
-    text-decoration: var( --global-typography-bd2d915-text-decoration );
-    line-height: var( --global-typography-bd2d915-line-height );
-    letter-spacing: var( --global-typography-bd2d915-letter-spacing );
+    font-family: var( --global-typography-103-font-family ),  sans-serif;
+    font-size: var( --global-typography-103-font-size );
+    font-weight: var( --global-typography-103-font-weight );
+    text-transform: var( --global-typography-103-text-transform );
+    font-style: var( --global-typography-103-font-style );
+    text-decoration: var( --global-typography-103-text-decoration );
+    line-height: var( --global-typography-103-line-height );
+    letter-spacing: var( --global-typography-103-letter-spacing );
     color: var( --global-color-primary );
     border-radius: 7px;
     padding: 14px 40px 14px 25px;
@@ -1044,7 +1044,7 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
 }
 .app .app-element.app-element-follow-us:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-follow-us > .app-motion-effects-container > .app-motion-effects-layer {
-    background-color: var( --global-color-8c75c4b );
+    background-color: var( --global-color-11 );
 }
 .app .app-element.app-element-follow-us-left-side {
     --display: flex;
@@ -1177,14 +1177,14 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
     transition: fill 0.3s;
 }
 .app .app-element.app-element-our-classes-card-icon-list .app-icon-list-item > .app-icon-list-text,  .app .app-element.app-element-our-classes-card-icon-list .app-icon-list-item > a {
-    font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
-    font-size: var( --global-typography-2eec24c-font-size );
-    font-weight: var( --global-typography-2eec24c-font-weight );
-    text-transform: var( --global-typography-2eec24c-text-transform );
-    font-style: var( --global-typography-2eec24c-font-style );
-    text-decoration: var( --global-typography-2eec24c-text-decoration );
-    line-height: var( --global-typography-2eec24c-line-height );
-    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    font-family: var( --global-typography-107-font-family ),  sans-serif;
+    font-size: var( --global-typography-107-font-size );
+    font-weight: var( --global-typography-107-font-weight );
+    text-transform: var( --global-typography-107-text-transform );
+    font-style: var( --global-typography-107-font-style );
+    text-decoration: var( --global-typography-107-text-decoration );
+    line-height: var( --global-typography-107-line-height );
+    letter-spacing: var( --global-typography-107-letter-spacing );
 }
 .app .app-element.app-element-our-classes-card-icon-list .app-icon-list-text {
     transition: color 0.3s;
@@ -1248,7 +1248,7 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
 }
 .app .app-element.app-element-schedule:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-schedule > .app-motion-effects-container > .app-motion-effects-layer {
-    background-color: var( --global-color-8c75c4b );
+    background-color: var( --global-color-11 );
 }
 .app .app-element.app-element-schedule-dashboard {
     --display: flex;
@@ -1267,14 +1267,14 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
     margin: 0 0 -15px 0;
 }
 .app .app-element.app-element-schedule-dashboard-title {
-    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
-    font-size: var( --global-typography-f911175-font-size );
-    font-weight: var( --global-typography-f911175-font-weight );
-    text-transform: var( --global-typography-f911175-text-transform );
-    font-style: var( --global-typography-f911175-font-style );
-    text-decoration: var( --global-typography-f911175-text-decoration );
-    line-height: var( --global-typography-f911175-line-height );
-    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    font-family: var( --global-typography-104-font-family ),  sans-serif;
+    font-size: var( --global-typography-104-font-size );
+    font-weight: var( --global-typography-104-font-weight );
+    text-transform: var( --global-typography-104-text-transform );
+    font-style: var( --global-typography-104-font-style );
+    text-decoration: var( --global-typography-104-text-decoration );
+    line-height: var( --global-typography-104-line-height );
+    letter-spacing: var( --global-typography-104-letter-spacing );
     color: var( --global-color-accent );
 }
 .app .app-element.app-element-schedule-dashboard-heading > .app-widget-container {
@@ -1578,14 +1578,14 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
     margin: 0 0 -15px 0;
 }
 .app .app-element.app-element-get-started-card-text {
-    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
-    font-size: var( --global-typography-f911175-font-size );
-    font-weight: var( --global-typography-f911175-font-weight );
-    text-transform: var( --global-typography-f911175-text-transform );
-    font-style: var( --global-typography-f911175-font-style );
-    text-decoration: var( --global-typography-f911175-text-decoration );
-    line-height: var( --global-typography-f911175-line-height );
-    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    font-family: var( --global-typography-104-font-family ),  sans-serif;
+    font-size: var( --global-typography-104-font-size );
+    font-weight: var( --global-typography-104-font-weight );
+    text-transform: var( --global-typography-104-text-transform );
+    font-style: var( --global-typography-104-font-style );
+    text-decoration: var( --global-typography-104-text-decoration );
+    line-height: var( --global-typography-104-line-height );
+    letter-spacing: var( --global-typography-104-letter-spacing );
     color: #FFFFFF;
 }
 .app .app-element.app-element-get-started-card-heading > .app-widget-container {
@@ -1623,7 +1623,7 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
 }
 .app .app-element.app-element-pricing-plan:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-pricing-plan > .app-motion-effects-container > .app-motion-effects-layer {
-    background-color: var( --global-color-8c75c4b );
+    background-color: var( --global-color-11 );
 }
 .app .app-element.app-element-pricing-plan-header {
     --display: flex;
@@ -1654,14 +1654,14 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
     width: 100%;
     max-width: 100%;
     text-align: left;
-    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
-    font-size: var( --global-typography-f911175-font-size );
-    font-weight: var( --global-typography-f911175-font-weight );
-    text-transform: var( --global-typography-f911175-text-transform );
-    font-style: var( --global-typography-f911175-font-style );
-    text-decoration: var( --global-typography-f911175-text-decoration );
-    line-height: var( --global-typography-f911175-line-height );
-    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    font-family: var( --global-typography-104-font-family ),  sans-serif;
+    font-size: var( --global-typography-104-font-size );
+    font-weight: var( --global-typography-104-font-weight );
+    text-transform: var( --global-typography-104-text-transform );
+    font-style: var( --global-typography-104-font-style );
+    text-decoration: var( --global-typography-104-text-decoration );
+    line-height: var( --global-typography-104-line-height );
+    letter-spacing: var( --global-typography-104-letter-spacing );
     color: var( --global-color-accent );
 }
 .app .app-element.app-element-pricing-plan-header-text > .app-widget-container {
@@ -1724,14 +1724,14 @@ body:not(.rtl) .app-post .app-element.app-element-app-vidda-icon-list .app-icon-
 .app .app-element.app-element-package-card-header-text {
     width: auto;
     align-self: flex-end;
-    font-family: var( --global-typography-658dc5b-font-family ),  sans-serif;
-    font-size: var( --global-typography-658dc5b-font-size );
-    font-weight: var( --global-typography-658dc5b-font-weight );
-    text-transform: var( --global-typography-658dc5b-text-transform );
-    font-style: var( --global-typography-658dc5b-font-style );
-    text-decoration: var( --global-typography-658dc5b-text-decoration );
-    line-height: var( --global-typography-658dc5b-line-height );
-    letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    font-family: var( --global-typography-106-font-family ),  sans-serif;
+    font-size: var( --global-typography-106-font-size );
+    font-weight: var( --global-typography-106-font-weight );
+    text-transform: var( --global-typography-106-text-transform );
+    font-style: var( --global-typography-106-font-style );
+    text-decoration: var( --global-typography-106-text-decoration );
+    line-height: var( --global-typography-106-line-height );
+    letter-spacing: var( --global-typography-106-letter-spacing );
     color: var( --global-color-accent );
 }
 .app .app-element.app-element-package-card-header-text > .app-widget-container {
@@ -1862,14 +1862,14 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
 .app .app-element.app-element-package-card-terms {
     width: 100%;
     max-width: 100%;
-    font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
-    font-size: var( --global-typography-2eec24c-font-size );
-    font-weight: var( --global-typography-2eec24c-font-weight );
-    text-transform: var( --global-typography-2eec24c-text-transform );
-    font-style: var( --global-typography-2eec24c-font-style );
-    text-decoration: var( --global-typography-2eec24c-text-decoration );
-    line-height: var( --global-typography-2eec24c-line-height );
-    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    font-family: var( --global-typography-107-font-family ),  sans-serif;
+    font-size: var( --global-typography-107-font-size );
+    font-weight: var( --global-typography-107-font-weight );
+    text-transform: var( --global-typography-107-text-transform );
+    font-style: var( --global-typography-107-font-style );
+    text-decoration: var( --global-typography-107-text-decoration );
+    line-height: var( --global-typography-107-line-height );
+    letter-spacing: var( --global-typography-107-letter-spacing );
     color: var( --global-color-primary );
 }
 .app .app-element.app-element-package-card-terms > .app-widget-container {
@@ -1963,14 +1963,14 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     margin:-4px 0 -20px 0;
 }
 .app .app-element.app-element-info-block-description {
-    font-family:var( --global-typography-658dc5b-font-family ), sans-serif;
-    font-size:var( --global-typography-658dc5b-font-size );
-    font-weight:var( --global-typography-658dc5b-font-weight );
-    text-transform:var( --global-typography-658dc5b-text-transform );
-    font-style:var( --global-typography-658dc5b-font-style );
-    text-decoration:var( --global-typography-658dc5b-text-decoration );
-    line-height:var( --global-typography-658dc5b-line-height );
-    letter-spacing:var( --global-typography-658dc5b-letter-spacing );
+    font-family:var( --global-typography-106-font-family ), sans-serif;
+    font-size:var( --global-typography-106-font-size );
+    font-weight:var( --global-typography-106-font-weight );
+    text-transform:var( --global-typography-106-text-transform );
+    font-style:var( --global-typography-106-font-style );
+    text-decoration:var( --global-typography-106-text-decoration );
+    line-height:var( --global-typography-106-line-height );
+    letter-spacing:var( --global-typography-106-letter-spacing );
 }
 .app .app-element.app-element-section-our-values {
     --display: flex;
@@ -1988,7 +1988,7 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
 }
 .app .app-element.app-element-section-our-values:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-section-our-values > .app-motion-effects-container > .app-motion-effects-layer {
-    background-color: var( --global-color-8c75c4b );
+    background-color: var( --global-color-11 );
 }
 .app .app-element.app-element-section-our-values-container {
     --display: flex;
@@ -2034,14 +2034,14 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
 }
 .app .app-element.app-element-section-our-values-text {
     text-align: center;
-    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
-    font-size: var( --global-typography-f911175-font-size );
-    font-weight: var( --global-typography-f911175-font-weight );
-    text-transform: var( --global-typography-f911175-text-transform );
-    font-style: var( --global-typography-f911175-font-style );
-    text-decoration: var( --global-typography-f911175-text-decoration );
-    line-height: var( --global-typography-f911175-line-height );
-    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    font-family: var( --global-typography-104-font-family ),  sans-serif;
+    font-size: var( --global-typography-104-font-size );
+    font-weight: var( --global-typography-104-font-weight );
+    text-transform: var( --global-typography-104-text-transform );
+    font-style: var( --global-typography-104-font-style );
+    text-decoration: var( --global-typography-104-text-decoration );
+    line-height: var( --global-typography-104-line-height );
+    letter-spacing: var( --global-typography-104-letter-spacing );
     color: #FFFFFF;
 }
 .app .app-element.app-element-section-our-values-heading {
@@ -2157,13 +2157,13 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     margin-top: 0;
 }
 .app .app-element.app-element-our-values-card-icon-box.app-view-stacked .app-icon {
-    background-color: var( --global-color-2d8c8bd );
+    background-color: var( --global-color-10 );
 }
 .app .app-element.app-element-our-values-card-icon-box.app-view-framed .app-icon,
 .app .app-element.app-element-our-values-card-icon-box.app-view-default .app-icon {
-    fill: var( --global-color-2d8c8bd );
-    color: var( --global-color-2d8c8bd );
-    border-color: var( --global-color-2d8c8bd );
+    fill: var( --global-color-10 );
+    color: var( --global-color-10 );
+    border-color: var( --global-color-10 );
 }
 .app .app-element.app-element-our-values-card-icon-box .app-icon {
     font-size: 40px;
@@ -2184,7 +2184,7 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
 }
 .app .app-element.app-element-instructors.our-values:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-instructors.our-values > .app-motion-effects-container > .app-motion-effects-layer {
-    background-color: var( --global-color-8c75c4b );
+    background-color: var( --global-color-11 );
 }
 .app .app-element.app-element-section-classes {
     --display: flex;
@@ -2201,7 +2201,7 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
 }
 .app .app-element.app-element-section-classes:not(.app-motion-effects-element-type-background),
 .app .app-element.app-element-section-classes > .app-motion-effects-container > .app-motion-effects-layer {
-    background-color: var( --global-color-8c75c4b );
+    background-color: var( --global-color-11 );
 }
 .app .app-element.app-element-section-classes-heading {
     width: var( --container-widget-width,  60% );
@@ -2312,19 +2312,19 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     border-color:#F9F4EE30;
 }
 .app .app-element.app-element-default-social-icons .app-social-icon i {
-    color:var( --global-color-2d8c8bd );
+    color:var( --global-color-10 );
 }
 .app .app-element.app-element-default-social-icons .app-social-icon svg {
-    fill:var( --global-color-2d8c8bd );
+    fill:var( --global-color-10 );
 }
 .app .app-element.app-element-default-social-icons .app-social-icon:hover {
     background-color:var( --global-color-primary );
 }
 .app .app-element.app-element-default-social-icons .app-social-icon:hover i {
-    color:var( --global-color-2d8c8bd );
+    color:var( --global-color-10 );
 }
 .app .app-element.app-element-default-social-icons .app-social-icon:hover svg {
-    fill:var( --global-color-2d8c8bd );
+    fill:var( --global-color-10 );
 }
 /* =========================================== max 1024 ===============================================*/
 @media(max-width:1024px) {
@@ -2360,15 +2360,15 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     }
     .app .app-element.app-element-default-icon-list .app-icon-list-item > .app-icon-list-text,
     .app .app-element.app-element-default-icon-list .app-icon-list-item > a {
-        font-size:var( --global-typography-bd2d915-font-size );
-        line-height:var( --global-typography-bd2d915-line-height );
-        letter-spacing:var( --global-typography-bd2d915-letter-spacing );
+        font-size:var( --global-typography-103-font-size );
+        line-height:var( --global-typography-103-line-height );
+        letter-spacing:var( --global-typography-103-letter-spacing );
     }
     .app .app-element.app-element-about-hero-icon-list .app-icon-list-item > .app-icon-list-text,
     .app .app-element.app-element-about-hero-icon-list .app-icon-list-item > a {
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
     }
     .app .app-element.app-element-secondary-button .app-button {
         font-size: var( --global-typography-accent-font-size );
@@ -2406,9 +2406,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         font-size: 13px;
     }
     .app .app-element.app-element-text-secondary {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-heading-secondary .app-heading-title {
         font-size: var( --global-typography-secondary-font-size );
@@ -2441,9 +2441,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         --padding-right: 30px;
     }
     .app .app-element.app-element-instructors-text {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-instructors-heading > .app-widget-container {
         margin: 0 0 30px 0;
@@ -2472,9 +2472,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         letter-spacing: var( --global-typography-102-letter-spacing );
     }
     .app .app-element.app-element-instructors-card-text {
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
     }
     .app .app-element.app-element-faqs {
         --padding-top: 70px;
@@ -2501,9 +2501,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         margin: 0;
     }
     .app .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header>.appkit-btn-link {
-        font-size: var( --global-typography-bd2d915-font-size );
-        line-height: var( --global-typography-bd2d915-line-height );
-        letter-spacing: var( --global-typography-bd2d915-letter-spacing );
+        font-size: var( --global-typography-103-font-size );
+        line-height: var( --global-typography-103-line-height );
+        letter-spacing: var( --global-typography-103-letter-spacing );
     }
     .app .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body p,
     .app .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body {
@@ -2549,9 +2549,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         letter-spacing: var( --global-typography-101-letter-spacing );
     }
     .app .app-element.app-element-our-classes-card-icon-list .app-icon-list-item > .app-icon-list-text,  .app .app-element.app-element-our-classes-card-icon-list .app-icon-list-item > a {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app .app-element.app-element-start-our-class-button .app-button {
         font-size: 13px;
@@ -2567,9 +2567,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         --padding-right: 30px;
     }
     .app .app-element.app-element-schedule-dashboard-title {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-schedule-dashboard-heading .app-heading-title {
         font-size: var( --global-typography-secondary-font-size );
@@ -2608,9 +2608,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         --align-self: center;
     }
     .app .app-element.app-element-get-started-card-text {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-get-started-card-heading .app-heading-title {
         font-size: var( --global-typography-secondary-font-size );
@@ -2630,9 +2630,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         --margin-right: 0;
     }
     .app .app-element.app-element-pricing-plan-header-text {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-pricing-plan-header-heading .app-heading-title {
         font-size: var( --global-typography-secondary-font-size );
@@ -2656,9 +2656,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         margin: 0 0 -11px 10px;
     }
     .app .app-element.app-element-package-card-header-text {
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
     }
     .app .app-element.app-element-package-card-body-heading .app-heading-title {
         font-size: var( --global-typography-100-font-size );
@@ -2681,9 +2681,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         letter-spacing: var( --global-typography-text-letter-spacing );
     }
     .app .app-element.app-element-package-card-terms {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app .app-element.app-element-pricing-plan-footer-text {
         font-size: var( --global-typography-text-font-size );
@@ -2694,9 +2694,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         margin: 0;
     }
     .app .app-element.app-element-info-block-description {
-        font-size:var( --global-typography-658dc5b-font-size );
-        line-height:var( --global-typography-658dc5b-line-height );
-        letter-spacing:var( --global-typography-658dc5b-letter-spacing );
+        font-size:var( --global-typography-106-font-size );
+        line-height:var( --global-typography-106-line-height );
+        letter-spacing:var( --global-typography-106-letter-spacing );
     }
     .app .app-element.app-element-section-our-values {
         --padding-top: 0;
@@ -2711,9 +2711,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         --padding-right: 30px;
     }
     .app .app-element.app-element-section-our-values-text {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-section-our-values-heading > .app-widget-container {
         margin: 0 0 30px 0;
@@ -2834,15 +2834,15 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     }
     .app .app-element.app-element-default-icon-list .app-icon-list-item > .app-icon-list-text,
     .app .app-element.app-element-default-icon-list .app-icon-list-item > a {
-        font-size:var( --global-typography-bd2d915-font-size );
-        line-height:var( --global-typography-bd2d915-line-height );
-        letter-spacing:var( --global-typography-bd2d915-letter-spacing );
+        font-size:var( --global-typography-103-font-size );
+        line-height:var( --global-typography-103-line-height );
+        letter-spacing:var( --global-typography-103-letter-spacing );
     }
     .app .app-element.app-element-about-hero-icon-list .app-icon-list-item > .app-icon-list-text,
     .app .app-element.app-element-about-hero-icon-list .app-icon-list-item > a {
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
     }
     .app .app-element.app-element-secondary-button .app-button {
         font-size: var( --global-typography-accent-font-size );
@@ -2869,9 +2869,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     }
     .app .app-element.app-element-text-secondary {
         text-align: center;
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-heading-secondary {
         text-align: center;
@@ -2904,9 +2904,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         --padding-right: 20px;
     }
     .app .app-element.app-element-instructors-text {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-instructors-heading {
         --container-widget-width: 100%;
@@ -2935,9 +2935,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         letter-spacing: var( --global-typography-102-letter-spacing );
     }
     .app .app-element.app-element-instructors-card-text {
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
     }
     .app .app-element.app-element-faqs {
         --padding-top: 70px;
@@ -2961,9 +2961,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         margin: 0;
     }
     .app .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-header>.appkit-btn-link {
-        font-size: var( --global-typography-bd2d915-font-size );
-        line-height: var( --global-typography-bd2d915-line-height );
-        letter-spacing: var( --global-typography-bd2d915-letter-spacing );
+        font-size: var( --global-typography-103-font-size );
+        line-height: var( --global-typography-103-line-height );
+        letter-spacing: var( --global-typography-103-letter-spacing );
         padding: 12px 30px 12px 20px;
     }
     .app .app-element.app-element-faqs-accordion .appkit-accordion .appkit-card-body p,
@@ -3020,9 +3020,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     }
     .app .app-element.app-element-our-classes-card-icon-list .app-icon-list-item > .app-icon-list-text,
     .app .app-element.app-element-our-classes-card-icon-list .app-icon-list-item > a {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app .app-element.app-element-schedule {
         --gap: 50px 20px;
@@ -3044,9 +3044,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         --flex-wrap: wrap;
     }
     .app .app-element.app-element-schedule-dashboard-title {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-schedule-dashboard-heading .app-heading-title {
         font-size: var( --global-typography-secondary-font-size );
@@ -3118,9 +3118,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         margin: 70px 0 -70px 0;
     }
     .app .app-element.app-element-get-started-card-text {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-get-started-card-heading .app-heading-title {
         font-size: var( --global-typography-secondary-font-size );
@@ -3144,9 +3144,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
     }
     .app .app-element.app-element-pricing-plan-header-text {
         text-align: center;
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-pricing-plan-header-heading {
         text-align: center;
@@ -3180,9 +3180,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         margin: 0 0 -17px 10px;
     }
     .app .app-element.app-element-package-card-header-text {
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
     }
     .app .app-element.app-element-package-card-body-heading .app-heading-title {
         font-size: var( --global-typography-100-font-size );
@@ -3205,9 +3205,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         letter-spacing: var( --global-typography-text-letter-spacing );
     }
     .app .app-element.app-element-package-card-terms {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app .app-element.app-element-pricing-plan-footer {
         --margin-top: 0;
@@ -3228,9 +3228,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         letter-spacing: var( --global-typography-text-letter-spacing );
     }
     .app .app-element.app-element-info-block-description {
-        font-size:var( --global-typography-658dc5b-font-size );
-        line-height:var( --global-typography-658dc5b-line-height );
-        letter-spacing:var( --global-typography-658dc5b-letter-spacing );
+        font-size:var( --global-typography-106-font-size );
+        line-height:var( --global-typography-106-line-height );
+        letter-spacing:var( --global-typography-106-letter-spacing );
     }
     .app .app-element.app-element-section-our-values {
         --padding-top: 0;
@@ -3245,9 +3245,9 @@ body:not(.rtl) .app .app-element.app-element-package-card-included-list .app-ico
         --padding-right: 20px;
     }
     .app .app-element.app-element-section-our-values-text {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app .app-element.app-element-section-our-values-heading {
         --container-widget-width: 100%;

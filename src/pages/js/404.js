@@ -17,7 +17,7 @@ import {McModalService} from "../../services/mcmodalService.js";
         }
         ]);
         header.initialize();
-        header.setButtonRoute('.app-button', 'Home');
+        header.setButtonRoute('.app-back-to-home-button', 'Home');
 
         const footer = new FooterComponent();
 

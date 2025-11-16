@@ -140,7 +140,7 @@
 }
 .app-post .app-element.app-element-blog-post-hero-list .list-meta:hover a,
 .app-post .app-element.app-element-blog-post-hero-list .list-meta:hover .meta-text {
-    color:var( --global-color-2d8c8bd );
+    color:var( --global-color-10 );
 }
 .app-post .app-element.app-element-blog-post-hero-list .list-meta {
     padding:0;
@@ -148,7 +148,7 @@
 }
 .app-post .app-element.app-element-blog-post-hero-list .meta-divider span {
     font-size:0.9em;
-    color:var( --global-color-2d8c8bd );
+    color:var( --global-color-10 );
 }
 .app-post .app-element.app-element-blog-post-article {
     --display:flex;
@@ -492,14 +492,14 @@
     fill:#FFFFFF;
 }
 .app-post .app-element.app-element-blog-post-article-footer-share-links-list .app-repeater-item > div:hover {
-    color:var( --global-color-2d8c8bd );
+    color:var( --global-color-10 );
     background-color:var( --global-color-primary );
     border-style:solid;
     border-color:var( --global-color-primary );
 }
 .app-post .app-element.app-element-blog-post-article-footer-share-links-list .app-repeater-item > div:hover svg path {
-    stroke:var( --global-color-2d8c8bd );
-    fill:var( --global-color-2d8c8bd );
+    stroke:var( --global-color-10 );
+    fill:var( --global-color-10 );
 }
 /*==================================== Mobile 1024 =====================================*/
 @media(max-width:1024px) {

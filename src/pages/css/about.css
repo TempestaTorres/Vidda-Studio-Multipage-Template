@@ -184,14 +184,14 @@
     border-width: 0;
 }
 .app-home .app-element.app-element-section-counter-item .app-counter-number-wrapper {
-    font-family: var( --global-typography-1a61658-font-family ),  sans-serif;
-    font-size: var( --global-typography-1a61658-font-size );
-    font-weight: var( --global-typography-1a61658-font-weight );
-    text-transform: var( --global-typography-1a61658-text-transform );
-    font-style: var( --global-typography-1a61658-font-style );
-    text-decoration: var( --global-typography-1a61658-text-decoration );
-    line-height: var( --global-typography-1a61658-line-height );
-    letter-spacing: var( --global-typography-1a61658-letter-spacing );
+    font-family: var( --global-typography-105-font-family ),  sans-serif;
+    font-size: var( --global-typography-105-font-size );
+    font-weight: var( --global-typography-105-font-weight );
+    text-transform: var( --global-typography-105-text-transform );
+    font-style: var( --global-typography-105-font-style );
+    text-decoration: var( --global-typography-105-text-decoration );
+    line-height: var( --global-typography-105-line-height );
+    letter-spacing: var( --global-typography-105-letter-spacing );
 }
 
 /*======================================== Mobile 1024 =======================================*/
@@ -259,9 +259,9 @@
         border-width: 0;
     }
     .app-home .app-element.app-element-section-counter-item .app-counter-number-wrapper {
-        font-size: var( --global-typography-1a61658-font-size );
-        line-height: var( --global-typography-1a61658-line-height );
-        letter-spacing: var( --global-typography-1a61658-letter-spacing );
+        font-size: var( --global-typography-105-font-size );
+        line-height: var( --global-typography-105-line-height );
+        letter-spacing: var( --global-typography-105-letter-spacing );
     }
     .app-home .app-element.app-element-section-counter-item .app-counter-title {
         font-size: var( --global-typography-text-font-size );
@@ -335,9 +335,9 @@
         padding: 30px 0;
     }
     .app-home .app-element.app-element-section-counter-item .app-counter-number-wrapper {
-        font-size: var( --global-typography-1a61658-font-size );
-        line-height: var( --global-typography-1a61658-line-height );
-        letter-spacing: var( --global-typography-1a61658-letter-spacing );
+        font-size: var( --global-typography-105-font-size );
+        line-height: var( --global-typography-105-line-height );
+        letter-spacing: var( --global-typography-105-letter-spacing );
     }
     .app-home .app-element.app-element-section-counter-item .app-counter-title {
         font-size: var( --global-typography-text-font-size );

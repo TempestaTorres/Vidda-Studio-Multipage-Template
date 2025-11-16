@@ -499,7 +499,7 @@
     border-color: #FFFFFF;
 }
 .app-metform .app-element.app-element-metform-input .mf-error-message {
-    color: var( --global-color-2d8c8bd );
+    color: var( --global-color-10 );
     font-family: var( --global-typography-text-font-family ),  sans-serif;
     font-size: var( --global-typography-text-font-size );
     font-weight: var( --global-typography-text-font-weight );
@@ -665,14 +665,14 @@
 .app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
 .app-metform .app-element.app-element-metform-input .mf-input-calculation-total,
 .app-metform .app-element.app-element-metform-input .mf-input-wrapper .input-range__label-container {
-    font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
-    font-size: var( --global-typography-2eec24c-font-size );
-    font-weight: var( --global-typography-2eec24c-font-weight );
-    text-transform: var( --global-typography-2eec24c-text-transform );
-    font-style: var( --global-typography-2eec24c-font-style );
-    text-decoration: var( --global-typography-2eec24c-text-decoration );
-    line-height: var( --global-typography-2eec24c-line-height );
-    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    font-family: var( --global-typography-107-font-family ),  sans-serif;
+    font-size: var( --global-typography-107-font-size );
+    font-weight: var( --global-typography-107-font-weight );
+    text-transform: var( --global-typography-107-text-transform );
+    font-style: var( --global-typography-107-font-style );
+    text-decoration: var( --global-typography-107-text-decoration );
+    line-height: var( --global-typography-107-line-height );
+    letter-spacing: var( --global-typography-107-letter-spacing );
 }
 .app-metform .app-element.app-element-metform-input .input-range .input-range__track {
     border-radius: 5px;
@@ -693,14 +693,14 @@
 .app-metform .app-element.app-element-metform-input :is(.mf_select__placeholder,  .mf_multiselect__placeholder,  .text),
 .app-metform .app-element.app-element-metform-input .mf-input::placeholder,
 .app-metform .app-element.app-element-metform-input .mf-time-input::before {
-    font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
-    font-size: var( --global-typography-2eec24c-font-size );
-    font-weight: var( --global-typography-2eec24c-font-weight );
-    text-transform: var( --global-typography-2eec24c-text-transform );
-    font-style: var( --global-typography-2eec24c-font-style );
-    text-decoration: var( --global-typography-2eec24c-text-decoration );
-    line-height: var( --global-typography-2eec24c-line-height );
-    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    font-family: var( --global-typography-107-font-family ),  sans-serif;
+    font-size: var( --global-typography-107-font-size );
+    font-weight: var( --global-typography-107-font-weight );
+    text-transform: var( --global-typography-107-text-transform );
+    font-style: var( --global-typography-107-font-style );
+    text-decoration: var( --global-typography-107-text-decoration );
+    line-height: var( --global-typography-107-line-height );
+    letter-spacing: var( --global-typography-107-letter-spacing );
 }
 .app-metform .app-element.app-element-metform-input .mf-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"])::-webkit-input-placeholder {
     color: #FFFFFFA3;
@@ -736,7 +736,7 @@
     text-align: center;
 }
 .app-metform .app-element.app-element-metform-button .metform-btn {
-    background-color: var( --global-color-2d8c8bd );
+    background-color: var( --global-color-10 );
     padding: 14px 30px 14px 30px;
     font-family: var( --global-typography-accent-font-family ),  sans-serif;
     font-size: var( --global-typography-accent-font-size );
@@ -1003,7 +1003,7 @@
 }
 .app .app-element.app-element-input-wrapper .mf-input-label {
     display: block;
-    color: var( --global-color-2d8c8bd );
+    color: var( --global-color-10 );
     font-family: var( --global-typography-accent-font-family ),  sans-serif;
     font-size: var( --global-typography-accent-font-size );
     font-weight: var( --global-typography-accent-font-weight );
@@ -1468,7 +1468,7 @@
     text-align: justify;
 }
 .app .app-element.app-element-metform-btn-wrapper .metform-btn {
-    background-color: var( --global-color-2d8c8bd );
+    background-color: var( --global-color-10 );
     padding: 15px 30px 15px 30px;
     font-family: var( --global-typography-accent-font-family ),  sans-serif;
     font-size: var( --global-typography-accent-font-size );
@@ -1642,16 +1642,16 @@
     .app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
     .app-metform .app-element.app-element-metform-input .mf-input-calculation-total,
     .app-metform .app-element.app-element-metform-input .mf-input-wrapper .input-range__label-container {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app-metform .app-element.app-element-metform-input :is(.mf_select__placeholder,  .mf_multiselect__placeholder,  .text),
     .app-metform .app-element.app-element-metform-input .mf-input::placeholder,
     .app-metform .app-element.app-element-metform-input .mf-time-input::before {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app-metform .app-element.app-element-metform-button .metform-btn {
         font-size: var( --global-typography-accent-font-size );
@@ -1874,16 +1874,16 @@
     .app-metform .app-element.app-element-metform-input .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag,
     .app-metform .app-element.app-element-metform-input .mf-input-calculation-total,
     .app-metform .app-element.app-element-metform-input .mf-input-wrapper .input-range__label-container {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app-metform .app-element.app-element-metform-input :is(.mf_select__placeholder,  .mf_multiselect__placeholder,  .text),
     .app-metform .app-element.app-element-metform-input .mf-input::placeholder,
     .app-metform .app-element.app-element-metform-input .mf-time-input::before {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app-metform .app-element.app-element-metform-button .mf-btn-wraper {
         text-align: center;

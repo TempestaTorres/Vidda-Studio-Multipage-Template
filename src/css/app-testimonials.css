@@ -16,14 +16,14 @@
 }
 .app-home .app-element.app-element-testimonials-title {
     text-align: center;
-    font-family: var( --global-typography-f911175-font-family ),  sans-serif;
-    font-size: var( --global-typography-f911175-font-size );
-    font-weight: var( --global-typography-f911175-font-weight );
-    text-transform: var( --global-typography-f911175-text-transform );
-    font-style: var( --global-typography-f911175-font-style );
-    text-decoration: var( --global-typography-f911175-text-decoration );
-    line-height: var( --global-typography-f911175-line-height );
-    letter-spacing: var( --global-typography-f911175-letter-spacing );
+    font-family: var( --global-typography-104-font-family ),  sans-serif;
+    font-size: var( --global-typography-104-font-size );
+    font-weight: var( --global-typography-104-font-weight );
+    text-transform: var( --global-typography-104-text-transform );
+    font-style: var( --global-typography-104-font-style );
+    text-decoration: var( --global-typography-104-text-decoration );
+    line-height: var( --global-typography-104-line-height );
+    letter-spacing: var( --global-typography-104-letter-spacing );
     color: var( --global-color-accent );
 }
 .app-home .app-element.app-element-testimonials-heading {
@@ -103,14 +103,14 @@
 .app-home .app-element.app-element-client-name {
     width: auto;
     max-width: 100%;
-    font-family: var( --global-typography-658dc5b-font-family ),  sans-serif;
-    font-size: var( --global-typography-658dc5b-font-size );
-    font-weight: var( --global-typography-658dc5b-font-weight );
-    text-transform: var( --global-typography-658dc5b-text-transform );
-    font-style: var( --global-typography-658dc5b-font-style );
-    text-decoration: var( --global-typography-658dc5b-text-decoration );
-    line-height: var( --global-typography-658dc5b-line-height );
-    letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    font-family: var( --global-typography-106-font-family ),  sans-serif;
+    font-size: var( --global-typography-106-font-size );
+    font-weight: var( --global-typography-106-font-weight );
+    text-transform: var( --global-typography-106-text-transform );
+    font-style: var( --global-typography-106-font-style );
+    text-decoration: var( --global-typography-106-text-decoration );
+    line-height: var( --global-typography-106-line-height );
+    letter-spacing: var( --global-typography-106-letter-spacing );
     color: var( --global-color-primary );
 }
 .app-home .app-element.app-element-client-name > .app-widget-container {
@@ -219,9 +219,9 @@
         --padding-right: 30px;
     }
     .app-home .app-element.app-element-testimonials-title {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app-home .app-element.app-element-testimonials-heading > .app-widget-container {
         margin: 0 0 30px 0;
@@ -250,9 +250,9 @@
         max-width: 145px;
         --container-widget-width: 145px;
         --container-widget-flex-grow: 0;
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
     }
     .app-home .app-element.app-element-testimonial-image-card {
         --padding-top: 30px;
@@ -280,9 +280,9 @@
         --padding-right: 20px;
     }
     .app-home .app-element.app-element-testimonials-title {
-        font-size: var( --global-typography-f911175-font-size );
-        line-height: var( --global-typography-f911175-line-height );
-        letter-spacing: var( --global-typography-f911175-letter-spacing );
+        font-size: var( --global-typography-104-font-size );
+        line-height: var( --global-typography-104-line-height );
+        letter-spacing: var( --global-typography-104-letter-spacing );
     }
     .app-home .app-element.app-element-testimonials-heading {
         --container-widget-width: 100%;
@@ -311,9 +311,9 @@
         --container-widget-flex-grow: 0;
         width: var( --container-widget-width,  125px );
         max-width: 125px;
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
     }
     .app-home .app-element.app-element-testimonial-image-card {
         --min-height: 350px;

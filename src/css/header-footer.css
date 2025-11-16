@@ -37,26 +37,26 @@
     margin: -4px 0 -17px 0;
 }
 .app-header .app-element.app-element-subheader-text {
-    font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
-    font-size: var( --global-typography-2eec24c-font-size );
-    font-weight: var( --global-typography-2eec24c-font-weight );
-    text-transform: var( --global-typography-2eec24c-text-transform );
-    font-style: var( --global-typography-2eec24c-font-style );
-    text-decoration: var( --global-typography-2eec24c-text-decoration );
-    line-height: var( --global-typography-2eec24c-line-height );
-    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    font-family: var( --global-typography-107-font-family ),  sans-serif;
+    font-size: var( --global-typography-107-font-size );
+    font-weight: var( --global-typography-107-font-weight );
+    text-transform: var( --global-typography-107-text-transform );
+    font-style: var( --global-typography-107-font-style );
+    text-decoration: var( --global-typography-107-text-decoration );
+    line-height: var( --global-typography-107-line-height );
+    letter-spacing: var( --global-typography-107-letter-spacing );
     color: #FFFFFF;
 }
 .app-header .app-element.app-element-subheader-button .app-button {
     background-color: #FE6F6200;
-    font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
-    font-size: var( --global-typography-2eec24c-font-size );
-    font-weight: var( --global-typography-2eec24c-font-weight );
-    text-transform: var( --global-typography-2eec24c-text-transform );
-    font-style: var( --global-typography-2eec24c-font-style );
-    text-decoration: var( --global-typography-2eec24c-text-decoration );
-    line-height: var( --global-typography-2eec24c-line-height );
-    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    font-family: var( --global-typography-107-font-family ),  sans-serif;
+    font-size: var( --global-typography-107-font-size );
+    font-weight: var( --global-typography-107-font-weight );
+    text-transform: var( --global-typography-107-text-transform );
+    font-style: var( --global-typography-107-font-style );
+    text-decoration: var( --global-typography-107-text-decoration );
+    line-height: var( --global-typography-107-line-height );
+    letter-spacing: var( --global-typography-107-letter-spacing );
     fill: #FFFFFF;
     color: #FFFFFF;
     border-style: solid;
@@ -178,14 +178,14 @@
     border-radius: 0;
 }
 .app-header .app-element.app-element-navbar-menu-wrapper .appkit-navbar-nav > li > a {
-    font-family: var( --global-typography-658dc5b-font-family ),  sans-serif;
-    font-size: var( --global-typography-658dc5b-font-size );
-    font-weight: var( --global-typography-658dc5b-font-weight );
-    text-transform: var( --global-typography-658dc5b-text-transform );
-    font-style: var( --global-typography-658dc5b-font-style );
-    text-decoration: var( --global-typography-658dc5b-text-decoration );
-    line-height: var( --global-typography-658dc5b-line-height );
-    letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+    font-family: var( --global-typography-106-font-family ),  sans-serif;
+    font-size: var( --global-typography-106-font-size );
+    font-weight: var( --global-typography-106-font-weight );
+    text-transform: var( --global-typography-106-text-transform );
+    font-style: var( --global-typography-106-font-style );
+    text-decoration: var( --global-typography-106-text-decoration );
+    line-height: var( --global-typography-106-line-height );
+    letter-spacing: var( --global-typography-106-letter-spacing );
     color: #2A1A1387;
     padding: 0 40px 0 0;
 }
@@ -239,14 +239,14 @@
     margin: -1px 0 0 8px;
 }
 .app-header .app-element.app-element-navbar-menu-wrapper .appkit-navbar-nav .appkit-submenu-panel > li > a {
-    font-family: var( --global-typography-2eec24c-font-family ),  sans-serif;
-    font-size: var( --global-typography-2eec24c-font-size );
-    font-weight: var( --global-typography-2eec24c-font-weight );
-    text-transform: var( --global-typography-2eec24c-text-transform );
-    font-style: var( --global-typography-2eec24c-font-style );
-    text-decoration: var( --global-typography-2eec24c-text-decoration );
-    line-height: var( --global-typography-2eec24c-line-height );
-    letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+    font-family: var( --global-typography-107-font-family ),  sans-serif;
+    font-size: var( --global-typography-107-font-size );
+    font-weight: var( --global-typography-107-font-weight );
+    text-transform: var( --global-typography-107-text-transform );
+    font-style: var( --global-typography-107-font-style );
+    text-decoration: var( --global-typography-107-text-decoration );
+    line-height: var( --global-typography-107-line-height );
+    letter-spacing: var( --global-typography-107-letter-spacing );
     padding: 6px 15px 6px 12px;
     color: var( --global-color-text );
     border-style: solid;
@@ -372,8 +372,8 @@
     font-style: var( --global-typography-accent-font-style );
     text-decoration: var( --global-typography-accent-text-decoration );
     letter-spacing: var( --global-typography-accent-letter-spacing );
-    fill: var( --global-color-2d8c8bd );
-    color: var( --global-color-2d8c8bd );
+    fill: var( --global-color-10 );
+    color: var( --global-color-10 );
     border-style: solid;
     border-width: 0;
     border-color: var( --global-color-accent );
@@ -504,7 +504,7 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
     letter-spacing:var( --global-typography-accent-letter-spacing );
 }
 .app-footer .app-element.app-element-footer-main-icon-list .app-icon-list-text {
-    color:var( --global-color-2d8c8bd );
+    color:var( --global-color-10 );
     transition:color 0.3s;
 }
 .app-footer .app-element.app-element-footer-main-icon-list .app-icon-list-item:hover .app-icon-list-text {
@@ -590,7 +590,7 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
     transition:color 0.3s;
 }
 .app-footer .app-element.app-element-footer-main-address-icon-list .app-icon-list-item:hover .app-icon-list-text {
-    color:var( --global-color-2d8c8bd );
+    color:var( --global-color-10 );
 }
 .app-footer .app-element.app-element-footer-main-social-icons {
     --grid-template-columns:repeat(0, auto);
@@ -602,7 +602,7 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
     text-align:left;
 }
 .app-footer .app-element.app-element-footer-main-social-icons .app-social-icon {
-    background-color:var( --global-color-2d8c8bd );
+    background-color:var( --global-color-10 );
     --icon-padding:0.7em;
     border-style:solid;
     border-width:0;
@@ -615,7 +615,7 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
     fill:var( --global-color-accent );
 }
 .app-footer .app-element.app-element-footer-main-social-icons .app-social-icon:hover {
-    background-color:var( --global-color-8c75c4b );
+    background-color:var( --global-color-11 );
 }
 .app-footer .app-element.app-element-footer-main-social-icons .app-social-icon:hover i {
     color:var( --global-color-primary );
@@ -663,7 +663,7 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
     transition:color 0.3s;
 }
 .app-footer .app-element.app-element-footer-main-contact-icon-list .app-icon-list-item:hover .app-icon-list-text {
-    color:var( --global-color-2d8c8bd );
+    color:var( --global-color-10 );
 }
 .app-footer .app-element.app-element-footer-main-subscribe {
     --display:flex;
@@ -736,14 +736,14 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
 }
 .app-footer .app-element.app-element-footer-secondary-copyright-text {
     text-align:left;
-    font-family:var( --global-typography-2eec24c-font-family ), sans-serif;
-    font-size:var( --global-typography-2eec24c-font-size );
-    font-weight:var( --global-typography-2eec24c-font-weight );
-    text-transform:var( --global-typography-2eec24c-text-transform );
-    font-style:var( --global-typography-2eec24c-font-style );
-    text-decoration:var( --global-typography-2eec24c-text-decoration );
-    line-height:var( --global-typography-2eec24c-line-height );
-    letter-spacing:var( --global-typography-2eec24c-letter-spacing );
+    font-family:var( --global-typography-107-font-family ), sans-serif;
+    font-size:var( --global-typography-107-font-size );
+    font-weight:var( --global-typography-107-font-weight );
+    text-transform:var( --global-typography-107-text-transform );
+    font-style:var( --global-typography-107-font-style );
+    text-decoration:var( --global-typography-107-text-decoration );
+    line-height:var( --global-typography-107-line-height );
+    letter-spacing:var( --global-typography-107-letter-spacing );
     color:#FFFFFF;
 }
 .app-footer .app-element.app-element-footer-secondary-terms {
@@ -765,14 +765,14 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
 }
 .app-footer .app-element.app-element-footer-secondary-button .app-button {
     background-color:transparent;
-    font-family:var( --global-typography-2eec24c-font-family ), sans-serif;
-    font-size:var( --global-typography-2eec24c-font-size );
-    font-weight:var( --global-typography-2eec24c-font-weight );
-    text-transform:var( --global-typography-2eec24c-text-transform );
-    font-style:var( --global-typography-2eec24c-font-style );
-    text-decoration:var( --global-typography-2eec24c-text-decoration );
-    line-height:var( --global-typography-2eec24c-line-height );
-    letter-spacing:var( --global-typography-2eec24c-letter-spacing );
+    font-family:var( --global-typography-107-font-family ), sans-serif;
+    font-size:var( --global-typography-107-font-size );
+    font-weight:var( --global-typography-107-font-weight );
+    text-transform:var( --global-typography-107-text-transform );
+    font-style:var( --global-typography-107-font-style );
+    text-decoration:var( --global-typography-107-text-decoration );
+    line-height:var( --global-typography-107-line-height );
+    letter-spacing:var( --global-typography-107-letter-spacing );
     fill:#FFFFFF;
     color:#FFFFFF;
     background-image:linear-gradient(180deg, #0A6CFF00 0%, #F2295B00 100%);
@@ -806,14 +806,14 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
         --padding-right: 30px;
     }
     .app-header .app-element.app-element-subheader-text {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app-header .app-element.app-element-subheader-button .app-button {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app-header .app-element.app-element-navbar {
         --margin-top: 0;
@@ -841,9 +841,9 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
         padding: 10px 0 10px 0;
     }
     .app-header .app-element.app-element-navbar-menu-wrapper .appkit-navbar-nav > li > a {
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
         padding: 8px 15px 8px 30px;
     }
     .app-header .app-element.app-element-navbar-menu-wrapper .appkit-navbar-nav-default .appkit-dropdown-has>a .appkit-submenu-indicator {
@@ -853,9 +853,9 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
         margin-left: auto;
     }
     .app-header .app-element.app-element-navbar-menu-wrapper .appkit-navbar-nav .appkit-submenu-panel > li > a {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
         padding: 5px 15px;
         border-width: 0;
     }
@@ -1043,20 +1043,20 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
     }
     .app-footer .app-element.app-element-footer-secondary-copyright-text {
         text-align:left;
-        font-family:var( --global-typography-2eec24c-font-family ), sans-serif;
-        font-size:var( --global-typography-2eec24c-font-size );
-        font-weight:var( --global-typography-2eec24c-font-weight );
-        text-transform:var( --global-typography-2eec24c-text-transform );
-        font-style:var( --global-typography-2eec24c-font-style );
-        text-decoration:var( --global-typography-2eec24c-text-decoration );
-        line-height:var( --global-typography-2eec24c-line-height );
-        letter-spacing:var( --global-typography-2eec24c-letter-spacing );
+        font-family:var( --global-typography-107-font-family ), sans-serif;
+        font-size:var( --global-typography-107-font-size );
+        font-weight:var( --global-typography-107-font-weight );
+        text-transform:var( --global-typography-107-text-transform );
+        font-style:var( --global-typography-107-font-style );
+        text-decoration:var( --global-typography-107-text-decoration );
+        line-height:var( --global-typography-107-line-height );
+        letter-spacing:var( --global-typography-107-letter-spacing );
         color:#FFFFFF;
     }
     .app-footer .app-element.app-element-footer-secondary-button .app-button {
-        font-size:var( --global-typography-2eec24c-font-size );
-        line-height:var( --global-typography-2eec24c-line-height );
-        letter-spacing:var( --global-typography-2eec24c-letter-spacing );
+        font-size:var( --global-typography-107-font-size );
+        line-height:var( --global-typography-107-line-height );
+        letter-spacing:var( --global-typography-107-letter-spacing );
     }
 }
 
@@ -1077,14 +1077,14 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
         --padding-right: 20px;
     }
     .app-header .app-element.app-element-subheader-text {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app-header .app-element.app-element-subheader-button .app-button {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app-header .app-element.app-element-navbar {
         --margin-top: 0;
@@ -1104,15 +1104,15 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
         margin: 3px -8px 0 0;
     }
     .app-header .app-element.app-element-navbar-menu-wrapper .appkit-navbar-nav > li > a {
-        font-size: var( --global-typography-658dc5b-font-size );
-        line-height: var( --global-typography-658dc5b-line-height );
-        letter-spacing: var( --global-typography-658dc5b-letter-spacing );
+        font-size: var( --global-typography-106-font-size );
+        line-height: var( --global-typography-106-line-height );
+        letter-spacing: var( --global-typography-106-letter-spacing );
     }
 
     .app-header .app-element.app-element-navbar-menu-wrapper .appkit-navbar-nav .appkit-submenu-panel > li > a {
-        font-size: var( --global-typography-2eec24c-font-size );
-        line-height: var( --global-typography-2eec24c-line-height );
-        letter-spacing: var( --global-typography-2eec24c-letter-spacing );
+        font-size: var( --global-typography-107-font-size );
+        line-height: var( --global-typography-107-line-height );
+        letter-spacing: var( --global-typography-107-letter-spacing );
     }
     .app-header .app-element.app-element-navbar-menu-wrapper .appkit-menu-hamburger > .akit-menu-icon {
         font-size: 27px;
@@ -1276,9 +1276,9 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
     }
     .app-footer .app-element.app-element-footer-secondary-copyright-text {
         text-align:center;
-        font-size:var( --global-typography-2eec24c-font-size );
-        line-height:var( --global-typography-2eec24c-line-height );
-        letter-spacing:var( --global-typography-2eec24c-letter-spacing );
+        font-size:var( --global-typography-107-font-size );
+        line-height:var( --global-typography-107-line-height );
+        letter-spacing:var( --global-typography-107-letter-spacing );
     }
     .app-footer .app-element.app-element-footer-secondary-terms {
         --justify-content:center;
@@ -1293,9 +1293,9 @@ body:not(.rtl) .app-footer .app-element.app-element-footer-main-icon-list .app-i
         --order:-99999 /* order start hack */;
     }
     .app-footer .app-element.app-element-footer-secondary-button .app-button {
-        font-size:var( --global-typography-2eec24c-font-size );
-        line-height:var( --global-typography-2eec24c-line-height );
-        letter-spacing:var( --global-typography-2eec24c-letter-spacing );
+        font-size:var( --global-typography-107-font-size );
+        line-height:var( --global-typography-107-line-height );
+        letter-spacing:var( --global-typography-107-letter-spacing );
     }
 }
 
