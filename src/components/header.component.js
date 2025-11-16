@@ -38,6 +38,10 @@ export class HeaderComponent {
                 subLink.addEventListener("click", this.#navLinkClick);
             });
         }
+
+        this.setButtonRoute('.footer-home-button', 'Home');
+        this.setButtonRoute('.footer-about-button', 'About');
+        this.setButtonRoute('.footer-blog-button', 'Blog');
     }
 
     #navLinkClick(e) {
@@ -57,5 +61,19 @@ export class HeaderComponent {
             window.location = route;
         }
 
+    }
+    setButtonRoute(selector, routeName) {
+        let item = document.querySelector(selector);
+
+        if (item && item.nodeName === "A") {
+
+            let route = NavigationRoutes.getRouteByName(routeName);
+
+            if (route !== null) {
+                item.href = "/" + routeName;
+            }
+
+            item.addEventListener("click", this.#navLinkClick);
+        }
     }
 }

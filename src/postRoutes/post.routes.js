@@ -15,6 +15,21 @@ export class PostRoutes {
             route: '/harmony.html',
             name: 'Embrace the stillness within'
         },
+        {
+            id: 3,
+            route: '/harmony.html',
+            name: 'Connect with your true self'
+        },
+        {
+            id: 4,
+            route: '/harmony.html',
+            name: 'Discover the powers within'
+        },
+        {
+            id: 5,
+            route: '/harmony.html',
+            name: 'Unleash your inner strength'
+        },
     ];
 
     static getRouteById(id) {

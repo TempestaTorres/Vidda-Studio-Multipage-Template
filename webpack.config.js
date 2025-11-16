@@ -16,6 +16,8 @@ module.exports = {
         pricing: './src/pages/js/pricing.js',
         contact: './src/pages/js/contact.js',
         products: './src/pages/js/products.js',
+        blog: './src/pages/js/blog.js',
+        404: './src/pages/js/404.js',
         postHarmony: './src/pages/posts/blog-post.js',
         body: './src/pages/posts/post.js',
     },
@@ -113,6 +115,18 @@ module.exports = {
             filename: 'products.html'
         }),
         new HtmlWebpackPlugin({
+            template: './src/pages/blog.html',
+            inject: 'body',
+            chunks: ['blog'],
+            filename: 'blog.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/404.html',
+            inject: 'body',
+            chunks: ['404'],
+            filename: '404.html'
+        }),
+        new HtmlWebpackPlugin({
             template: './src/pages/posts/harmony.html',
             inject: 'body',
             chunks: ['postHarmony'],
@@ -123,10 +137,6 @@ module.exports = {
             inject: 'body',
             chunks: ['body'],
             filename: 'body.html'
-        }),
-        new HtmlWebpackPlugin({
-            template: './src/pages/404.html',
-            filename: '404.html'
         }),
         new CopyPlugin({
             patterns: [

@@ -86,9 +86,9 @@ export class NavigationRoutes {
                 },
                 {
                     id: 7,
-                    name: "Single Post",
+                    name: "Page 404",
                     path: "/",
-                    route: "/single-post.html",
+                    route: "/404.html",
                 },
             ]
         },

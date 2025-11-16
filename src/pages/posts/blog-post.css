@@ -72,6 +72,24 @@
     background-position:center center;
     background-size:cover;
 }
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="4"]:not(.app-motion-effects-element-type-background),
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="4"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/poster-1.jpg");
+    background-position:center center;
+    background-size:cover;
+}
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="5"]:not(.app-motion-effects-element-type-background),
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="5"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/discovering-your-authentic-self-yoga-self-realization.jpg");
+    background-position:center center;
+    background-size:cover;
+}
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="6"]:not(.app-motion-effects-element-type-background),
+.app-post .app-element.app-element-blog-post-hero-wrapper[data-post="6"] > .app-motion-effects-container > .app-motion-effects-layer {
+    background-image:url("../../assets/images/beautiful-sportswoman-in-yoga-posture-on-floor.jpg");
+    background-position:center center;
+    background-size:cover;
+}
 .app-post .app-element.app-element-blog-post-hero-heading {
     width:var( --container-widget-width, 60% );
     max-width:60%;
@@ -200,6 +218,15 @@
 }
 .app-post .app-element.app-element-blog-post-article-image .blog-featureimage[data-post="3"] {
     background-image: url("../../assets/images/yoga-is-a-work-of-heart-shot-of-a-group-of-young.jpg");
+}
+.app-post .app-element.app-element-blog-post-article-image .blog-featureimage[data-post="4"] {
+    background-image: url("../../assets/images/a-group-of-girls-do-yoga-in-the-gym-under-the-guid.jpg");
+}
+.app-post .app-element.app-element-blog-post-article-image .blog-featureimage[data-post="5"] {
+    background-image: url("../../assets/images/young-women-doing-yoga-in-class.jpg");
+}
+.app-post .app-element.app-element-blog-post-article-image .blog-featureimage[data-post="6"] {
+    background-image: url("../../assets/images/yoga-students-meditate-in-a-modern-studio.jpg");
 }
 .app-post .app-element.app-element-blog-post-article-image .blog-featureimage {
     background-position: center;

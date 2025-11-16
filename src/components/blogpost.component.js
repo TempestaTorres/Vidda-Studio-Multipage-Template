@@ -6,6 +6,8 @@ const BlogImages = [
         "/images/group-of-women-in-sportswear-practicing-yoga.jpg",
         "/images/women-exercising-with-instructor-in-gym-.jpg",
         "/images/yoga-is-a-work-of-heart-shot-of-a-group-of-young.jpg",
+        "/images/young-women-doing-yoga-in-class.jpg",
+        "/images/yoga-students-meditate-in-a-modern-studio.jpg",
 ]
 export class BlogpostComponent {
     constructor(selector) {
